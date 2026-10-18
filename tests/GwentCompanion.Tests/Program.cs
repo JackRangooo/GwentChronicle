@@ -11,6 +11,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 
 if (args.Contains("--release-update-regression")) { await ReleaseUpdateTests.RunAsync(); return 0; }
+if (args.Contains("--release-package-regression")) { await ReleaseUpdateTests.RunPackageAsync(args[1]); return 0; }
 if (args.Contains("--board-name-probe")) { await BoardNameProbe.Run(args[1],args[2]); return 0; }
 if (args.Contains("--result-summary-probe")) { await ResultSummaryPixelProbe.Run(args[1],args[2]); return 0; }
 if (args.Contains("--train-result-rank")) { ResultSummaryPixelProbe.Train(args[1],args[2],args.Length>3?args[3]:"6"); return 0; }

@@ -46,6 +46,8 @@ try {
     $zip=Join-Path $dist 'GwentChronicle-Windows-x64.zip'
     Compress-Archive -Path (Join-Path $work '*') -DestinationPath $zip -CompressionLevel Optimal -Force
     & (Join-Path $PSScriptRoot 'Test-PublicRelease.ps1') -RepositoryRoot $root -PackagePath $zip
+    dotnet run --project tests/GwentCompanion.Tests/GwentCompanion.Tests.csproj -c Release --no-build -- --release-package-regression $zip
+    if($LASTEXITCODE){throw 'The complete package was rejected by the production updater.'}
     $hash=(Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash.ToLowerInvariant()
     [IO.File]::WriteAllText($zip+'.sha256',"$hash  GwentChronicle-Windows-x64.zip`n",[Text.UTF8Encoding]::new($false))
     Write-Host "READY v$version : $zip"

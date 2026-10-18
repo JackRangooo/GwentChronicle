@@ -126,7 +126,7 @@ public sealed class ReleaseUpdates(HttpClient http)
                     {
                         var seed = path["GwentVision/defaults/cache/".Length..];
                         if (seed.Length > 0 && !seed.EndsWith('/') && seed is not ("gwent-one-cards.json" or "create-point-profiles.json" or "deck-library.json" or "data-service.json") &&
-                            !Regex.IsMatch(seed, @"^(portraits/[0-9]+|premium-frames/[0-9]+/[0-9]+|observed-art/[0-9]+/(?:frame-)?[0-9-]+)\.(jpg|png)$"))
+                            !Regex.IsMatch(seed, @"^(portraits/[0-9]+|premium-frames/[0-9]+/[0-9]+|observed-art/[0-9]+/[a-zA-Z0-9_-]+)\.(jpg|png)$"))
                             throw new InvalidDataException("更新包的出厂资料包含未允许的文件。");
                     }
                 }

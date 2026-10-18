@@ -9,6 +9,25 @@ using GwentCompanion.Core.Data;
 
 internal static class ReleaseUpdateTests
 {
+    public static async Task RunPackageAsync(string path)
+    {
+        var source = Path.GetFullPath(path);
+        await using var input = File.OpenRead(source);
+        var hash = Convert.ToHexString(await SHA256.HashDataAsync(input));
+        var root = Path.Combine(Path.GetTempPath(), "gwent-package-gate-" + Guid.NewGuid().ToString("N"));
+        var tag = "v99.0.0"; var prefix = $"https://github.com/{ReleaseUpdates.Repository}/releases/download/{tag}/";
+        var release = new AvailableRelease(new Version(99,0,0),tag,new Uri(prefix),new Uri(prefix+ReleaseUpdates.PackageName),new Uri(prefix+ReleaseUpdates.PackageName+".sha256"));
+        using var http = new HttpClient(new Handler(request => request.RequestUri!.AbsoluteUri.EndsWith(".sha256",StringComparison.Ordinal)
+            ? new(HttpStatusCode.OK) {Content=new StringContent(hash+"  "+ReleaseUpdates.PackageName)}
+            : new(HttpStatusCode.OK) {Content=new StreamContent(File.OpenRead(source))}));
+        try
+        {
+            var downloaded = await new ReleaseUpdates(http).DownloadAsync(release,root);
+            if(new FileInfo(downloaded).Length != input.Length) throw new InvalidDataException("Complete release changed during update validation.");
+            Console.WriteLine("PASS complete release package: actual ZIP accepted by the production updater with SHA256 and every archive path checked.");
+        }
+        finally {if(Directory.Exists(root))Directory.Delete(root,true);}
+    }
     public static async Task RunAsync()
     {
         var checks = 0;
@@ -87,7 +106,7 @@ internal static class ReleaseUpdateTests
                     : new(HttpStatusCode.OK) { Content = new ByteArrayContent(archive) }));
                 return await new ReleaseUpdates(http).DownloadAsync(found!, root, cancellation: token);
             }
-            var bytes = Zip(); var file = await Download(bytes);
+            var bytes = Zip("GwentVision/defaults/cache/observed-art/201579/frame-000610133-shinmiri-phoenix-return.jpg"); var file = await Download(bytes);
             Check(File.ReadAllBytes(file).SequenceEqual(bytes), "Verified package bytes were not saved correctly.");
             var originalHash = SHA256.HashData(File.ReadAllBytes(file));
             async Task RejectDownload(byte[] content, string? hash = null)
