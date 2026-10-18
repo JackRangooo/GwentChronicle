@@ -47,6 +47,26 @@ internal static class ReleaseUpdateTests
             try { await new ReleaseUpdates(denied).CheckAsync(new Version(0, 4, 0)); throw new Exception("API failure was hidden."); }
             catch (HttpRequestException) { checks++; }
         }
+        var fallbackRequests = 0;
+        using (var limited = new HttpClient(new Handler(request => {
+            fallbackRequests++;
+            if (request.RequestUri!.Host == "api.github.com") return new(HttpStatusCode.Forbidden);
+            if (request.RequestUri.AbsoluteUri.EndsWith("/releases/latest", StringComparison.Ordinal))
+                return new(HttpStatusCode.OK) { RequestMessage = new(HttpMethod.Get, $"https://github.com/{ReleaseUpdates.Repository}/releases/tag/{tag}"), Content = new StringContent("") };
+            return Text(new string('a', 64) + "  " + ReleaseUpdates.PackageName);
+        })))
+        {
+            Check((await new ReleaseUpdates(limited).CheckAsync(new Version(0, 4, 0)))?.Tag == tag && fallbackRequests >= 2,
+                "Anonymously rate-limited API checks must use the fixed GitHub public latest-release redirect.");
+        }
+        foreach (var unsafePage in new[] { "https://example.org/releases/tag/v0.4.1", $"https://github.com/{ReleaseUpdates.Repository}/releases/tag/v0.4.1-preview" })
+        {
+            using var unsafeFallback = new HttpClient(new Handler(request => request.RequestUri!.Host == "api.github.com"
+                ? new(HttpStatusCode.TooManyRequests)
+                : new(HttpStatusCode.OK) { RequestMessage = new(HttpMethod.Get, unsafePage), Content = new StringContent("") }));
+            try { await new ReleaseUpdates(unsafeFallback).CheckAsync(new Version(0, 4, 0)); throw new Exception("Unsafe fallback redirect accepted."); }
+            catch (InvalidDataException) { checks++; }
+        }
 
         static byte[] Zip(params string[] extra)
         {

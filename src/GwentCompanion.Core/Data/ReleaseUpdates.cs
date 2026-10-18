@@ -24,6 +24,8 @@ public sealed class ReleaseUpdates(HttpClient http)
         request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/vnd.github+json"));
         using var response = await http.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, cancellation);
         if (response.StatusCode == HttpStatusCode.NotFound) return null;
+        if (response.StatusCode is HttpStatusCode.Forbidden or HttpStatusCode.TooManyRequests)
+            return await CheckViaPublicPageAsync(installed, cancellation);
         response.EnsureSuccessStatusCode();
         var data = await ReadLimitedAsync(response.Content, 1024 * 1024, cancellation);
         using var json = JsonDocument.Parse(data);
@@ -43,6 +45,33 @@ public sealed class ReleaseUpdates(HttpClient http)
             return new Uri(expected);
         }
         return new(latest, tag, new Uri($"https://github.com/{Repository}/releases/tag/{tag}"), Asset(PackageName), Asset(PackageName + ".sha256"));
+    }
+
+    private async Task<AvailableRelease?> CheckViaPublicPageAsync(Version installed, CancellationToken cancellation)
+    {
+        // GitHub's anonymous API quota is shared by public IP. The canonical
+        // latest-release redirect is a second public endpoint; no token is needed.
+        using var request = new HttpRequestMessage(HttpMethod.Get, ReleasesPage);
+        request.Headers.UserAgent.ParseAdd("GwentChronicle-update-check");
+        using var response = await http.SendAsync(request, HttpCompletionOption.ResponseHeadersRead, cancellation);
+        if (response.StatusCode == HttpStatusCode.NotFound) return null;
+        response.EnsureSuccessStatusCode();
+        var address = response.RequestMessage?.RequestUri;
+        var prefix = $"https://github.com/{Repository}/releases/tag/";
+        if (address is null || !address.AbsoluteUri.StartsWith(prefix, StringComparison.Ordinal) || address.Query.Length > 0 || address.Fragment.Length > 0)
+            throw new InvalidDataException("GitHub 发行页没有返回本项目的正式版本地址。");
+        var tag = address.AbsoluteUri[prefix.Length..];
+        if (!Regex.IsMatch(tag, @"^v\d+\.\d+\.\d+$") || !Version.TryParse(tag[1..], out var latest))
+            throw new InvalidDataException("发行版本号格式无效。");
+        if (latest <= new Version(installed.Major, installed.Minor, Math.Max(0, installed.Build))) return null;
+        var downloads = $"https://github.com/{Repository}/releases/download/{tag}/";
+        var release = new AvailableRelease(latest, tag, address, new(downloads + PackageName), new(downloads + PackageName + ".sha256"));
+        using var checksum = await http.GetAsync(release.Checksum, HttpCompletionOption.ResponseHeadersRead, cancellation);
+        checksum.EnsureSuccessStatusCode();
+        var text = System.Text.Encoding.UTF8.GetString(await ReadLimitedAsync(checksum.Content, 1024, cancellation)).Trim('\uFEFF', ' ', '\r', '\n');
+        if (!Regex.IsMatch(text, @"\A[a-fA-F0-9]{64}[ \t]+\*?" + Regex.Escape(PackageName) + @"\z"))
+            throw new InvalidDataException("发行版的校验附件尚未准备齐全，请稍后重试。");
+        return release;
     }
 
     public async Task<string> DownloadAsync(AvailableRelease release, string downloadsDirectory,

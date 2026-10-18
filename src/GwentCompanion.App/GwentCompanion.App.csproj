@@ -10,7 +10,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Assets\GwentVision.ico</ApplicationIcon>
     <AssemblyName>GwentVision</AssemblyName>
-    <InformationalVersion>0.4.0-zhCN</InformationalVersion>
+    <InformationalVersion>0.4.1-zhCN</InformationalVersion>
     <RootNamespace>GwentCompanion.App</RootNamespace>
     <!-- Release packages pay a little more disk space to avoid first-use JIT work
          while the WPF shell and card-library models are being created. -->
