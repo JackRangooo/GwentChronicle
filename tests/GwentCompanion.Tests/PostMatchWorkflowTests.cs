@@ -1,0 +1,132 @@
+using System.IO;
+using System.Text.Json;
+using GwentCompanion.Core.Data;
+using GwentCompanion.Core.Domain;
+using GwentCompanion.Core.Inference;
+using GwentCompanion.Core.GameState;
+using GwentCompanion.Core.Vision;
+using GwentCompanion.Platform.Windows.Vision;
+
+internal static class PostMatchWorkflowTests
+{
+    private static void Check(bool condition, string message) { if (!condition) throw new InvalidOperationException(message); }
+    public static async Task Run(string root)
+    {
+        var catalog=GwentOneCardCatalog.Load(Path.Combine(root,"GwentCompanion/cache/gwent-one-cards.json"));
+        var at=DateTimeOffset.UnixEpoch.AddDays(1);
+        var screen=new GwentVisualObservation(GwentViewKind.Board,false,0,0,null,ScreenHeader:"DEFEAT",
+            PostMatchMmr:new(2378,null,true,"verified ranked panel",2440));
+        var hud=screen with {ScreenHeader=null,PostMatchMmr=null,MatchHudVisible=true,IsCardSelectionOverlay=false};
+        var confirmedMenu=screen with {ScreenHeader="STANDARD MODE",PostMatchExitCue=true,MatchHudVisible=false};
+        var gate=new PostMatchAutoStopGate();
+        Check(!gate.TryRequest("one",screen,false,true,false),"Disabled setting stopped analysis.");
+        Check(!gate.TryRequest("one",screen,true,false,false),"Idle analysis stopped.");
+        Check(!gate.TryRequest("one",screen,true,true,true),"Offline/closing/in-transition analysis stopped.");
+        Check(!gate.TryRequest("one",screen with {ScreenHeader="DECK"},true,true,false),"Non-result rating stopped analysis.");
+        Check(!gate.TryRequest("one",screen with {PostMatchMmr=null},true,true,false),"Unread/unconfirmed MMR stopped analysis.");
+        Check(!gate.TryRequest("one",screen with {PostMatchMmr=new(null,7,true,"delta")},true,true,false),"Delta-only MMR stopped analysis.");
+        Check(!gate.TryRequest("one",screen with {PostMatchMmr=new(9750,null,false,"total")},true,true,false),"Unknown rating scope stopped analysis.");
+        gate.TryRequest("one",hud,true,true,false);
+        Check(!gate.TryRequest("one",screen,true,true,false),"Confirmed result MMR stopped before the main-menu cross-check.");
+        Check(gate.TryRequest("one",confirmedMenu,true,true,false)&&!gate.TryRequest("one",confirmedMenu,true,true,false),"Main-menu MMR did not stop exactly once per session.");
+        gate.TryRequest("two",hud,true,true,false);
+        Check(!gate.TryRequest("two",screen,true,true,false)&&gate.TryRequest("two",confirmedMenu,true,true,false),"Next match could not wait for and stop at its menu MMR.");
+        gate.Reset(); gate.TryRequest("two",hud,true,true,false);
+        Check(!gate.TryRequest("two",screen,true,true,false)&&gate.TryRequest("two",confirmedMenu,true,true,false),"Explicit reset did not clear old session.");
+        gate.Reset(); var rankScreen=screen with {PostMatchMmr=null,PostMatchRank=new(3,"verified rank shield")};
+        gate.TryRequest("rank",hud,true,true,false);
+        Check(!gate.TryRequest("rank",rankScreen,true,true,false),"Confirmed standard rank stopped before the main menu.");
+        var rankMenu=confirmedMenu with {PostMatchMmr=null};
+        Check(gate.TryRequest("rank",rankMenu,true,true,false)&&!gate.TryRequest("rank",rankMenu,true,true,false),
+            "Confirmed standard rank did not stop exactly once at the authenticated main menu.");
+        var unreadMenuGate=new PostMatchAutoStopGate();
+        var unreadAt=new DateTimeOffset(2026,9,15,20,49,25,TimeSpan.Zero);
+        unreadMenuGate.TryRequest("unread-menu",hud,true,true,false,unreadAt.AddSeconds(-10));
+        var unreadMenu=confirmedMenu with {PostMatchMmr=null,PostMatchMmrCandidate=null};
+        Check(!unreadMenuGate.TryRequest("unread-menu",unreadMenu,true,true,false,unreadAt),
+            "Unread menu stopped before the rating grace period.");
+        Check(!unreadMenuGate.TryRequest("unread-menu",unreadMenu,true,true,false,unreadAt.AddMilliseconds(1499)),
+            "Unread menu stopped before the full rating grace period.");
+        Check(unreadMenuGate.TryRequest("unread-menu",unreadMenu,true,true,false,unreadAt.AddMilliseconds(1500)),
+            "Unread authenticated menu left capture running after the bounded rating grace period.");
+        gate.Reset(); var unreadRankScreen=rankScreen with {PostMatchRank=new(null,"confirmed RANKED result")};
+        Check(!gate.TryRequest("rank-unread",unreadRankScreen,true,true,false),
+            "A RANKED label without a number stopped capture before MMR could be acquired.");
+        gate.Reset(); var menuScreen=screen with {ScreenHeader="STANDARD MODE",PostMatchMmr=null,PostMatchRank=null,PostMatchExitCue=true,MatchHudVisible=false};
+        Check(!gate.TryRequest("menu",menuScreen,true,true,false),"Starting analysis on the main menu triggered a stale match stop.");
+        gate.TryRequest("menu",screen with {ScreenHeader=null,PostMatchMmr=null,MatchHudVisible=true},true,true,false);
+        Check(!gate.TryRequest("menu",menuScreen,true,true,false),"Unread menu rating stopped capture prematurely.");
+        menuScreen = menuScreen with { PostMatchMmr = screen.PostMatchMmr };
+        Check(gate.TryRequest("menu",menuScreen,true,true,false)&&!gate.TryRequest("menu",menuScreen,true,true,false),
+            "An armed, confirmed post-match Standard Mode cue did not stop exactly once.");
+
+        // Fresh OCR on distinct retained result frames, not the cached MMR journal.
+        var folder=Path.Combine(root,"GwentCompanion/sessions/20260831-122341");
+        using var ocr=new ScreenStateRecognizer(); var mmr=new PostMatchMmrRecognizer(); gate.Reset(); var stops=0; var confirmedResults=0;
+        gate.TryRequest("latest",hud,true,true,false);
+        foreach(var file in Directory.GetFiles(folder,"frame-*12342*.jpg").Order(StringComparer.Ordinal)
+            .GroupBy(file=>Path.GetFileNameWithoutExtension(file).Split('-')[2][..6]).Select(group=>group.First()))
+        {
+            var stamp=Path.GetFileNameWithoutExtension(file).Split('-')[2];
+            var time=at.AddHours(int.Parse(stamp[..2])).AddMinutes(int.Parse(stamp[2..4])).AddSeconds(int.Parse(stamp[4..6])).AddMilliseconds(int.Parse(stamp[6..]));
+            var pixels=OakEffectProbe.Load(file);
+            var reading=await mmr.ReadAsync(pixels,await ocr.AnalyzeAsync(pixels),time,ocr);
+            if(reading.PostMatchMmr is { } value) { confirmedResults++; Check(value is {RatingAfter:2378,SeasonPeak:2440,Change:null},"Latest MMR current/peak misread."); }
+            if(gate.TryRequest("latest",reading,true,true,false)) stops++;
+        }
+        Check(confirmedResults>0&&stops==0,"Latest result pixels did not confirm MMR or stopped before the main-menu cross-check.");
+
+        // The latest recording deliberately skips the progression animation. The
+        // fixed Standard Mode panel must recover current/peak MMR and provide an
+        // exit cue, but only after this same session showed a real match HUD.
+        var menuFolder=Path.Combine(root,"GwentCompanion/tests/recording-validation/cases/standard-mode-mmr-fallback");
+        var menuFiles=new[]{"evidence-01.png","evidence-02.png","evidence-03.png"};
+        using var menuOcr=new ScreenStateRecognizer(); var menuReader=new PostMatchMmrRecognizer(); var menuGate=new PostMatchAutoStopGate();
+        menuGate.TryRequest("menu-pixels",new(GwentViewKind.Board,false,0,0,null,MatchHudVisible:true),true,true,false);
+        GwentVisualObservation? finalMenu=null; var menuStops=0; var menuDiagnostics=new List<string>();
+        foreach(var name in menuFiles)
+        {
+            var file=Path.Combine(menuFolder,name);
+            var sampledAt=at.AddMilliseconds(200 * Array.IndexOf(menuFiles,name));
+            var pixels=OakEffectProbe.Load(file);
+            var labels=await menuOcr.ReadLinesAsync(pixels,new(.35,.29,.72,.43),scale:2,enhance:false,whiteLetterMask:true,smooth:true);
+            var numbers=await menuOcr.ReadLinesAsync(pixels,new(.44,.49,.67,.55),scale:3,enhance:false,whiteLetterMask:true,smooth:true);
+            finalMenu=await menuReader.ReadAsync(pixels,await menuOcr.AnalyzeAsync(pixels),sampledAt,menuOcr);
+            menuDiagnostics.Add(name+" labels="+string.Join('|',labels.Select(line=>line.Text))+" numbers="+string.Join('|',numbers.Select(line=>line.Text)));
+            if(menuGate.TryRequest("menu-pixels",finalMenu,true,true,false)) menuStops++;
+        }
+        Check(finalMenu is {PostMatchExitCue:true,ScreenHeader:"STANDARD MODE"},
+            "Latest Standard Mode pixels did not confirm the post-match exit cue. "+string.Join("; ",menuDiagnostics));
+        Check(finalMenu?.PostMatchMmr is {RatingAfter:2434,SeasonPeak:2441,IsFactionRating:true},
+            "Latest Standard Mode pixels did not recover current 2434 / peak 2441. "+string.Join("; ",menuDiagnostics));
+        Check(menuStops==1,"Latest main-menu fallback did not stop exactly once after an authenticated match HUD.");
+
+        var alba=catalog.Single(c=>c.Name=="Alba Armored Cavalry"); var knight=catalog.Single(c=>c.Name=="Nilfgaardian Knight");
+        var known=new[]{new ObservedCard(alba,CardProvenance.ProbableStartingDeck,1,at,"raw",1)};
+        var encounter=new LearnedOpponentEncounter("raw-match",at,"Nilfgaard","Tactical Decision",16,null,25,25,known,[],OpponentProvisionCalculator.Calculate(known,166));
+        var memory=new OpponentDeckMemoryStore(); var record=memory.Capture(encounter,"Review fixture",null,null,"fixture");
+        record=memory.Suggest(record.Id,[new(alba,2),new(knight)]);
+        var template=OpponentReviewDraft.Template(record,catalog);
+        Check(template.CardCount==3&&template.CountOf(alba.Id)==2&&OpponentReviewDraft.ObservedCopies(record,alba.Id)==1,
+            "Opening shared builder lost proposed duplicate copies or promoted them into observations.");
+        var leader=GwentOneCardCatalog.StartingLeaders(catalog).First(c=>c.Faction=="Nilfgaard"&&c.Name!="Tactical Decision");
+        var draft=new DeckEditorDraft(OpponentReviewDraft.SourceKey(record),"Reviewed name","Nilfgaard",leader.Id,null,template.Cards,at.AddSeconds(1));
+        var raw=JsonSerializer.Serialize(record.Encounters);
+        var saved=memory.Review(record.Id,draft.Name,OpponentReviewDraft.Cards(record,draft),true,OpponentReviewDraft.Header(draft,catalog));
+        Check(saved.Leader==leader.Name&&saved.Name==draft.Name&&saved.LeaderBonus==leader.Provision&&saved.EncounterCount==1&&!saved.Complete,
+            "Review header/name failed or partial review became complete/another encounter.");
+        Check(JsonSerializer.Serialize(saved.Encounters)==raw&&OpponentReviewDraft.ObservedCopies(saved,alba.Id)==1,
+            "Review overwrote the original leader, raw cards or copy evidence.");
+        saved=memory.Capture(encounter with {PostMatchMmr=screen.PostMatchMmr},"ignored",null,null,"late rating");
+        Check(saved.Leader==leader.Name&&saved.Name==draft.Name&&saved.EncounterCount==1,"Late MMR overwrote reviewed header/name or duplicated match.");
+        var output=Path.Combine(root,"GwentCompanion/diagnostics/post-match-workflow-tests",Guid.NewGuid().ToString("N"),"memory.json");
+        memory.Save(output);
+        var loaded=OpponentDeckMemoryStore.Load(output).Records.Single();
+        Check(loaded.Leader==leader.Name&&loaded.Encounters.Single().StartingLeader=="Tactical Decision","Reviewed header did not round-trip separately from raw.");
+        var unknown=memory.Review(record.Id,draft.Name,OpponentReviewDraft.Cards(record,draft),true,new(null,null,null,null));
+        Check(unknown.Leader is null&&unknown.Faction is null&&unknown.Budget.Capacity is null,"Cleared review header fell back to old raw metadata.");
+        Check(JsonSerializer.Deserialize<LearnedOpponentDeck>(JsonSerializer.Serialize(record with {ReviewedHeader=null},GameStateJournal.Json),GameStateJournal.Json)!.Leader=="Tactical Decision",
+            "Old memory records without reviewed headers lost compatibility.");
+        Console.WriteLine("PASS post-match workflow: stable latest MMR pixels, once-only/offline/disabled gates, full-builder draft copies, reviewed headers, raw evidence and late-result preservation.");
+    }
+}

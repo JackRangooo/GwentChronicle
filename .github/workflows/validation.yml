@@ -1,0 +1,19 @@
+name: Public Windows validation
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Build, privacy checks and release regressions
+        shell: pwsh
+        run: ./tools/Build-WindowsRelease.ps1

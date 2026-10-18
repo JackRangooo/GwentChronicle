@@ -1,0 +1,16 @@
+<Window x:Class="GwentCompanion.App.CardDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:loc="clr-namespace:GwentCompanion.App.Localization"
+        Title="Card data" Width="480" SizeToContent="Height" ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False"
+        Background="#121A26" Foreground="#EEF2F5">
+    <StackPanel Margin="22">
+        <loc:LocalizedTextBlock Text="CARD DATA" FontFamily="Georgia" FontSize="19" Foreground="#D9BC7B" Margin="0,0,0,12"/>
+        <loc:LocalizedTextBlock x:Name="StatusText" Text="Connecting to gwent.one…" TextWrapping="Wrap" Foreground="#EEF2F5"/>
+        <ProgressBar x:Name="Progress" IsIndeterminate="True" Height="4" Margin="0,16,0,12" Foreground="#D9BC7B" Background="#303942"/>
+        <loc:LocalizedTextBlock Text="Decks and match history stay unchanged."
+                   FontSize="12" Foreground="#B9BEC5" TextWrapping="Wrap" Margin="0,0,0,14"/>
+        <Button x:Name="CloseButton" Content="Cancel" Click="CloseClicked" HorizontalAlignment="Right" Margin="0"/>
+    </StackPanel>
+</Window>

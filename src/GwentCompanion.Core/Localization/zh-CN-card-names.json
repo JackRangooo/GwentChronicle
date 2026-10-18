@@ -1,0 +1,5526 @@
+{
+  "112101": {
+    "english_name": "Ciri",
+    "chinese_name": "希里"
+  },
+  "112102": {
+    "english_name": "Geralt: Igni",
+    "chinese_name": "杰洛特：伊格尼法印"
+  },
+  "112103": {
+    "english_name": "Geralt of Rivia",
+    "chinese_name": "利维亚的杰洛特"
+  },
+  "112104": {
+    "english_name": "Regis",
+    "chinese_name": "雷吉斯"
+  },
+  "112105": {
+    "english_name": "Regis: Higher Vampire",
+    "chinese_name": "雷吉斯：高阶吸血鬼"
+  },
+  "112106": {
+    "english_name": "Triss Merigold",
+    "chinese_name": "特莉丝·梅莉葛德"
+  },
+  "112107": {
+    "english_name": "Villentretenmerth",
+    "chinese_name": "维伦特瑞坦梅斯"
+  },
+  "112108": {
+    "english_name": "Yennefer of Vengerberg",
+    "chinese_name": "温格堡的叶奈法"
+  },
+  "112109": {
+    "english_name": "Zoltan: Scoundrel",
+    "chinese_name": "卓尔坦：街头狂徒"
+  },
+  "112110": {
+    "english_name": "Ciri: Dash",
+    "chinese_name": "希里：冲刺"
+  },
+  "112111": {
+    "english_name": "Geralt: Aard",
+    "chinese_name": "杰洛特：阿尔德法印"
+  },
+  "112112": {
+    "english_name": "Avallac'h: Sage",
+    "chinese_name": "阿瓦拉克：贤者"
+  },
+  "112113": {
+    "english_name": "Yennefer: Conjurer",
+    "chinese_name": "叶奈法：咒术师"
+  },
+  "112201": {
+    "english_name": "Dudu",
+    "chinese_name": "杜度"
+  },
+  "112202": {
+    "english_name": "Eskel",
+    "chinese_name": "艾斯卡尔"
+  },
+  "112203": {
+    "english_name": "Vesemir",
+    "chinese_name": "维瑟米尔"
+  },
+  "112204": {
+    "english_name": "Lambert",
+    "chinese_name": "兰伯特"
+  },
+  "112205": {
+    "english_name": "Myrgtabrakke",
+    "chinese_name": "米尔加塔布雷克"
+  },
+  "112206": {
+    "english_name": "Ocvist",
+    "chinese_name": "奥克维斯塔"
+  },
+  "112207": {
+    "english_name": "Olgierd von Everec",
+    "chinese_name": "欧吉尔德‧伊佛瑞克"
+  },
+  "112208": {
+    "english_name": "Operator",
+    "chinese_name": "操作者"
+  },
+  "112209": {
+    "english_name": "Prize-Winning Cow",
+    "chinese_name": "获奖奶牛"
+  },
+  "112210": {
+    "english_name": "Roach",
+    "chinese_name": "萝卜"
+  },
+  "112211": {
+    "english_name": "Johnny",
+    "chinese_name": "乔尼"
+  },
+  "112212": {
+    "english_name": "Sarah",
+    "chinese_name": "莎拉"
+  },
+  "112213": {
+    "english_name": "Francis Bedlam",
+    "chinese_name": "弗朗西斯·贝兰"
+  },
+  "112214": {
+    "english_name": "Cyprian Wiley",
+    "chinese_name": "赛浦利安·威利"
+  },
+  "112215": {
+    "english_name": "Iris von Everec",
+    "chinese_name": "爱丽丝‧伊佛瑞克"
+  },
+  "112401": {
+    "english_name": "Unicorn",
+    "chinese_name": "独角兽"
+  },
+  "112402": {
+    "english_name": "Chironex",
+    "chinese_name": "梦魇独角兽"
+  },
+  "112403": {
+    "english_name": "Duda: Companion",
+    "chinese_name": "话篓子：伙伴"
+  },
+  "112404": {
+    "english_name": "Duda: Agitator",
+    "chinese_name": "话篓子：捣蛋鬼"
+  },
+  "112405": {
+    "english_name": "Fiend",
+    "chinese_name": "鹿首魔"
+  },
+  "113101": {
+    "english_name": "Ragh Nar Roog",
+    "chinese_name": "终末之战"
+  },
+  "113102": {
+    "english_name": "The Last Wish",
+    "chinese_name": "最后的愿望"
+  },
+  "113201": {
+    "english_name": "Decoy",
+    "chinese_name": "诱饵"
+  },
+  "113202": {
+    "english_name": "Merigold's Hailstorm",
+    "chinese_name": "特莉丝雹暴术"
+  },
+  "113203": {
+    "english_name": "Skellige Storm",
+    "chinese_name": "史凯利格风暴"
+  },
+  "113204": {
+    "english_name": "Stammelford's Tremors",
+    "chinese_name": "斯丹莫福德的山崩术"
+  },
+  "113205": {
+    "english_name": "Dimeritium Bomb",
+    "chinese_name": "阻魔金炸弹"
+  },
+  "113206": {
+    "english_name": "Blizzard",
+    "chinese_name": "暴风雪"
+  },
+  "113207": {
+    "english_name": "Commander's Horn",
+    "chinese_name": "指挥号角"
+  },
+  "113208": {
+    "english_name": "Vaedermakar",
+    "chinese_name": "德鲁伊控天者"
+  },
+  "113209": {
+    "english_name": "Alzur's Double-Cross",
+    "chinese_name": "阿尔祖召唤术"
+  },
+  "113301": {
+    "english_name": "Alzur's Thunder",
+    "chinese_name": "阿尔祖落雷术"
+  },
+  "113302": {
+    "english_name": "Biting Frost",
+    "chinese_name": "刺骨冰霜"
+  },
+  "113303": {
+    "english_name": "Clear Skies",
+    "chinese_name": "晴空"
+  },
+  "113305": {
+    "english_name": "Impenetrable Fog",
+    "chinese_name": "蔽日浓雾"
+  },
+  "113306": {
+    "english_name": "Manticore Venom",
+    "chinese_name": "蝎尾狮毒液"
+  },
+  "113307": {
+    "english_name": "Adrenaline Rush",
+    "chinese_name": "战意激升"
+  },
+  "113308": {
+    "english_name": "Epidemic",
+    "chinese_name": "瘟疫"
+  },
+  "113309": {
+    "english_name": "Scorch",
+    "chinese_name": "烧灼"
+  },
+  "113310": {
+    "english_name": "Swallow",
+    "chinese_name": "燕子"
+  },
+  "113311": {
+    "english_name": "Thunderbolt",
+    "chinese_name": "雷霆"
+  },
+  "113312": {
+    "english_name": "Torrential Rain",
+    "chinese_name": "倾盆大雨"
+  },
+  "113313": {
+    "english_name": "An Craite Warcrier",
+    "chinese_name": "奎特家族战吼者"
+  },
+  "113315": {
+    "english_name": "Bekker's Dark Mirror",
+    "chinese_name": "贝克尔的黑暗之镜"
+  },
+  "113316": {
+    "english_name": "Renew",
+    "chinese_name": "复原"
+  },
+  "113319": {
+    "english_name": "Dimeritium Shackles",
+    "chinese_name": "阻魔金镣铐"
+  },
+  "113320": {
+    "english_name": "Mardroeme",
+    "chinese_name": "致幻菌菇"
+  },
+  "122101": {
+    "english_name": "Bloody Baron",
+    "chinese_name": "赤红男爵"
+  },
+  "122102": {
+    "english_name": "Vernon Roche",
+    "chinese_name": "弗农·罗契"
+  },
+  "122103": {
+    "english_name": "John Natalis",
+    "chinese_name": "约翰·纳塔利斯"
+  },
+  "122105": {
+    "english_name": "Lined Pockets",
+    "chinese_name": "盆满钵满"
+  },
+  "122106": {
+    "english_name": "Shani",
+    "chinese_name": "夏妮"
+  },
+  "122107": {
+    "english_name": "Triss: Butterflies",
+    "chinese_name": "特莉丝：蝴蝶咒语"
+  },
+  "122108": {
+    "english_name": "Keira Metz",
+    "chinese_name": "凯拉·梅兹"
+  },
+  "122201": {
+    "english_name": "Dandelion",
+    "chinese_name": "丹德里恩"
+  },
+  "122202": {
+    "english_name": "Priscilla",
+    "chinese_name": "普西拉"
+  },
+  "122203": {
+    "english_name": "Thaler",
+    "chinese_name": "塔勒"
+  },
+  "122204": {
+    "english_name": "Ves",
+    "chinese_name": "薇丝"
+  },
+  "122205": {
+    "english_name": "Síle de Tansarville",
+    "chinese_name": "席儿·德·坦沙维耶"
+  },
+  "122206": {
+    "english_name": "Sabrina Glevissig",
+    "chinese_name": "萨宾娜·葛丽维希格"
+  },
+  "122207": {
+    "english_name": "Dethmold",
+    "chinese_name": "戴斯摩"
+  },
+  "122208": {
+    "english_name": "Prince Stennis",
+    "chinese_name": "斯坦尼斯王子"
+  },
+  "122209": {
+    "english_name": "Trollololo",
+    "chinese_name": "巨魔魔"
+  },
+  "122210": {
+    "english_name": "Princess Pavetta",
+    "chinese_name": "帕薇塔公主"
+  },
+  "122211": {
+    "english_name": "Margarita Laux-Antille",
+    "chinese_name": "玛格丽塔·露克斯安提尔"
+  },
+  "122212": {
+    "english_name": "Nenneke",
+    "chinese_name": "南尼克"
+  },
+  "122213": {
+    "english_name": "Odrin",
+    "chinese_name": "欧德林"
+  },
+  "122214": {
+    "english_name": "Kaedweni Sergeant",
+    "chinese_name": "科德温中士"
+  },
+  "122216": {
+    "english_name": "Carlo Varese",
+    "chinese_name": "卡罗·凡瑞西"
+  },
+  "122301": {
+    "english_name": "Ballista",
+    "chinese_name": "弩炮"
+  },
+  "122302": {
+    "english_name": "Reinforced Ballista",
+    "chinese_name": "加强型弩炮"
+  },
+  "122303": {
+    "english_name": "Bombardment",
+    "chinese_name": "炮击"
+  },
+  "122304": {
+    "english_name": "Siege Tower",
+    "chinese_name": "攻城塔"
+  },
+  "122308": {
+    "english_name": "Redanian Knight",
+    "chinese_name": "瑞达尼亚骑士"
+  },
+  "122309": {
+    "english_name": "Siege Support",
+    "chinese_name": "攻城后援"
+  },
+  "122310": {
+    "english_name": "Blue Stripes Scout",
+    "chinese_name": "蓝衣铁卫斥候"
+  },
+  "122311": {
+    "english_name": "Blue Stripes Commando",
+    "chinese_name": "蓝衣铁卫突击队"
+  },
+  "122312": {
+    "english_name": "Field Medic",
+    "chinese_name": "战地医师"
+  },
+  "122313": {
+    "english_name": "Dun Banner",
+    "chinese_name": "褐旗营"
+  },
+  "122314": {
+    "english_name": "Kaedweni Cavalry",
+    "chinese_name": "科德温骑兵"
+  },
+  "122315": {
+    "english_name": "Reinforced Trebuchet",
+    "chinese_name": "加强型投石机"
+  },
+  "122316": {
+    "english_name": "Temerian Infantry",
+    "chinese_name": "泰莫利亚步兵"
+  },
+  "122317": {
+    "english_name": "Redanian Elite",
+    "chinese_name": "瑞达尼亚精锐"
+  },
+  "122318": {
+    "english_name": "Siege Master",
+    "chinese_name": "攻城大师"
+  },
+  "122401": {
+    "english_name": "Botchling",
+    "chinese_name": "异婴"
+  },
+  "122402": {
+    "english_name": "Lubberkin",
+    "chinese_name": "家事妖精"
+  },
+  "122403": {
+    "english_name": "Vicovaro Novice",
+    "chinese_name": "维可瓦罗见习法师"
+  },
+  "123201": {
+    "english_name": "Reinforcements",
+    "chinese_name": "增援"
+  },
+  "131101": {
+    "english_name": "Carapace",
+    "chinese_name": "坚硬甲壳"
+  },
+  "131102": {
+    "english_name": "Ge'els",
+    "chinese_name": "盖尔"
+  },
+  "132101": {
+    "english_name": "Draug",
+    "chinese_name": "战灵"
+  },
+  "132102": {
+    "english_name": "Imlerith's Wrath",
+    "chinese_name": "伊勒瑞斯之怒"
+  },
+  "132103": {
+    "english_name": "Force of Nature",
+    "chinese_name": "自然之力"
+  },
+  "132104": {
+    "english_name": "Caranthir Ar-Feiniel",
+    "chinese_name": "卡兰希尔"
+  },
+  "132105": {
+    "english_name": "Avallac'h",
+    "chinese_name": "阿瓦拉克"
+  },
+  "132106": {
+    "english_name": "Caretaker",
+    "chinese_name": "看门人"
+  },
+  "132107": {
+    "english_name": "Kayran",
+    "chinese_name": "巨章鱼怪"
+  },
+  "132108": {
+    "english_name": "Miruna",
+    "chinese_name": "米卢娜"
+  },
+  "132201": {
+    "english_name": "Arachas Behemoth",
+    "chinese_name": "蟹蜘蛛巨兽"
+  },
+  "132202": {
+    "english_name": "Mourntart",
+    "chinese_name": "莫恩塔特"
+  },
+  "132203": {
+    "english_name": "Abaya",
+    "chinese_name": "阿巴亚"
+  },
+  "132204": {
+    "english_name": "Frightener: Dormant",
+    "chinese_name": "畏惧者：休眠"
+  },
+  "132205": {
+    "english_name": "Morvudd",
+    "chinese_name": "莫伍德"
+  },
+  "132206": {
+    "english_name": "Whispess",
+    "chinese_name": "呢喃婆"
+  },
+  "132207": {
+    "english_name": "Brewess",
+    "chinese_name": "煮婆"
+  },
+  "132208": {
+    "english_name": "Weavess",
+    "chinese_name": "织婆"
+  },
+  "132209": {
+    "english_name": "Imperial Manticore",
+    "chinese_name": "帝国蝎尾狮"
+  },
+  "132210": {
+    "english_name": "Colossal Ifrit",
+    "chinese_name": "伊夫利特巨像"
+  },
+  "132211": {
+    "english_name": "Nekker Warrior",
+    "chinese_name": "孽鬼战士"
+  },
+  "132212": {
+    "english_name": "Ice Giant",
+    "chinese_name": "寒冰巨人"
+  },
+  "132213": {
+    "english_name": "Primordial D'ao",
+    "chinese_name": "元初杜奥"
+  },
+  "132214": {
+    "english_name": "Nithral",
+    "chinese_name": "尼斯里拉"
+  },
+  "132215": {
+    "english_name": "Gaunter O'Dimm",
+    "chinese_name": "刚特·欧迪姆"
+  },
+  "132216": {
+    "english_name": "Toad Prince",
+    "chinese_name": "蟾蜍王子"
+  },
+  "132217": {
+    "english_name": "Celaeno Harpy",
+    "chinese_name": "赛尔伊诺鹰身女妖"
+  },
+  "132218": {
+    "english_name": "Old Speartip: Asleep",
+    "chinese_name": "老矛头：昏睡"
+  },
+  "132220": {
+    "english_name": "Katakan",
+    "chinese_name": "卡塔卡恩"
+  },
+  "132301": {
+    "english_name": "Foglet",
+    "chinese_name": "小雾妖"
+  },
+  "132302": {
+    "english_name": "Ancient Foglet",
+    "chinese_name": "远古小雾妖"
+  },
+  "132303": {
+    "english_name": "Wyvern",
+    "chinese_name": "翼手龙"
+  },
+  "132304": {
+    "english_name": "Drone",
+    "chinese_name": "雄蛛"
+  },
+  "132305": {
+    "english_name": "Nekker",
+    "chinese_name": "孽鬼"
+  },
+  "132306": {
+    "english_name": "Ghoul",
+    "chinese_name": "食尸鬼"
+  },
+  "132307": {
+    "english_name": "Griffin",
+    "chinese_name": "狮鹫"
+  },
+  "132308": {
+    "english_name": "Vran Warrior",
+    "chinese_name": "蜥蜴人战士"
+  },
+  "132309": {
+    "english_name": "Wild Hunt Warrior",
+    "chinese_name": "狂猎战士"
+  },
+  "132310": {
+    "english_name": "Wild Hunt Rider",
+    "chinese_name": "狂猎骑士"
+  },
+  "132312": {
+    "english_name": "Predatory Dive",
+    "chinese_name": "捕食俯冲"
+  },
+  "132313": {
+    "english_name": "Ekimmara",
+    "chinese_name": "蝙魔"
+  },
+  "132314": {
+    "english_name": "Drowner",
+    "chinese_name": "水鬼"
+  },
+  "132315": {
+    "english_name": "Harpy",
+    "chinese_name": "鹰身女妖"
+  },
+  "132316": {
+    "english_name": "Harpy Egg",
+    "chinese_name": "鹰身女妖蛋"
+  },
+  "132402": {
+    "english_name": "Wild Hunt Hound",
+    "chinese_name": "狂猎之犬"
+  },
+  "132403": {
+    "english_name": "Wolf Pack",
+    "chinese_name": "狼群"
+  },
+  "132404": {
+    "english_name": "Enraged Ifrit",
+    "chinese_name": "狂怒的伊夫利特"
+  },
+  "132405": {
+    "english_name": "Frenzied D'ao",
+    "chinese_name": "狂躁的杜奥"
+  },
+  "132406": {
+    "english_name": "Maerolorn",
+    "chinese_name": "无骨者"
+  },
+  "132407": {
+    "english_name": "Imperial Golem",
+    "chinese_name": "帝国魔像"
+  },
+  "132408": {
+    "english_name": "Old Speartip",
+    "chinese_name": "老矛头"
+  },
+  "132409": {
+    "english_name": "Hideous Feast",
+    "chinese_name": "可怖盛宴"
+  },
+  "133301": {
+    "english_name": "Wyvern Scale Shield",
+    "chinese_name": "翼手龙鳞甲盾牌"
+  },
+  "133302": {
+    "english_name": "Arachas Nest",
+    "chinese_name": "蟹蜘蛛巢穴"
+  },
+  "142101": {
+    "english_name": "Saesenthessis",
+    "chinese_name": "萨琪亚萨司"
+  },
+  "142102": {
+    "english_name": "Isengrim Faoiltiarna",
+    "chinese_name": "伊森格林"
+  },
+  "142103": {
+    "english_name": "Iorveth",
+    "chinese_name": "伊欧菲斯"
+  },
+  "142104": {
+    "english_name": "Milva",
+    "chinese_name": "米尔瓦"
+  },
+  "142105": {
+    "english_name": "Zoltan Chivay",
+    "chinese_name": "卓尔坦·齐瓦"
+  },
+  "142106": {
+    "english_name": "Aglaïs",
+    "chinese_name": "艾格莱丝"
+  },
+  "142107": {
+    "english_name": "Ithlinne Aegli",
+    "chinese_name": "伊斯琳妮"
+  },
+  "142108": {
+    "english_name": "Schirrú",
+    "chinese_name": "希鲁"
+  },
+  "142201": {
+    "english_name": "Dennis Cranmer",
+    "chinese_name": "丹尼斯·克莱默"
+  },
+  "142202": {
+    "english_name": "Ida Emean aep Sivney",
+    "chinese_name": "艾达·艾敏"
+  },
+  "142203": {
+    "english_name": "Yaevinn",
+    "chinese_name": "亚伊文"
+  },
+  "142204": {
+    "english_name": "Toruviel",
+    "chinese_name": "托露薇尔"
+  },
+  "142205": {
+    "english_name": "Vrihedd Dragoon",
+    "chinese_name": "维里赫德旅骑兵"
+  },
+  "142206": {
+    "english_name": "Ciaran aep Easnillen",
+    "chinese_name": "席朗·依斯尼兰"
+  },
+  "142207": {
+    "english_name": "Barclay Els",
+    "chinese_name": "巴克莱·艾尔斯"
+  },
+  "142208": {
+    "english_name": "Morenn",
+    "chinese_name": "莫丽恩"
+  },
+  "142209": {
+    "english_name": "Braenn",
+    "chinese_name": "布蕾恩"
+  },
+  "142210": {
+    "english_name": "Malena",
+    "chinese_name": "玛丽娜"
+  },
+  "142211": {
+    "english_name": "Aelirenn",
+    "chinese_name": "爱黎瑞恩"
+  },
+  "142212": {
+    "english_name": "Sheldon Skaggs",
+    "chinese_name": "谢尔顿·斯卡格斯"
+  },
+  "142213": {
+    "english_name": "Yarpen Zigrin",
+    "chinese_name": "亚尔潘·齐格林"
+  },
+  "142214": {
+    "english_name": "Ele'yas",
+    "chinese_name": "艾雷亚斯"
+  },
+  "142301": {
+    "english_name": "Hawker Healer",
+    "chinese_name": "私枭治疗者"
+  },
+  "142302": {
+    "english_name": "Vrihedd Brigade",
+    "chinese_name": "维里赫德旅"
+  },
+  "142303": {
+    "english_name": "Vrihedd Officer",
+    "chinese_name": "维里赫德旅军官"
+  },
+  "142304": {
+    "english_name": "Dol Blathanna Bomber",
+    "chinese_name": "多尔·布雷坦纳爆破手"
+  },
+  "142305": {
+    "english_name": "Dwarven Skirmisher",
+    "chinese_name": "矮人好斗分子"
+  },
+  "142306": {
+    "english_name": "Mahakam Defender",
+    "chinese_name": "玛哈坎捍卫者"
+  },
+  "142307": {
+    "english_name": "Vrihedd Sappers",
+    "chinese_name": "维里赫德旅工兵"
+  },
+  "142308": {
+    "english_name": "Waylay",
+    "chinese_name": "伏击"
+  },
+  "142309": {
+    "english_name": "Vrihedd Vanguard",
+    "chinese_name": "维里赫德旅先锋"
+  },
+  "142310": {
+    "english_name": "Dol Blathanna Archer",
+    "chinese_name": "多尔·布雷坦纳弓箭手"
+  },
+  "142311": {
+    "english_name": "Dwarven Mercenary",
+    "chinese_name": "矮人佣兵"
+  },
+  "142312": {
+    "english_name": "Hawker Support",
+    "chinese_name": "私枭后援者"
+  },
+  "142313": {
+    "english_name": "Elven Wardancer",
+    "chinese_name": "精灵战舞者"
+  },
+  "142314": {
+    "english_name": "Dol Blathanna Bowman",
+    "chinese_name": "多尔·布雷坦纳射手"
+  },
+  "142315": {
+    "english_name": "Hawker Smuggler",
+    "chinese_name": "私枭走私者"
+  },
+  "142316": {
+    "english_name": "Blue Mountain Elite",
+    "chinese_name": "蓝山精锐"
+  },
+  "142317": {
+    "english_name": "Mahakam Guard",
+    "chinese_name": "玛哈坎守卫"
+  },
+  "142401": {
+    "english_name": "Scoia'tael Neophyte",
+    "chinese_name": "松鼠党新兵"
+  },
+  "143201": {
+    "english_name": "Serpent Trap",
+    "chinese_name": "毒蛇陷阱"
+  },
+  "143301": {
+    "english_name": "Incinerating Trap",
+    "chinese_name": "焚烧陷阱"
+  },
+  "152101": {
+    "english_name": "Hjalmar an Craite",
+    "chinese_name": "哈尔玛·奎特"
+  },
+  "152103": {
+    "english_name": "Ermion",
+    "chinese_name": "莫斯萨克"
+  },
+  "152104": {
+    "english_name": "Kambi",
+    "chinese_name": "坎比"
+  },
+  "152105": {
+    "english_name": "Birna Bran",
+    "chinese_name": "碧尔娜·布兰"
+  },
+  "152106": {
+    "english_name": "Madman Lugos",
+    "chinese_name": "“疯子”卢戈"
+  },
+  "152107": {
+    "english_name": "Coral",
+    "chinese_name": "珊瑚"
+  },
+  "152109": {
+    "english_name": "Wild Boar of the Sea",
+    "chinese_name": "海上野猪"
+  },
+  "152201": {
+    "english_name": "Blueboy Lugos",
+    "chinese_name": "“阿蓝”卢戈"
+  },
+  "152202": {
+    "english_name": "Champion's Charge",
+    "chinese_name": "冠军的冲锋"
+  },
+  "152203": {
+    "english_name": "Djenge Frett",
+    "chinese_name": "邓戈·费特"
+  },
+  "152204": {
+    "english_name": "Donar an Hindar",
+    "chinese_name": "多纳·印达"
+  },
+  "152205": {
+    "english_name": "Draig Bon-Dhu",
+    "chinese_name": "德莱格·波·德乌"
+  },
+  "152206": {
+    "english_name": "Gremist",
+    "chinese_name": "格雷密斯特"
+  },
+  "152207": {
+    "english_name": "Holger Blackhand",
+    "chinese_name": "“黑手”霍格"
+  },
+  "152208": {
+    "english_name": "Jutta an Dimun",
+    "chinese_name": "茱塔·迪门"
+  },
+  "152209": {
+    "english_name": "Morkvarg",
+    "chinese_name": "莫克瓦格"
+  },
+  "152210": {
+    "english_name": "Savage Bear",
+    "chinese_name": "恶熊"
+  },
+  "152211": {
+    "english_name": "Sigrdrifa's Rite",
+    "chinese_name": "茜格德莉法的仪式"
+  },
+  "152213": {
+    "english_name": "Svanrige Tuirseach",
+    "chinese_name": "斯凡瑞吉·图尔赛克"
+  },
+  "152214": {
+    "english_name": "Udalryk an Brokvar",
+    "chinese_name": "乌达瑞克"
+  },
+  "152301": {
+    "english_name": "Svalblod Ravager",
+    "chinese_name": "斯瓦勃洛破坏者"
+  },
+  "152302": {
+    "english_name": "Svalblod Butcher",
+    "chinese_name": "斯瓦勃洛屠夫"
+  },
+  "152303": {
+    "english_name": "An Craite Warrior",
+    "chinese_name": "奎特家族战士"
+  },
+  "152304": {
+    "english_name": "Brokvar Hunter",
+    "chinese_name": "布洛克瓦尔家族猎人"
+  },
+  "152305": {
+    "english_name": "Dimun Pirate",
+    "chinese_name": "迪门家族水手"
+  },
+  "152306": {
+    "english_name": "Dimun Pirate Captain",
+    "chinese_name": "迪门家族船长"
+  },
+  "152307": {
+    "english_name": "Drummond Queensguard",
+    "chinese_name": "德拉蒙家族女王卫队"
+  },
+  "152308": {
+    "english_name": "Heymaey Skald",
+    "chinese_name": "海玫家族诗人"
+  },
+  "152309": {
+    "english_name": "Dimun Light Longship",
+    "chinese_name": "迪门家族轻型长船"
+  },
+  "152310": {
+    "english_name": "Freya's Blessing",
+    "chinese_name": "弗蕾雅的祝福"
+  },
+  "152311": {
+    "english_name": "An Craite Blacksmith",
+    "chinese_name": "奎特家族盾牌匠"
+  },
+  "152312": {
+    "english_name": "Tuirseach Axeman",
+    "chinese_name": "图尔赛克家族斧兵"
+  },
+  "152313": {
+    "english_name": "Tuirseach Skirmisher",
+    "chinese_name": "图尔赛克家族好斗分子"
+  },
+  "152314": {
+    "english_name": "An Craite Longship",
+    "chinese_name": "奎特家族作战长船"
+  },
+  "152315": {
+    "english_name": "Brokvar Archer",
+    "chinese_name": "布洛克瓦尔家族弓箭手"
+  },
+  "152316": {
+    "english_name": "Gutting Slash",
+    "chinese_name": "巨斧挥击"
+  },
+  "152317": {
+    "english_name": "An Craite Armorsmith",
+    "chinese_name": "奎特家族盔甲匠"
+  },
+  "152318": {
+    "english_name": "Drummond Shieldmaiden",
+    "chinese_name": "德拉蒙家族持盾女卫"
+  },
+  "152402": {
+    "english_name": "Hemdall",
+    "chinese_name": "汉姆多尔"
+  },
+  "152403": {
+    "english_name": "Delirium",
+    "chinese_name": "幻觉"
+  },
+  "152405": {
+    "english_name": "Elder Bear",
+    "chinese_name": "老熊"
+  },
+  "152406": {
+    "english_name": "Raging Bear",
+    "chinese_name": "暴怒的熊"
+  },
+  "153201": {
+    "english_name": "Restore",
+    "chinese_name": "回复"
+  },
+  "153301": {
+    "english_name": "Lacerate",
+    "chinese_name": "撕裂"
+  },
+  "162101": {
+    "english_name": "Letho of Gulet",
+    "chinese_name": "古雷特的雷索"
+  },
+  "162102": {
+    "english_name": "Menno Coehoorn",
+    "chinese_name": "门诺·库霍恩"
+  },
+  "162103": {
+    "english_name": "Vattier de Rideaux",
+    "chinese_name": "瓦提尔·德·李道克斯"
+  },
+  "162104": {
+    "english_name": "Cahir Dyffryn",
+    "chinese_name": "卡西尔·迪弗林"
+  },
+  "162105": {
+    "english_name": "Vilgefortz",
+    "chinese_name": "威戈佛特兹"
+  },
+  "162106": {
+    "english_name": "Stefan Skellen",
+    "chinese_name": "史提芬·史凯伦"
+  },
+  "162107": {
+    "english_name": "Tibor Eggebracht",
+    "chinese_name": "蒂博尔·艾格布拉杰"
+  },
+  "162108": {
+    "english_name": "Xarthisius",
+    "chinese_name": "沙斯希乌斯"
+  },
+  "162201": {
+    "english_name": "Albrich",
+    "chinese_name": "亚伯力奇"
+  },
+  "162202": {
+    "english_name": "Assire var Anahid",
+    "chinese_name": "艾希蕾·阿纳兴"
+  },
+  "162203": {
+    "english_name": "Cynthia",
+    "chinese_name": "辛西亚"
+  },
+  "162204": {
+    "english_name": "Peter Saar Gwynleve",
+    "chinese_name": "彼得·萨尔格温利"
+  },
+  "162205": {
+    "english_name": "Fringilla Vigo",
+    "chinese_name": "芙琳吉拉·薇歌"
+  },
+  "162206": {
+    "english_name": "Sweers",
+    "chinese_name": "斯维尔"
+  },
+  "162207": {
+    "english_name": "Vanhemar",
+    "chinese_name": "凡赫玛"
+  },
+  "162208": {
+    "english_name": "Auckes",
+    "chinese_name": "奥克斯"
+  },
+  "162209": {
+    "english_name": "Serrit",
+    "chinese_name": "瑟瑞特"
+  },
+  "162210": {
+    "english_name": "Cantarella",
+    "chinese_name": "坎塔蕾拉"
+  },
+  "162211": {
+    "english_name": "Joachim de Wett",
+    "chinese_name": "约阿希姆·德·维特"
+  },
+  "162212": {
+    "english_name": "False Ciri",
+    "chinese_name": "冒牌希里"
+  },
+  "162213": {
+    "english_name": "Ceallach Dyffryn",
+    "chinese_name": "契拉克·迪弗林"
+  },
+  "162301": {
+    "english_name": "Daerlan Soldier",
+    "chinese_name": "迪尔兰士兵"
+  },
+  "162302": {
+    "english_name": "Rot Tosser",
+    "chinese_name": "帝国投石机"
+  },
+  "162303": {
+    "english_name": "Spotter",
+    "chinese_name": "侦察员"
+  },
+  "162304": {
+    "english_name": "Experimental Remedy",
+    "chinese_name": "实验药品"
+  },
+  "162305": {
+    "english_name": "Deithwen Arbalest",
+    "chinese_name": "戴斯文强弩手"
+  },
+  "162306": {
+    "english_name": "Fire Scorpion",
+    "chinese_name": "火蝎攻城弩"
+  },
+  "162307": {
+    "english_name": "Impera Brigade",
+    "chinese_name": "近卫军"
+  },
+  "162308": {
+    "english_name": "Impera Enforcers",
+    "chinese_name": "近卫军铁卫"
+  },
+  "162309": {
+    "english_name": "Nauzicaa Sergeant",
+    "chinese_name": "那乌西卡旅中士"
+  },
+  "162310": {
+    "english_name": "Nauzicaa Brigade",
+    "chinese_name": "那乌西卡旅"
+  },
+  "162311": {
+    "english_name": "Alba Pikeman",
+    "chinese_name": "阿尔巴师枪兵"
+  },
+  "162312": {
+    "english_name": "Alba Spearman",
+    "chinese_name": "阿尔巴师矛兵"
+  },
+  "162313": {
+    "english_name": "Combat Engineer",
+    "chinese_name": "作战工程师"
+  },
+  "162314": {
+    "english_name": "Emissary",
+    "chinese_name": "特使"
+  },
+  "162315": {
+    "english_name": "Imperial Diplomacy",
+    "chinese_name": "帝国外交"
+  },
+  "162316": {
+    "english_name": "Alchemist",
+    "chinese_name": "炼金术士"
+  },
+  "162317": {
+    "english_name": "Mangonel",
+    "chinese_name": "射石机"
+  },
+  "162318": {
+    "english_name": "Nilfgaardian Knight",
+    "chinese_name": "尼弗迦德骑士"
+  },
+  "162401": {
+    "english_name": "The Guardian",
+    "chinese_name": "魔像守卫"
+  },
+  "162402": {
+    "english_name": "Cow Carcass",
+    "chinese_name": "牛尸"
+  },
+  "163101": {
+    "english_name": "Treason",
+    "chinese_name": "通敌"
+  },
+  "163201": {
+    "english_name": "Bribery",
+    "chinese_name": "买通"
+  },
+  "200008": {
+    "english_name": "Petri's Philter",
+    "chinese_name": "佩特里的魔药"
+  },
+  "200018": {
+    "english_name": "Korathi Heatwave",
+    "chinese_name": "科拉兹热浪"
+  },
+  "200019": {
+    "english_name": "Marching Orders",
+    "chinese_name": "行军令"
+  },
+  "200020": {
+    "english_name": "Necromancy",
+    "chinese_name": "死灵术"
+  },
+  "200022": {
+    "english_name": "Summoning Circle",
+    "chinese_name": "召唤法阵"
+  },
+  "200023": {
+    "english_name": "Arachas Venom",
+    "chinese_name": "蟹蜘蛛毒液"
+  },
+  "200026": {
+    "english_name": "Wild Hunt Navigator",
+    "chinese_name": "狂猎导航员"
+  },
+  "200028": {
+    "english_name": "Vabjorn",
+    "chinese_name": "维伯约恩"
+  },
+  "200030": {
+    "english_name": "Milaen",
+    "chinese_name": "麦莉"
+  },
+  "200031": {
+    "english_name": "Leo Bonhart",
+    "chinese_name": "雷欧·邦纳特"
+  },
+  "200032": {
+    "english_name": "Rainfarn of Attre",
+    "chinese_name": "亚特里的林法恩"
+  },
+  "200033": {
+    "english_name": "Aretuza Adept",
+    "chinese_name": "艾瑞图萨学院学员"
+  },
+  "200036": {
+    "english_name": "Drummond Warmonger",
+    "chinese_name": "德拉蒙家族好战分子"
+  },
+  "200037": {
+    "english_name": "Cyclops",
+    "chinese_name": "独眼巨人"
+  },
+  "200038": {
+    "english_name": "Archespore",
+    "chinese_name": "巨棘魔树"
+  },
+  "200039": {
+    "english_name": "Dol Blathanna Sentry",
+    "chinese_name": "多尔·布雷坦纳哨兵"
+  },
+  "200040": {
+    "english_name": "An Craite Greatsword",
+    "chinese_name": "奎特家族巨剑士"
+  },
+  "200041": {
+    "english_name": "Hefty Helge",
+    "chinese_name": "重弩海尔格"
+  },
+  "200042": {
+    "english_name": "Mahakam Marauder",
+    "chinese_name": "玛哈坎勇士"
+  },
+  "200043": {
+    "english_name": "Harald Houndsnout",
+    "chinese_name": "哈罗德·霍兹诺特"
+  },
+  "200044": {
+    "english_name": "Magne Division",
+    "chinese_name": "马格尼师"
+  },
+  "200046": {
+    "english_name": "Tuirseach Veteran",
+    "chinese_name": "图尔赛克家族老兵"
+  },
+  "200048": {
+    "english_name": "Ban Ard Tutor",
+    "chinese_name": "班·阿德导师"
+  },
+  "200049": {
+    "english_name": "Battering Ram",
+    "chinese_name": "攻城槌"
+  },
+  "200050": {
+    "english_name": "Vreemde",
+    "chinese_name": "弗林姆德"
+  },
+  "200052": {
+    "english_name": "Golyat",
+    "chinese_name": "哥亚特"
+  },
+  "200053": {
+    "english_name": "Artefact Compression",
+    "chinese_name": "化器封形"
+  },
+  "200055": {
+    "english_name": "White Frost",
+    "chinese_name": "白霜降临"
+  },
+  "200056": {
+    "english_name": "Aguara: True Form",
+    "chinese_name": "狐妖：真身"
+  },
+  "200058": {
+    "english_name": "Uma's Curse",
+    "chinese_name": "乌马的诅咒"
+  },
+  "200062": {
+    "english_name": "Aguara",
+    "chinese_name": "狐妖"
+  },
+  "200071": {
+    "english_name": "Shilard Fitz-Oesterlen",
+    "chinese_name": "希拉德·费兹奥耶斯泰兰"
+  },
+  "200073": {
+    "english_name": "Adda: Striga",
+    "chinese_name": "雅妲：诅咒恶兽"
+  },
+  "200078": {
+    "english_name": "Trial of the Grasses",
+    "chinese_name": "青草试炼"
+  },
+  "200079": {
+    "english_name": "Hanmarvyn's Blue Dream",
+    "chinese_name": "哈马维的蓝色梦境"
+  },
+  "200080": {
+    "english_name": "Xavier Moran",
+    "chinese_name": "泽维尔·莫兰"
+  },
+  "200081": {
+    "english_name": "Heymaey Herbalist",
+    "chinese_name": "海玫家族草药医生"
+  },
+  "200083": {
+    "english_name": "Iris' Companions",
+    "chinese_name": "爱丽丝的同伴"
+  },
+  "200087": {
+    "english_name": "Dorregaray of Vole",
+    "chinese_name": "多瑞加雷"
+  },
+  "200088": {
+    "english_name": "Hubert Rejk",
+    "chinese_name": "休伯特·雷亚克"
+  },
+  "200089": {
+    "english_name": "Nivellen",
+    "chinese_name": "纳威伦"
+  },
+  "200091": {
+    "english_name": "Stregobor",
+    "chinese_name": "斯崔葛布"
+  },
+  "200098": {
+    "english_name": "Vincent Meis",
+    "chinese_name": "文森特·梅斯"
+  },
+  "200102": {
+    "english_name": "Hym",
+    "chinese_name": "希姆"
+  },
+  "200103": {
+    "english_name": "Olaf",
+    "chinese_name": "奥拉夫"
+  },
+  "200104": {
+    "english_name": "Ulfhedinn",
+    "chinese_name": "乌弗海登"
+  },
+  "200105": {
+    "english_name": "Dimun Warship",
+    "chinese_name": "迪门家族战船"
+  },
+  "200112": {
+    "english_name": "Siren",
+    "chinese_name": "女海妖"
+  },
+  "200114": {
+    "english_name": "Alpha Werewolf",
+    "chinese_name": "狼人头领"
+  },
+  "200115": {
+    "english_name": "Assassination",
+    "chinese_name": "暗袭"
+  },
+  "200118": {
+    "english_name": "Infiltrator",
+    "chinese_name": "渗透者"
+  },
+  "200124": {
+    "english_name": "Kingslayer",
+    "chinese_name": "弑王者"
+  },
+  "200135": {
+    "english_name": "Pyrotechnician",
+    "chinese_name": "烟火技师"
+  },
+  "200136": {
+    "english_name": "Farseer",
+    "chinese_name": "先知"
+  },
+  "200138": {
+    "english_name": "Elven Scribe",
+    "chinese_name": "精灵文官"
+  },
+  "200139": {
+    "english_name": "Panther",
+    "chinese_name": "黑豹"
+  },
+  "200144": {
+    "english_name": "Tuirseach Bearmaster",
+    "chinese_name": "图尔赛克家族驯兽师"
+  },
+  "200145": {
+    "english_name": "Dimun Corsair",
+    "chinese_name": "迪门家族水手"
+  },
+  "200146": {
+    "english_name": "Dimun Smuggler",
+    "chinese_name": "迪门家族走私贩"
+  },
+  "200147": {
+    "english_name": "Heymaey Flaminica",
+    "chinese_name": "佛兰明妮卡"
+  },
+  "200149": {
+    "english_name": "Heymaey Protector",
+    "chinese_name": "海玫家族保卫者"
+  },
+  "200154": {
+    "english_name": "Royal Decree",
+    "chinese_name": "皇家谕令"
+  },
+  "200159": {
+    "english_name": "Battle Trance",
+    "chinese_name": "战斗狂热"
+  },
+  "200160": {
+    "english_name": "Onslaught",
+    "chinese_name": "野猪冲锋"
+  },
+  "200161": {
+    "english_name": "Reckless Flurry",
+    "chinese_name": "鲁莽乱舞"
+  },
+  "200162": {
+    "english_name": "Imprisonment",
+    "chinese_name": "牢狱之灾"
+  },
+  "200163": {
+    "english_name": "Imperial Formation",
+    "chinese_name": "帝国列阵"
+  },
+  "200164": {
+    "english_name": "Tactical Decision",
+    "chinese_name": "战术决策"
+  },
+  "200165": {
+    "english_name": "Nature's Gift",
+    "chinese_name": "自然馈赠"
+  },
+  "200166": {
+    "english_name": "Precision Strike",
+    "chinese_name": "精准之击"
+  },
+  "200167": {
+    "english_name": "Guerilla Tactics",
+    "chinese_name": "游击战术"
+  },
+  "200168": {
+    "english_name": "Inspired Zeal",
+    "chinese_name": "灼心狂热"
+  },
+  "200170": {
+    "english_name": "Mobilization",
+    "chinese_name": "战场动员"
+  },
+  "200171": {
+    "english_name": "Tridam Infantry",
+    "chinese_name": "崔丹姆步兵"
+  },
+  "200177": {
+    "english_name": "Cerys an Craite",
+    "chinese_name": "凯瑞丝·奎特"
+  },
+  "200209": {
+    "english_name": "Saskia",
+    "chinese_name": "萨琪亚"
+  },
+  "200212": {
+    "english_name": "Skjall",
+    "chinese_name": "史凯裘"
+  },
+  "200218": {
+    "english_name": "Jotunn",
+    "chinese_name": "约顿"
+  },
+  "200220": {
+    "english_name": "Whispess: Tribute",
+    "chinese_name": "呢喃婆：献礼"
+  },
+  "200221": {
+    "english_name": "Brewess: Ritual",
+    "chinese_name": "煮婆：仪式"
+  },
+  "200222": {
+    "english_name": "Weavess: Incantation",
+    "chinese_name": "织婆：咒文"
+  },
+  "200223": {
+    "english_name": "Mandrake",
+    "chinese_name": "曼德拉草"
+  },
+  "200224": {
+    "english_name": "Crow's Eye",
+    "chinese_name": "乌鸦眼"
+  },
+  "200225": {
+    "english_name": "Vigo's Muzzle",
+    "chinese_name": "薇歌的嘴套"
+  },
+  "200226": {
+    "english_name": "Wolfsbane",
+    "chinese_name": "附子草"
+  },
+  "200228": {
+    "english_name": "Pitfall Trap",
+    "chinese_name": "陷坑陷阱"
+  },
+  "200233": {
+    "english_name": "Cockatrice",
+    "chinese_name": "石化鸡蛇"
+  },
+  "200234": {
+    "english_name": "Poor Fucking Infantry",
+    "chinese_name": "可怜的步兵"
+  },
+  "200235": {
+    "english_name": "Lambert: Swordmaster",
+    "chinese_name": "兰伯特：剑术大师"
+  },
+  "200236": {
+    "english_name": "Eskel: Pathfinder",
+    "chinese_name": "艾斯卡尔：寻路者"
+  },
+  "200237": {
+    "english_name": "Vesemir: Mentor",
+    "chinese_name": "维瑟米尔：学派导师"
+  },
+  "200293": {
+    "english_name": "Dwarven Agitator",
+    "chinese_name": "矮人煽动分子"
+  },
+  "200294": {
+    "english_name": "Standard Bearer",
+    "chinese_name": "军旗手"
+  },
+  "200295": {
+    "english_name": "Rotfiend",
+    "chinese_name": "腐食魔"
+  },
+  "200296": {
+    "english_name": "Alba Armored Cavalry",
+    "chinese_name": "阿尔巴师装甲骑兵"
+  },
+  "200299": {
+    "english_name": "Temerian Drummer",
+    "chinese_name": "泰莫利亚鼓手"
+  },
+  "200300": {
+    "english_name": "Whale Harpooner",
+    "chinese_name": "捕鲸枪"
+  },
+  "200301": {
+    "english_name": "The Naglfar",
+    "chinese_name": "纳吉尔法"
+  },
+  "200320": {
+    "english_name": "Chort",
+    "chinese_name": "羊角魔"
+  },
+  "200502": {
+    "english_name": "Ice Troll",
+    "chinese_name": "冰巨魔"
+  },
+  "200518": {
+    "english_name": "Venendal Elite",
+    "chinese_name": "文登达尔精锐"
+  },
+  "200519": {
+    "english_name": "Mahakam Ale",
+    "chinese_name": "玛哈坎麦酒"
+  },
+  "200520": {
+    "english_name": "Éibhear Hattori",
+    "chinese_name": "哈托利"
+  },
+  "200523": {
+    "english_name": "Germain Piquant",
+    "chinese_name": "吉尔曼"
+  },
+  "200528": {
+    "english_name": "Heymaey Spearmaiden",
+    "chinese_name": "海玫家族女矛手"
+  },
+  "200529": {
+    "english_name": "Ronvid the Incessant",
+    "chinese_name": "没完没了的朗维德"
+  },
+  "200530": {
+    "english_name": "Tainted Ale",
+    "chinese_name": "污浊的麦酒"
+  },
+  "200532": {
+    "english_name": "Ale of the Ancestors",
+    "chinese_name": "先祖麦酒"
+  },
+  "200534": {
+    "english_name": "She-Troll of Vergen",
+    "chinese_name": "维尔金的女巨魔"
+  },
+  "200535": {
+    "english_name": "Elven Swordmaster",
+    "chinese_name": "精灵剑术大师"
+  },
+  "200539": {
+    "english_name": "Slyzard",
+    "chinese_name": "飞蜥"
+  },
+  "200540": {
+    "english_name": "Aedirnian Mauler",
+    "chinese_name": "亚甸槌击者"
+  },
+  "201523": {
+    "english_name": "Geralt: Yrden",
+    "chinese_name": "杰洛特：亚登法印"
+  },
+  "201559": {
+    "english_name": "Mahakam Volunteers",
+    "chinese_name": "玛哈坎志愿军"
+  },
+  "201574": {
+    "english_name": "Harald's Pal",
+    "chinese_name": "哈罗德的伙伴"
+  },
+  "201576": {
+    "english_name": "Cow",
+    "chinese_name": "牛"
+  },
+  "201578": {
+    "english_name": "An Craite Marauder",
+    "chinese_name": "奎特家族勇士"
+  },
+  "201579": {
+    "english_name": "Phoenix",
+    "chinese_name": "凤凰"
+  },
+  "201580": {
+    "english_name": "Toussaintois Hospitality",
+    "chinese_name": "陶森特式好客"
+  },
+  "201581": {
+    "english_name": "Stribog Runestone",
+    "chinese_name": "史璀伯格符文石"
+  },
+  "201582": {
+    "english_name": "Zoria Runestone",
+    "chinese_name": "佐里亚符文石"
+  },
+  "201583": {
+    "english_name": "Dazhbog Runestone",
+    "chinese_name": "达兹伯格符文石"
+  },
+  "201584": {
+    "english_name": "Devana Runestone",
+    "chinese_name": "戴维娜符文石"
+  },
+  "201585": {
+    "english_name": "Morana Runestone",
+    "chinese_name": "莫拉纳符文石"
+  },
+  "201587": {
+    "english_name": "Whispering Hillock",
+    "chinese_name": "呢喃山丘"
+  },
+  "201589": {
+    "english_name": "Invigorate",
+    "chinese_name": "活力回春"
+  },
+  "201595": {
+    "english_name": "Shieldwall",
+    "chinese_name": "钢铁盾墙"
+  },
+  "201597": {
+    "english_name": "Rage of the Sea",
+    "chinese_name": "怒海汹涛"
+  },
+  "201598": {
+    "english_name": "Bone Talisman",
+    "chinese_name": "骨制护符"
+  },
+  "201599": {
+    "english_name": "Werecat",
+    "chinese_name": "猫人"
+  },
+  "201600": {
+    "english_name": "Werewolf",
+    "chinese_name": "狼人"
+  },
+  "201601": {
+    "english_name": "Yennefer's Invocation",
+    "chinese_name": "叶奈法的符咒"
+  },
+  "201603": {
+    "english_name": "Letho: Kingslayer",
+    "chinese_name": "雷索：弑王者"
+  },
+  "201606": {
+    "english_name": "Forktail",
+    "chinese_name": "叉尾龙"
+  },
+  "201609": {
+    "english_name": "Slave Hunter",
+    "chinese_name": "奴隶猎人"
+  },
+  "201610": {
+    "english_name": "Slave Infantry",
+    "chinese_name": "奴隶步兵"
+  },
+  "201611": {
+    "english_name": "Iorveth's Gambit",
+    "chinese_name": "伊欧菲斯的赌局"
+  },
+  "201612": {
+    "english_name": "Slave Driver",
+    "chinese_name": "奴隶贩子"
+  },
+  "201613": {
+    "english_name": "Saesenthessis: Blaze",
+    "chinese_name": "萨琪亚萨司：龙焰"
+  },
+  "201615": {
+    "english_name": "Isengrim's Council",
+    "chinese_name": "伊森格林的劝告"
+  },
+  "201616": {
+    "english_name": "Master of Disguise",
+    "chinese_name": "伪装大师"
+  },
+  "201617": {
+    "english_name": "Recruit",
+    "chinese_name": "新兵"
+  },
+  "201618": {
+    "english_name": "Seltkirk of Gulet",
+    "chinese_name": "古雷特的赛尔奇克"
+  },
+  "201619": {
+    "english_name": "Ointment",
+    "chinese_name": "油膏"
+  },
+  "201620": {
+    "english_name": "Vandergrift",
+    "chinese_name": "范德格里夫特"
+  },
+  "201621": {
+    "english_name": "Mad Kiyan",
+    "chinese_name": "疯狂的凯亚恩"
+  },
+  "201622": {
+    "english_name": "Kaedweni Knight",
+    "chinese_name": "科德温骑士"
+  },
+  "201623": {
+    "english_name": "Giant Boar",
+    "chinese_name": "大野猪"
+  },
+  "201624": {
+    "english_name": "Kaedweni Revenant",
+    "chinese_name": "科德温亡魂"
+  },
+  "201625": {
+    "english_name": "Cursed Knight",
+    "chinese_name": "被诅咒的骑士"
+  },
+  "201626": {
+    "english_name": "Ciri: Nova",
+    "chinese_name": "希里：新星"
+  },
+  "201627": {
+    "english_name": "Shupe's Day Off",
+    "chinese_name": "店店的大冒险"
+  },
+  "201628": {
+    "english_name": "Forbidden Magic",
+    "chinese_name": "禁术"
+  },
+  "201630": {
+    "english_name": "Damned Sorceress",
+    "chinese_name": "中邪的女术士"
+  },
+  "201631": {
+    "english_name": "Doppler",
+    "chinese_name": "变形怪"
+  },
+  "201632": {
+    "english_name": "Sihil",
+    "chinese_name": "矮人符文剑"
+  },
+  "201633": {
+    "english_name": "Bloody Flail",
+    "chinese_name": "染血连枷"
+  },
+  "201634": {
+    "english_name": "Bekker's Rockslide",
+    "chinese_name": "贝克尔的岩崩术"
+  },
+  "201635": {
+    "english_name": "Glorious Hunt",
+    "chinese_name": "豪猎而归"
+  },
+  "201636": {
+    "english_name": "Half-Elf Hunter",
+    "chinese_name": "半精灵猎人"
+  },
+  "201637": {
+    "english_name": "Dragon's Dream",
+    "chinese_name": "龙之梦"
+  },
+  "201638": {
+    "english_name": "Elven Scout",
+    "chinese_name": "精灵斥候"
+  },
+  "201639": {
+    "english_name": "Garrison",
+    "chinese_name": "军营"
+  },
+  "201644": {
+    "english_name": "Yoana",
+    "chinese_name": "尤娜"
+  },
+  "201645": {
+    "english_name": "Crushing Trap",
+    "chinese_name": "碎骨陷阱"
+  },
+  "201646": {
+    "english_name": "Derran",
+    "chinese_name": "迪兰"
+  },
+  "201647": {
+    "english_name": "Rock Barrage",
+    "chinese_name": "乱石飞舞"
+  },
+  "201648": {
+    "english_name": "Vandergrift's Blade",
+    "chinese_name": "范德格里夫特之剑"
+  },
+  "201650": {
+    "english_name": "Sabrina's Inferno",
+    "chinese_name": "萨宾娜的地狱之火"
+  },
+  "201653": {
+    "english_name": "Mahakam Horn",
+    "chinese_name": "玛哈坎号角"
+  },
+  "201656": {
+    "english_name": "Mastercrafted Spear",
+    "chinese_name": "精良的长矛"
+  },
+  "201657": {
+    "english_name": "Parasite",
+    "chinese_name": "寄生虫"
+  },
+  "201659": {
+    "english_name": "Winch",
+    "chinese_name": "绞盘"
+  },
+  "201660": {
+    "english_name": "Ruehin",
+    "chinese_name": "卢恩"
+  },
+  "201661": {
+    "english_name": "Watchman",
+    "chinese_name": "看守"
+  },
+  "201662": {
+    "english_name": "Cadaverine",
+    "chinese_name": "扼喉者之毒"
+  },
+  "201664": {
+    "english_name": "Vrygheff",
+    "chinese_name": "维尔海夫"
+  },
+  "201676": {
+    "english_name": "Pavko Gale",
+    "chinese_name": "帕扶科“舅舅”盖尔"
+  },
+  "201696": {
+    "english_name": "Paulie Dahlberg",
+    "chinese_name": "保利·达尔伯格"
+  },
+  "201697": {
+    "english_name": "Black Blood",
+    "chinese_name": "黑血"
+  },
+  "201698": {
+    "english_name": "Ozzrel",
+    "chinese_name": "欧兹瑞尔"
+  },
+  "201700": {
+    "english_name": "Bridge Troll",
+    "chinese_name": "守桥巨魔"
+  },
+  "201701": {
+    "english_name": "Barbegazi",
+    "chinese_name": "须岩怪"
+  },
+  "201704": {
+    "english_name": "Scout",
+    "chinese_name": "斥候"
+  },
+  "201709": {
+    "english_name": "Gigascorpion Decoction: Condense",
+    "chinese_name": "巨蝎煎药：浓缩"
+  },
+  "201710": {
+    "english_name": "Gigascorpion Decoction: Spread",
+    "chinese_name": "巨蝎煎药：扩散"
+  },
+  "201725": {
+    "english_name": "Shupe: Mage",
+    "chinese_name": "店店：法师"
+  },
+  "201726": {
+    "english_name": "Shupe: Mage",
+    "chinese_name": "店店：法师"
+  },
+  "201727": {
+    "english_name": "Shupe: Mage",
+    "chinese_name": "店店：法师"
+  },
+  "201728": {
+    "english_name": "Shupe: Mage",
+    "chinese_name": "店店：法师"
+  },
+  "201729": {
+    "english_name": "Shupe: Mage",
+    "chinese_name": "店店：法师"
+  },
+  "201730": {
+    "english_name": "Shupe: Mage",
+    "chinese_name": "店店：法师"
+  },
+  "201731": {
+    "english_name": "Shupe: Hunter",
+    "chinese_name": "店店：猎人"
+  },
+  "201732": {
+    "english_name": "Shupe: Hunter",
+    "chinese_name": "店店：猎人"
+  },
+  "201733": {
+    "english_name": "Shupe: Hunter",
+    "chinese_name": "店店：猎人"
+  },
+  "201734": {
+    "english_name": "Shupe: Hunter",
+    "chinese_name": "店店：猎人"
+  },
+  "201735": {
+    "english_name": "Shupe: Hunter",
+    "chinese_name": "店店：猎人"
+  },
+  "201736": {
+    "english_name": "Shupe: Hunter",
+    "chinese_name": "店店：猎人"
+  },
+  "201737": {
+    "english_name": "Shupe: Knight",
+    "chinese_name": "店店：骑士"
+  },
+  "201738": {
+    "english_name": "Shupe: Knight",
+    "chinese_name": "店店：骑士"
+  },
+  "201739": {
+    "english_name": "Shupe: Knight",
+    "chinese_name": "店店：骑士"
+  },
+  "201740": {
+    "english_name": "Shupe: Knight",
+    "chinese_name": "店店：骑士"
+  },
+  "201741": {
+    "english_name": "Shupe: Knight",
+    "chinese_name": "店店：骑士"
+  },
+  "201742": {
+    "english_name": "Shupe: Knight",
+    "chinese_name": "店店：骑士"
+  },
+  "201743": {
+    "english_name": "Arachas Swarm",
+    "chinese_name": "不息虫群"
+  },
+  "201744": {
+    "english_name": "Spores",
+    "chinese_name": "孢子"
+  },
+  "201748": {
+    "english_name": "Foltest's Pride",
+    "chinese_name": "弗尔泰斯特之傲"
+  },
+  "201749": {
+    "english_name": "Golden Froth",
+    "chinese_name": "黄金酒沫"
+  },
+  "201753": {
+    "english_name": "Peasant Militia",
+    "chinese_name": "农民民兵"
+  },
+  "201772": {
+    "english_name": "Geralt: Professional",
+    "chinese_name": "杰洛特：猎魔专家"
+  },
+  "201773": {
+    "english_name": "Triss: Telekinesis",
+    "chinese_name": "特莉丝：心灵传动"
+  },
+  "201774": {
+    "english_name": "Dandelion: Vainglory",
+    "chinese_name": "丹德里恩：虚妄荣光"
+  },
+  "201776": {
+    "english_name": "Dandelion: Poet",
+    "chinese_name": "丹德里恩：传奇诗人"
+  },
+  "201777": {
+    "english_name": "Roche: Merciless",
+    "chinese_name": "罗契：冷酷之心"
+  },
+  "201779": {
+    "english_name": "Call of the Forest",
+    "chinese_name": "森林的召唤"
+  },
+  "201780": {
+    "english_name": "Yennefer: Divination",
+    "chinese_name": "叶奈法：未卜先知"
+  },
+  "201781": {
+    "english_name": "Imlerith",
+    "chinese_name": "伊勒瑞斯"
+  },
+  "201817": {
+    "english_name": "Ihuarraquax",
+    "chinese_name": "伊瓦拉夸克斯"
+  },
+  "202044": {
+    "english_name": "Gimpy Gerwin",
+    "chinese_name": "“瘸子”戈温"
+  },
+  "202054": {
+    "english_name": "Elf and Onion Soup",
+    "chinese_name": "精灵洋葱汤"
+  },
+  "202064": {
+    "english_name": "Ivo of Belhaven",
+    "chinese_name": "贝哈文的伊沃"
+  },
+  "202098": {
+    "english_name": "Eyck of Denesle",
+    "chinese_name": "德内斯勒的艾克"
+  },
+  "202099": {
+    "english_name": "Gascon",
+    "chinese_name": "加斯科"
+  },
+  "202100": {
+    "english_name": "Prince Villem",
+    "chinese_name": "维尔姆王子"
+  },
+  "202101": {
+    "english_name": "Count Caldwell",
+    "chinese_name": "考德威尔伯爵"
+  },
+  "202102": {
+    "english_name": "Xavier Lemmens",
+    "chinese_name": "泽维尔·雷曼斯"
+  },
+  "202103": {
+    "english_name": "Keltullis",
+    "chinese_name": "克尔图里斯"
+  },
+  "202104": {
+    "english_name": "Frightener: Awakened",
+    "chinese_name": "畏惧者：破土而出  "
+  },
+  "202105": {
+    "english_name": "Glustyworp",
+    "chinese_name": "污水怪"
+  },
+  "202106": {
+    "english_name": "Gabor Zigrin",
+    "chinese_name": "加博·齐格林"
+  },
+  "202107": {
+    "english_name": "Barnabas Beckenbauer",
+    "chinese_name": "巴纳巴斯·贝肯鲍尔"
+  },
+  "202108": {
+    "english_name": "Isbel of Hagge",
+    "chinese_name": "哈吉的伊斯贝尔"
+  },
+  "202109": {
+    "english_name": "Lippy Gudmund",
+    "chinese_name": "“快嘴”古德蒙"
+  },
+  "202110": {
+    "english_name": "Dagur Two Blades",
+    "chinese_name": "“双刃”达葛"
+  },
+  "202111": {
+    "english_name": "Traheaern var Vdyffir",
+    "chinese_name": "特拉席恩·维迪法"
+  },
+  "202112": {
+    "english_name": "Reynard Odo",
+    "chinese_name": "雷纳德·奥多"
+  },
+  "202113": {
+    "english_name": "Black Rayla",
+    "chinese_name": "黑蕾拉"
+  },
+  "202114": {
+    "english_name": "Phoenix Hatchling",
+    "chinese_name": "雏凤"
+  },
+  "202115": {
+    "english_name": "Deadeye Ambush",
+    "chinese_name": "十面埋伏"
+  },
+  "202116": {
+    "english_name": "Royal Inspiration",
+    "chinese_name": "皇家激励"
+  },
+  "202117": {
+    "english_name": "Fruits of Ysgith",
+    "chinese_name": "沼泽果实"
+  },
+  "202118": {
+    "english_name": "Enslave",
+    "chinese_name": "奴役蛮夷"
+  },
+  "202119": {
+    "english_name": "Patricidal Fury",
+    "chinese_name": "鸣镝动怒"
+  },
+  "202121": {
+    "english_name": "Strays of Spalla",
+    "chinese_name": "史帕拉流亡军"
+  },
+  "202122": {
+    "english_name": "Bomb Heaver",
+    "chinese_name": "炸弹手"
+  },
+  "202140": {
+    "english_name": "Tactical Advantage",
+    "chinese_name": "战术优势"
+  },
+  "202148": {
+    "english_name": "Stockpile",
+    "chinese_name": "军需储备"
+  },
+  "202149": {
+    "english_name": "Angoulême",
+    "chinese_name": "安古兰"
+  },
+  "202150": {
+    "english_name": "Vysogota of Corvo",
+    "chinese_name": "科沃的维索戈塔"
+  },
+  "202151": {
+    "english_name": "Falibor",
+    "chinese_name": "法利波"
+  },
+  "202152": {
+    "english_name": "Anna Strenger",
+    "chinese_name": "安娜·斯特伦格"
+  },
+  "202153": {
+    "english_name": "Lyrian Cavalry",
+    "chinese_name": "莱里亚骑兵"
+  },
+  "202154": {
+    "english_name": "Rivian Pikeman",
+    "chinese_name": "利维亚矛兵"
+  },
+  "202155": {
+    "english_name": "Lyrian Arbalest",
+    "chinese_name": "莱里亚强弩手"
+  },
+  "202156": {
+    "english_name": "Lyrian Landsknecht",
+    "chinese_name": "莱里亚长矛兵"
+  },
+  "202161": {
+    "english_name": "Lyrian Scytheman",
+    "chinese_name": "莱里亚镰刀手"
+  },
+  "202181": {
+    "english_name": "Deafening Siren",
+    "chinese_name": "尖啸女海妖"
+  },
+  "202182": {
+    "english_name": "Arnjolf the Patricide",
+    "chinese_name": "背亲者恩约夫"
+  },
+  "202183": {
+    "english_name": "Gernichora's Fruit",
+    "chinese_name": "格尼阔拉的果实"
+  },
+  "202184": {
+    "english_name": "Elven Deadeye",
+    "chinese_name": "精灵暗箭手"
+  },
+  "202185": {
+    "english_name": "Blood Scent",
+    "chinese_name": "腥膻之味"
+  },
+  "202186": {
+    "english_name": "Double Cross",
+    "chinese_name": "怀柔兼济"
+  },
+  "202187": {
+    "english_name": "Pincer Maneuver",
+    "chinese_name": "四面夹击"
+  },
+  "202188": {
+    "english_name": "Call of Harmony",
+    "chinese_name": "和谐之唤"
+  },
+  "202189": {
+    "english_name": "Ursine Ritual",
+    "chinese_name": "巨熊仪式"
+  },
+  "202190": {
+    "english_name": "Crimson Curse",
+    "chinese_name": "猩红诅咒"
+  },
+  "202191": {
+    "english_name": "Tesham Mutna Sword",
+    "chinese_name": "迪沙谬那之剑"
+  },
+  "202192": {
+    "english_name": "Hen Gaidth Sword",
+    "chinese_name": "亨·盖德长剑"
+  },
+  "202193": {
+    "english_name": "Land of a Thousand Fables",
+    "chinese_name": "童话国度"
+  },
+  "202194": {
+    "english_name": "Syanna",
+    "chinese_name": "席安娜"
+  },
+  "202195": {
+    "english_name": "Regis: Bloodlust",
+    "chinese_name": "雷吉斯：血欲化身"
+  },
+  "202196": {
+    "english_name": "Lady of the Lake",
+    "chinese_name": "湖中仙女"
+  },
+  "202197": {
+    "english_name": "Fisher King",
+    "chinese_name": "渔夫之王"
+  },
+  "202198": {
+    "english_name": "Vivienne: Oriole",
+    "chinese_name": "薇薇恩：月下金莺"
+  },
+  "202199": {
+    "english_name": "Gregoire de Gorgon",
+    "chinese_name": "高贡山丘的格雷葛瑞"
+  },
+  "202200": {
+    "english_name": "Musicians of Blaviken",
+    "chinese_name": "布拉维坎的音乐家"
+  },
+  "202201": {
+    "english_name": "Portal",
+    "chinese_name": "传送门"
+  },
+  "202202": {
+    "english_name": "Sangreal",
+    "chinese_name": "桑格烈"
+  },
+  "202203": {
+    "english_name": "Tempest",
+    "chinese_name": "暴风雨"
+  },
+  "202204": {
+    "english_name": "Curse of Corruption",
+    "chinese_name": "腐化诅咒"
+  },
+  "202205": {
+    "english_name": "Sandstorm",
+    "chinese_name": "沙尘暴"
+  },
+  "202206": {
+    "english_name": "Dancing Star",
+    "chinese_name": "舞动之星炸弹"
+  },
+  "202207": {
+    "english_name": "Devil's Puffball",
+    "chinese_name": "恶魔之尘炸弹"
+  },
+  "202208": {
+    "english_name": "Northern Wind",
+    "chinese_name": "北风炸弹"
+  },
+  "202209": {
+    "english_name": "Moon Dust",
+    "chinese_name": "月之尘炸弹"
+  },
+  "202210": {
+    "english_name": "Samum",
+    "chinese_name": "焚风炸弹"
+  },
+  "202211": {
+    "english_name": "Red Haze",
+    "chinese_name": "红雾炸弹"
+  },
+  "202212": {
+    "english_name": "Inspirational Ballad",
+    "chinese_name": "鼓舞人心的歌谣"
+  },
+  "202213": {
+    "english_name": "Thaw",
+    "chinese_name": "融雪"
+  },
+  "202215": {
+    "english_name": "Traveling Merchant",
+    "chinese_name": "行脚商人"
+  },
+  "202216": {
+    "english_name": "Pellar",
+    "chinese_name": "巫医"
+  },
+  "202217": {
+    "english_name": "Cutthroat",
+    "chinese_name": "快刀手"
+  },
+  "202218": {
+    "english_name": "Oxenfurt Scholar",
+    "chinese_name": "牛堡学者"
+  },
+  "202219": {
+    "english_name": "Spring Equinox",
+    "chinese_name": "春分"
+  },
+  "202220": {
+    "english_name": "Scepter of Storms",
+    "chinese_name": "风暴权杖"
+  },
+  "202221": {
+    "english_name": "Queen of the Night",
+    "chinese_name": "夜之女王"
+  },
+  "202222": {
+    "english_name": "Orianna",
+    "chinese_name": "奥莉安娜"
+  },
+  "202223": {
+    "english_name": "Protofleder",
+    "chinese_name": "原蝠翼魔"
+  },
+  "202224": {
+    "english_name": "Garkain",
+    "chinese_name": "蝠翼脑魔"
+  },
+  "202226": {
+    "english_name": "Gael",
+    "chinese_name": "加尔"
+  },
+  "202227": {
+    "english_name": "Undying Thirst",
+    "chinese_name": "无尽渴求"
+  },
+  "202228": {
+    "english_name": "Feast of Blood",
+    "chinese_name": "猩红盛宴"
+  },
+  "202229": {
+    "english_name": "Fleder",
+    "chinese_name": "蝠翼魔"
+  },
+  "202230": {
+    "english_name": "Alp",
+    "chinese_name": "吸血鬼女"
+  },
+  "202231": {
+    "english_name": "Plumard",
+    "chinese_name": "渴血鸟怪"
+  },
+  "202233": {
+    "english_name": "Nekurat",
+    "chinese_name": "夜行吸血鬼"
+  },
+  "202234": {
+    "english_name": "Bruxa",
+    "chinese_name": "尖啸女妖"
+  },
+  "202235": {
+    "english_name": "Vivienne de Tabris",
+    "chinese_name": "薇薇恩·塔布里司"
+  },
+  "202236": {
+    "english_name": "Damien de la Tour",
+    "chinese_name": "戴米恩·图尔"
+  },
+  "202237": {
+    "english_name": "Palmerin de Launfal",
+    "chinese_name": "帕尔梅林·德·郎佛尔"
+  },
+  "202238": {
+    "english_name": "Milton de Peyrac-Peyran",
+    "chinese_name": "米尔顿·德·佩拉克-佩兰"
+  },
+  "202239": {
+    "english_name": "Artorius Vigo",
+    "chinese_name": "亚托列司·薇歌"
+  },
+  "202240": {
+    "english_name": "Roderick of Dun Tynne",
+    "chinese_name": "唐泰恩的罗德烈克"
+  },
+  "202241": {
+    "english_name": "Tourney Shaelmaar",
+    "chinese_name": "比武会沙尔玛"
+  },
+  "202242": {
+    "english_name": "Tourney Joust",
+    "chinese_name": "马战"
+  },
+  "202243": {
+    "english_name": "Toussaintois Knight-Errant",
+    "chinese_name": "陶森特游侠骑士"
+  },
+  "202244": {
+    "english_name": "Ducal Guard",
+    "chinese_name": "公爵守卫"
+  },
+  "202245": {
+    "english_name": "Menagerie Keeper",
+    "chinese_name": "异兽园看管"
+  },
+  "202246": {
+    "english_name": "Imperial Diviner",
+    "chinese_name": "帝国占卜师"
+  },
+  "202247": {
+    "english_name": "Fangs of the Empire",
+    "chinese_name": "帝国毒牙"
+  },
+  "202248": {
+    "english_name": "Duchess' Informant",
+    "chinese_name": "女爵的告密者"
+  },
+  "202249": {
+    "english_name": "King Roegner",
+    "chinese_name": "罗格纳王"
+  },
+  "202250": {
+    "english_name": "Queen Adalia",
+    "chinese_name": "阿德莉亚女王"
+  },
+  "202251": {
+    "english_name": "Prince Anséis",
+    "chinese_name": "安赛斯王子"
+  },
+  "202252": {
+    "english_name": "Vissegerd",
+    "chinese_name": "维赛基德"
+  },
+  "202253": {
+    "english_name": "Coodcoodak",
+    "chinese_name": "“咯咯哒”艾伯伦特"
+  },
+  "202254": {
+    "english_name": "Windhalm of Attre",
+    "chinese_name": "亚特里的温德哈姆"
+  },
+  "202255": {
+    "english_name": "Runeword",
+    "chinese_name": "符文"
+  },
+  "202256": {
+    "english_name": "Cintrian Spellweaver",
+    "chinese_name": "辛特拉织法者"
+  },
+  "202257": {
+    "english_name": "Cintrian Enchantress",
+    "chinese_name": "辛特拉女术士"
+  },
+  "202258": {
+    "english_name": "Cintrian Artificer",
+    "chinese_name": "辛特拉工匠"
+  },
+  "202259": {
+    "english_name": "Cintrian Knight",
+    "chinese_name": "辛特拉骑士"
+  },
+  "202260": {
+    "english_name": "Cintrian Royal Guard",
+    "chinese_name": "辛特拉皇家护卫"
+  },
+  "202261": {
+    "english_name": "Cintrian Envoy",
+    "chinese_name": "辛特拉使者"
+  },
+  "202262": {
+    "english_name": "Knighthood",
+    "chinese_name": "骑士册封"
+  },
+  "202263": {
+    "english_name": "Fauve",
+    "chinese_name": "法芙"
+  },
+  "202264": {
+    "english_name": "The Great Oak",
+    "chinese_name": "巨橡"
+  },
+  "202265": {
+    "english_name": "Weeping Willow",
+    "chinese_name": "嚎哭之柳"
+  },
+  "202266": {
+    "english_name": "Water of Brokilon",
+    "chinese_name": "布洛克莱昂之水"
+  },
+  "202267": {
+    "english_name": "Sirssa",
+    "chinese_name": "茜尔莎"
+  },
+  "202268": {
+    "english_name": "Treant Boar",
+    "chinese_name": "树人野猪"
+  },
+  "202269": {
+    "english_name": "Dryad's Caress",
+    "chinese_name": "树精的呵护"
+  },
+  "202270": {
+    "english_name": "Dryad Grovekeeper",
+    "chinese_name": "树精林卫"
+  },
+  "202271": {
+    "english_name": "Treant Mantis: Stalk",
+    "chinese_name": "树人螳螂：拟态"
+  },
+  "202272": {
+    "english_name": "Forest Whisperer",
+    "chinese_name": "林语者"
+  },
+  "202273": {
+    "english_name": "Brokilon Sentinel",
+    "chinese_name": "布洛克莱昂哨兵"
+  },
+  "202274": {
+    "english_name": "Dryad Ranger",
+    "chinese_name": "树精游侠"
+  },
+  "202275": {
+    "english_name": "Dryad Matron",
+    "chinese_name": "树精族母"
+  },
+  "202276": {
+    "english_name": "Dryad Fledgling",
+    "chinese_name": "新生树精"
+  },
+  "202277": {
+    "english_name": "Knut the Callous",
+    "chinese_name": "“无情者”克努特"
+  },
+  "202278": {
+    "english_name": "Svalblod Totem",
+    "chinese_name": "斯瓦勃洛图腾"
+  },
+  "202279": {
+    "english_name": "Artis",
+    "chinese_name": "亚提斯"
+  },
+  "202280": {
+    "english_name": "Vildkaarl",
+    "chinese_name": "维尔卡战士"
+  },
+  "202281": {
+    "english_name": "Arnvald",
+    "chinese_name": "亚恩瓦德"
+  },
+  "202282": {
+    "english_name": "Sigvald",
+    "chinese_name": "西格瓦尔德"
+  },
+  "202283": {
+    "english_name": "Corrupted Flaminica",
+    "chinese_name": "腐化的佛兰明妮卡"
+  },
+  "202284": {
+    "english_name": "Svalblod Priest",
+    "chinese_name": "斯瓦勃洛牧师"
+  },
+  "202285": {
+    "english_name": "Svalblod Cultist",
+    "chinese_name": "斯瓦勃洛邪教徒"
+  },
+  "202286": {
+    "english_name": "Svalblod Fanatic",
+    "chinese_name": "斯瓦勃洛狂信者"
+  },
+  "202287": {
+    "english_name": "Primal Savagery",
+    "chinese_name": "原始野性"
+  },
+  "202288": {
+    "english_name": "Disgraced Brawler",
+    "chinese_name": "不光彩的争斗者"
+  },
+  "202289": {
+    "english_name": "Bear Abomination",
+    "chinese_name": "异变巨熊"
+  },
+  "202291": {
+    "english_name": "Dettlaff: Higher Vampire",
+    "chinese_name": "狄拉夫：高阶吸血鬼"
+  },
+  "202292": {
+    "english_name": "Champion of Svalblod",
+    "chinese_name": "斯瓦勃洛勇士"
+  },
+  "202293": {
+    "english_name": "Treant Mantis: Strike",
+    "chinese_name": "树人螳螂：出击"
+  },
+  "202294": {
+    "english_name": "Courier",
+    "chinese_name": "信使"
+  },
+  "202295": {
+    "english_name": "Renegade Mage",
+    "chinese_name": "脱逃的法师"
+  },
+  "202296": {
+    "english_name": "Caleb Menge",
+    "chinese_name": "迦勒·曼吉"
+  },
+  "202297": {
+    "english_name": "Beggar",
+    "chinese_name": "乞丐"
+  },
+  "202298": {
+    "english_name": "Philippa Eilhart",
+    "chinese_name": "菲丽芭·艾哈特"
+  },
+  "202299": {
+    "english_name": "Sigi Reuven",
+    "chinese_name": "西吉·卢文"
+  },
+  "202300": {
+    "english_name": "Vivaldi Bank",
+    "chinese_name": "维瓦尔第银行"
+  },
+  "202301": {
+    "english_name": "Eavesdrop",
+    "chinese_name": "窃听"
+  },
+  "202302": {
+    "english_name": "Graden",
+    "chinese_name": "葛拉登"
+  },
+  "202303": {
+    "english_name": "Blood Money",
+    "chinese_name": "街头赏金"
+  },
+  "202304": {
+    "english_name": "Kurt",
+    "chinese_name": "克特"
+  },
+  "202305": {
+    "english_name": "Moreelse",
+    "chinese_name": "莫雷斯"
+  },
+  "202306": {
+    "english_name": "Blindeye Apothecary",
+    "chinese_name": "暗巷帮药剂师"
+  },
+  "202307": {
+    "english_name": "Horst Borsodi",
+    "chinese_name": "霍斯特·波索迪"
+  },
+  "202308": {
+    "english_name": "Sly Seductress",
+    "chinese_name": "狡诈的美人儿"
+  },
+  "202309": {
+    "english_name": "Ewald Borsodi",
+    "chinese_name": "艾瓦德·波索迪"
+  },
+  "202310": {
+    "english_name": "Pickpocket",
+    "chinese_name": "妙手空空"
+  },
+  "202311": {
+    "english_name": "Tamara Strenger",
+    "chinese_name": "塔玛拉·斯特伦格"
+  },
+  "202312": {
+    "english_name": "Whoreson Senior",
+    "chinese_name": "霍桑一世"
+  },
+  "202313": {
+    "english_name": "Adriano the Mink",
+    "chinese_name": "白裘阿德里亚诺"
+  },
+  "202314": {
+    "english_name": "Back-Alley Chemist",
+    "chinese_name": "黑市炼金师"
+  },
+  "202315": {
+    "english_name": "Adalbertus Kalkstein",
+    "chinese_name": "阿道伯图斯·卡尔克斯坦"
+  },
+  "202316": {
+    "english_name": "Oxenfurt Naturalist",
+    "chinese_name": "牛堡自然学家"
+  },
+  "202317": {
+    "english_name": "Rico Meiersdorf",
+    "chinese_name": "利可·梅耶朵夫"
+  },
+  "202318": {
+    "english_name": "Witch Hunter Executioner",
+    "chinese_name": "女巫猎人行刑官"
+  },
+  "202319": {
+    "english_name": "Slander",
+    "chinese_name": "流言蜚语"
+  },
+  "202320": {
+    "english_name": "Witch Hunter",
+    "chinese_name": "女巫猎人"
+  },
+  "202321": {
+    "english_name": "Madame Luiza",
+    "chinese_name": "路易莎夫人"
+  },
+  "202322": {
+    "english_name": "Fisstech",
+    "chinese_name": "“白砂糖”"
+  },
+  "202323": {
+    "english_name": "Igor the Hook",
+    "chinese_name": "铁钩伊果"
+  },
+  "202324": {
+    "english_name": "Tinboy",
+    "chinese_name": "锡皮小子"
+  },
+  "202326": {
+    "english_name": "Doadrick Leumaerts",
+    "chinese_name": "杜德里克·略马尔茨"
+  },
+  "202327": {
+    "english_name": "Tatterwing",
+    "chinese_name": "“残翼”"
+  },
+  "202328": {
+    "english_name": "Off the Books",
+    "chinese_name": "黑市买卖"
+  },
+  "202329": {
+    "english_name": "Dip in the Pontar",
+    "chinese_name": "与鱼共眠"
+  },
+  "202330": {
+    "english_name": "Payday",
+    "chinese_name": "收获之日"
+  },
+  "202331": {
+    "english_name": "Tidecloak Hideaway",
+    "chinese_name": "踏浪帮密所"
+  },
+  "202332": {
+    "english_name": "Pugo Boom-Breaker",
+    "chinese_name": "巨魔“砸砸”"
+  },
+  "202333": {
+    "english_name": "Boris",
+    "chinese_name": "波里斯"
+  },
+  "202334": {
+    "english_name": "Sewer Raiders",
+    "chinese_name": "下水道匪帮"
+  },
+  "202335": {
+    "english_name": "Wretched Addict",
+    "chinese_name": "可悲的失心者"
+  },
+  "202336": {
+    "english_name": "Eventide Plunder",
+    "chinese_name": "暮色窃行"
+  },
+  "202337": {
+    "english_name": "Whoreson's Freak Show",
+    "chinese_name": "霍桑的怪诞秀"
+  },
+  "202338": {
+    "english_name": "Townsfolk",
+    "chinese_name": "镇民"
+  },
+  "202339": {
+    "english_name": "Tidecloak Ransackers",
+    "chinese_name": "踏浪悍夺者"
+  },
+  "202340": {
+    "english_name": "Tax Collector",
+    "chinese_name": "税务官"
+  },
+  "202341": {
+    "english_name": "Sea Jackal",
+    "chinese_name": "海狼"
+  },
+  "202342": {
+    "english_name": "Kikimore Warrior",
+    "chinese_name": "齐齐摩战士"
+  },
+  "202343": {
+    "english_name": "Line of Credit",
+    "chinese_name": "授信额度"
+  },
+  "202344": {
+    "english_name": "Fence",
+    "chinese_name": "黑货商人"
+  },
+  "202345": {
+    "english_name": "Fisstech Trafficker",
+    "chinese_name": "黑巷药贩"
+  },
+  "202346": {
+    "english_name": "Hvitr and Aelydia",
+    "chinese_name": "赫维特和阿莱蒂雅"
+  },
+  "202347": {
+    "english_name": "Congregate",
+    "chinese_name": "集会布道"
+  },
+  "202348": {
+    "english_name": "Prophet Lebioda",
+    "chinese_name": "先知雷比欧达"
+  },
+  "202349": {
+    "english_name": "Sacred Flame",
+    "chinese_name": "神圣之火"
+  },
+  "202350": {
+    "english_name": "Grand Inquisitor Helveed",
+    "chinese_name": "大审讯官赫韦德"
+  },
+  "202351": {
+    "english_name": "Arena Endrega",
+    "chinese_name": "角斗场安德莱格"
+  },
+  "202352": {
+    "english_name": "Damnation",
+    "chinese_name": "烈火责罚"
+  },
+  "202353": {
+    "english_name": "Nathaniel Pastodi",
+    "chinese_name": "奈瑟尼尔·派斯托迪"
+  },
+  "202354": {
+    "english_name": "Procession of Penance",
+    "chinese_name": "苦行队"
+  },
+  "202355": {
+    "english_name": "Sukrus",
+    "chinese_name": "苏克鲁斯"
+  },
+  "202356": {
+    "english_name": "Excommunication",
+    "chinese_name": "教会除名"
+  },
+  "202357": {
+    "english_name": "Arena Ghoul",
+    "chinese_name": "角斗场食尸鬼"
+  },
+  "202358": {
+    "english_name": "Tavern Brawl",
+    "chinese_name": "酒馆乱斗"
+  },
+  "202359": {
+    "english_name": "Firesworn Zealot",
+    "chinese_name": "火誓狂热者"
+  },
+  "202360": {
+    "english_name": "Wheel of Fortune",
+    "chinese_name": "幸运轮盘"
+  },
+  "202361": {
+    "english_name": "Bincy Blumerholdt",
+    "chinese_name": "宾西·布鲁默豪特"
+  },
+  "202362": {
+    "english_name": "Eternal Fire Priest",
+    "chinese_name": "永恒之火祭司"
+  },
+  "202363": {
+    "english_name": "Cutup Lackey",
+    "chinese_name": "霍桑的侍从"
+  },
+  "202364": {
+    "english_name": "Hammond",
+    "chinese_name": "哈蒙德"
+  },
+  "202365": {
+    "english_name": "Eternal Fire Inquisitor",
+    "chinese_name": "永恒之火审讯官"
+  },
+  "202366": {
+    "english_name": "Eternal Fire Disciple",
+    "chinese_name": "永恒之火门徒"
+  },
+  "202367": {
+    "english_name": "The Flying Redanian",
+    "chinese_name": "飞翔的瑞达尼亚人"
+  },
+  "202368": {
+    "english_name": "Casino Bouncers",
+    "chinese_name": "暗场保镖"
+  },
+  "202369": {
+    "english_name": "Keeper of the Flame",
+    "chinese_name": "烈焰守护者"
+  },
+  "202370": {
+    "english_name": "Imke",
+    "chinese_name": "伊魅珂"
+  },
+  "202371": {
+    "english_name": "Bloody Good Fun",
+    "chinese_name": "一场好戏"
+  },
+  "202372": {
+    "english_name": "Temple Guard",
+    "chinese_name": "神殿守卫"
+  },
+  "202373": {
+    "english_name": "Jackpot",
+    "chinese_name": "头号大奖"
+  },
+  "202374": {
+    "english_name": "Congregation",
+    "chinese_name": "集会传教"
+  },
+  "202375": {
+    "english_name": "Halfling Safecracker",
+    "chinese_name": "半身人开锁贼"
+  },
+  "202376": {
+    "english_name": "Firesworn Scribe",
+    "chinese_name": "火誓书吏"
+  },
+  "202377": {
+    "english_name": "Bare-Knuckle Brawler",
+    "chinese_name": "赤手打斗者"
+  },
+  "202378": {
+    "english_name": "Shakedown",
+    "chinese_name": "讹诈"
+  },
+  "202379": {
+    "english_name": "Coerced Blacksmith",
+    "chinese_name": "被胁迫的铁匠"
+  },
+  "202380": {
+    "english_name": "Swindle",
+    "chinese_name": "诓瞒"
+  },
+  "202381": {
+    "english_name": "Cleaver's Muscle",
+    "chinese_name": "砍刀的打手"
+  },
+  "202382": {
+    "english_name": "Crownsplitter Thug",
+    "chinese_name": "黑金会恶棍"
+  },
+  "202383": {
+    "english_name": "Harald Gord",
+    "chinese_name": "哈罗德·戈多"
+  },
+  "202384": {
+    "english_name": "Novigradian Justice",
+    "chinese_name": "诺维格瑞的制裁"
+  },
+  "202385": {
+    "english_name": "Sir Skewertooth",
+    "chinese_name": "针牙爵士"
+  },
+  "202386": {
+    "english_name": "Tunnel Drill",
+    "chinese_name": "坑道钻机"
+  },
+  "202387": {
+    "english_name": "Caesar Bilzen",
+    "chinese_name": "凯撒·比尔曾"
+  },
+  "202388": {
+    "english_name": "The Sausage Maker",
+    "chinese_name": "香肠贩子"
+  },
+  "202389": {
+    "english_name": "Ferko the Sculptor",
+    "chinese_name": "雕刻家佛科"
+  },
+  "202390": {
+    "english_name": "Pirate's Cove",
+    "chinese_name": "水手海湾"
+  },
+  "202392": {
+    "english_name": "Walter Veritas",
+    "chinese_name": "沃尔特·维里塔司"
+  },
+  "202396": {
+    "english_name": "Geralt: Axii",
+    "chinese_name": "杰洛特：亚克席法印"
+  },
+  "202397": {
+    "english_name": "Knickers",
+    "chinese_name": "裤裆"
+  },
+  "202398": {
+    "english_name": "Olgierd: Immortal",
+    "chinese_name": "欧吉尔德：不死之身"
+  },
+  "202399": {
+    "english_name": "Iris: Shade",
+    "chinese_name": "爱丽丝：庄园幽影"
+  },
+  "202400": {
+    "english_name": "Gascon: Iron Falcon",
+    "chinese_name": "加斯科：铁隼之首"
+  },
+  "202401": {
+    "english_name": "One-Eyed Betsy",
+    "chinese_name": "独眼贝蒂"
+  },
+  "202402": {
+    "english_name": "Vlodimir von Everec",
+    "chinese_name": "弗洛迪米·伊佛瑞克"
+  },
+  "202403": {
+    "english_name": "Free Company",
+    "chinese_name": "自由军"
+  },
+  "202404": {
+    "english_name": "Living Armor",
+    "chinese_name": "活体盔甲"
+  },
+  "202405": {
+    "english_name": "Armory",
+    "chinese_name": "军械库"
+  },
+  "202406": {
+    "english_name": "Surrender",
+    "chinese_name": "降兵"
+  },
+  "202407": {
+    "english_name": "Wagenburg",
+    "chinese_name": "车堡"
+  },
+  "202408": {
+    "english_name": "Iron Falcon Knife Juggler",
+    "chinese_name": "铁隼飞刀手"
+  },
+  "202409": {
+    "english_name": "Iron Falcon Infantry",
+    "chinese_name": "铁隼步兵"
+  },
+  "202410": {
+    "english_name": "Iron Falcon Troubadour",
+    "chinese_name": "铁隼吟游诗人"
+  },
+  "202411": {
+    "english_name": "Piercing Missile",
+    "chinese_name": "穿甲弹"
+  },
+  "202412": {
+    "english_name": "Wagon",
+    "chinese_name": "货车"
+  },
+  "202413": {
+    "english_name": "Mantlet",
+    "chinese_name": "防盾"
+  },
+  "202414": {
+    "english_name": "Sapper",
+    "chinese_name": "工兵"
+  },
+  "202415": {
+    "english_name": "Highwaymen",
+    "chinese_name": "车匪"
+  },
+  "202416": {
+    "english_name": "Armorer's Workshop",
+    "chinese_name": "护甲师的工坊"
+  },
+  "202417": {
+    "english_name": "Philippa: Blind Fury",
+    "chinese_name": "菲丽芭：盲眼怒火"
+  },
+  "202418": {
+    "english_name": "Donimir of Troy",
+    "chinese_name": "特罗伊的多尼米尔"
+  },
+  "202419": {
+    "english_name": "Voymir",
+    "chinese_name": "沃米尔"
+  },
+  "202420": {
+    "english_name": "Mad Charge",
+    "chinese_name": "疯狂的冲锋"
+  },
+  "202421": {
+    "english_name": "Radovid's Royal Guards",
+    "chinese_name": "拉多维德皇家护卫"
+  },
+  "202422": {
+    "english_name": "Redanian Archer",
+    "chinese_name": "瑞达尼亚弓箭手"
+  },
+  "202425": {
+    "english_name": "Azar Javed",
+    "chinese_name": "阿扎·贾维德"
+  },
+  "202426": {
+    "english_name": "Professor",
+    "chinese_name": "教授"
+  },
+  "202427": {
+    "english_name": "Savolla",
+    "chinese_name": "萨沃拉"
+  },
+  "202428": {
+    "english_name": "Dire Mutated Hound",
+    "chinese_name": "恐怖变异猎犬"
+  },
+  "202429": {
+    "english_name": "Mutated Hounds",
+    "chinese_name": "变异猎犬"
+  },
+  "202430": {
+    "english_name": "Assault",
+    "chinese_name": "袭击"
+  },
+  "202431": {
+    "english_name": "Salamandra Assassin",
+    "chinese_name": "火蜥蜴帮潜行者"
+  },
+  "202432": {
+    "english_name": "Mutant Killer",
+    "chinese_name": "变种人凶徒"
+  },
+  "202433": {
+    "english_name": "Mutant",
+    "chinese_name": "变种人"
+  },
+  "202435": {
+    "english_name": "Kikimore Queen",
+    "chinese_name": "齐齐摩女王"
+  },
+  "202436": {
+    "english_name": "Cave Troll",
+    "chinese_name": "洞穴巨魔"
+  },
+  "202437": {
+    "english_name": "Yghern",
+    "chinese_name": "巨型蜈蚣"
+  },
+  "202438": {
+    "english_name": "Endrega Queen",
+    "chinese_name": "安德莱格女王"
+  },
+  "202439": {
+    "english_name": "Armored Arachas",
+    "chinese_name": "装甲蟹蜘蛛"
+  },
+  "202440": {
+    "english_name": "Endrega Larva",
+    "chinese_name": "安德莱格幼虫"
+  },
+  "202441": {
+    "english_name": "Endrega Warrior",
+    "chinese_name": "安德莱格战士"
+  },
+  "202442": {
+    "english_name": "Natural Selection",
+    "chinese_name": "物竞天择"
+  },
+  "202443": {
+    "english_name": "Kikimore Worker",
+    "chinese_name": "齐齐摩工兵"
+  },
+  "202444": {
+    "english_name": "Endrega Eggs",
+    "chinese_name": "安德莱格虫卵"
+  },
+  "202445": {
+    "english_name": "Affan Hillergrand",
+    "chinese_name": "亚凡·希尔格兰"
+  },
+  "202446": {
+    "english_name": "Ramon Tyrconnel",
+    "chinese_name": "拉蒙·蒂尔康奈尔"
+  },
+  "202447": {
+    "english_name": "War Council",
+    "chinese_name": "军事会议"
+  },
+  "202448": {
+    "english_name": "Ffion var Gaernel",
+    "chinese_name": "费恩·瓦·盖内尔"
+  },
+  "202449": {
+    "english_name": "Glynnis aep Loernach",
+    "chinese_name": "格莱尼丝·爱普·洛纳克"
+  },
+  "202450": {
+    "english_name": "Ard Feainn Crossbowman",
+    "chinese_name": "日轮之师十字弩手"
+  },
+  "202451": {
+    "english_name": "Ard Feainn Tortoise",
+    "chinese_name": "日轮之师龟甲盾卫"
+  },
+  "202452": {
+    "english_name": "Ard Feainn Light Cavalry",
+    "chinese_name": "日轮之师轻骑兵"
+  },
+  "202453": {
+    "english_name": "Ard Feainn Heavy Cavalry",
+    "chinese_name": "日轮之师重骑兵"
+  },
+  "202454": {
+    "english_name": "Battle Preparation",
+    "chinese_name": "战前准备"
+  },
+  "202456": {
+    "english_name": "Dracoturtle",
+    "chinese_name": "龙龟"
+  },
+  "202457": {
+    "english_name": "Covenant of Steel",
+    "chinese_name": "刀剑盟约"
+  },
+  "202458": {
+    "english_name": "Morkvarg: Heart of Terror",
+    "chinese_name": "莫克瓦格：恐惧之心"
+  },
+  "202459": {
+    "english_name": "Raiding Fleet",
+    "chinese_name": "突袭船队"
+  },
+  "202460": {
+    "english_name": "Terror of the Seas",
+    "chinese_name": "海上恶魔"
+  },
+  "202461": {
+    "english_name": "Armored Drakkar",
+    "chinese_name": "装甲战舰"
+  },
+  "202462": {
+    "english_name": "Terror Crew Plunderer",
+    "chinese_name": "恐狼勇士"
+  },
+  "202463": {
+    "english_name": "Boatbuilders",
+    "chinese_name": "造船工"
+  },
+  "202464": {
+    "english_name": "Terror Crew Axe-wielder",
+    "chinese_name": "“恐怖海狼”持斧者"
+  },
+  "202465": {
+    "english_name": "Stunning Blow",
+    "chinese_name": "震骇猛击"
+  },
+  "202467": {
+    "english_name": "Zoltan: Warrior",
+    "chinese_name": "卓尔坦：矮人战士"
+  },
+  "202468": {
+    "english_name": "Percival Schuttenbach",
+    "chinese_name": "帕西瓦尔·舒滕巴赫"
+  },
+  "202469": {
+    "english_name": "Munro Bruys",
+    "chinese_name": "穆罗·布鲁伊斯"
+  },
+  "202470": {
+    "english_name": "Figgis Merluzzo",
+    "chinese_name": "菲吉斯·梅鲁佐"
+  },
+  "202471": {
+    "english_name": "Zoltan's Company",
+    "chinese_name": "卓尔坦的伙伴"
+  },
+  "202472": {
+    "english_name": "Dwarven Chariot",
+    "chinese_name": "矮人战车"
+  },
+  "202473": {
+    "english_name": "Tempering",
+    "chinese_name": "淬火"
+  },
+  "202474": {
+    "english_name": "Miner",
+    "chinese_name": "矿工"
+  },
+  "202475": {
+    "english_name": "Dryad Enchantress",
+    "chinese_name": "树精附魔师"
+  },
+  "202476": {
+    "english_name": "Dwarf Berserker",
+    "chinese_name": "矮人狂战士"
+  },
+  "202477": {
+    "english_name": "Rowdy Dwarf",
+    "chinese_name": "喧闹的矮人"
+  },
+  "202478": {
+    "english_name": "Radeyah",
+    "chinese_name": "雷蒂娅"
+  },
+  "202479": {
+    "english_name": "Maraal",
+    "chinese_name": "马拉尔"
+  },
+  "202480": {
+    "english_name": "Matta Hu'uri",
+    "chinese_name": "玛塔·乌莉"
+  },
+  "202481": {
+    "english_name": "Dulla kh'Amanni",
+    "chinese_name": "杜拉·卡亚玛尼"
+  },
+  "202482": {
+    "english_name": "Runewright",
+    "chinese_name": "符文匠"
+  },
+  "202483": {
+    "english_name": "Saer Qu'an",
+    "chinese_name": "萨坤"
+  },
+  "202484": {
+    "english_name": "Caravan Vanguard",
+    "chinese_name": "车队先锋"
+  },
+  "202485": {
+    "english_name": "Caravan Guard",
+    "chinese_name": "车队护卫"
+  },
+  "202486": {
+    "english_name": "King Cobra",
+    "chinese_name": "眼镜王蛇"
+  },
+  "202487": {
+    "english_name": "Ofiri Merchant",
+    "chinese_name": "欧菲尔商人"
+  },
+  "202491": {
+    "english_name": "Basilisk Venom",
+    "chinese_name": "石化蜥蜴毒液"
+  },
+  "202493": {
+    "english_name": "Crystal Skull",
+    "chinese_name": "水晶面甲"
+  },
+  "202497": {
+    "english_name": "Enchanted Armor",
+    "chinese_name": "注魔盔甲"
+  },
+  "202498": {
+    "english_name": "Cursed Scroll",
+    "chinese_name": "被诅咒的卷轴"
+  },
+  "202500": {
+    "english_name": "Ceremonial Dagger",
+    "chinese_name": "仪式匕首"
+  },
+  "202501": {
+    "english_name": "Magic Lamp",
+    "chinese_name": "神灯"
+  },
+  "202502": {
+    "english_name": "Engineering Solution",
+    "chinese_name": "工程解决方案"
+  },
+  "202503": {
+    "english_name": "War Elephant",
+    "chinese_name": "战象"
+  },
+  "202504": {
+    "english_name": "Siege",
+    "chinese_name": "围攻"
+  },
+  "202505": {
+    "english_name": "War Chariot",
+    "chinese_name": "战车"
+  },
+  "202506": {
+    "english_name": "Immortals",
+    "chinese_name": "不朽者"
+  },
+  "202507": {
+    "english_name": "Siege Ladder",
+    "chinese_name": "云梯"
+  },
+  "202509": {
+    "english_name": "Immortal Cavalry",
+    "chinese_name": "不朽者骑兵"
+  },
+  "202510": {
+    "english_name": "Carroballista",
+    "chinese_name": "机动弩炮"
+  },
+  "202511": {
+    "english_name": "Boiling Oil",
+    "chinese_name": "滚油"
+  },
+  "202512": {
+    "english_name": "Mask of Uroboros",
+    "chinese_name": "衔尾蛇面具"
+  },
+  "202513": {
+    "english_name": "In Gedyneith's Shadow",
+    "chinese_name": "盖迪尼斯的阴影下"
+  },
+  "202514": {
+    "english_name": "Crowmother",
+    "chinese_name": "乌鸦之母"
+  },
+  "202515": {
+    "english_name": "Gigascorpion Decoction",
+    "chinese_name": "巨蝎煎药"
+  },
+  "202516": {
+    "english_name": "Axel Three-Eyes",
+    "chinese_name": "“三目者”艾克索"
+  },
+  "202517": {
+    "english_name": "Crow Clan Druid",
+    "chinese_name": "鸦母德鲁伊"
+  },
+  "202518": {
+    "english_name": "Crow Clan Preacher",
+    "chinese_name": "鸦母布道者"
+  },
+  "202520": {
+    "english_name": "Crow's-eye Rhizome",
+    "chinese_name": "乌鸦眼块茎"
+  },
+  "202521": {
+    "english_name": "Crow Messenger",
+    "chinese_name": "信鸦"
+  },
+  "202522": {
+    "english_name": "Urn of Shadows",
+    "chinese_name": "暗影之瓮"
+  },
+  "202523": {
+    "english_name": "Plague Maiden",
+    "chinese_name": "瘟疫妖女"
+  },
+  "202524": {
+    "english_name": "Penitent",
+    "chinese_name": "忏悔灵"
+  },
+  "202525": {
+    "english_name": "The Beast",
+    "chinese_name": "“魔兽”"
+  },
+  "202526": {
+    "english_name": "Haunt",
+    "chinese_name": "鬼婆"
+  },
+  "202527": {
+    "english_name": "Barghest",
+    "chinese_name": "幽冥犬"
+  },
+  "202529": {
+    "english_name": "Desert Banshee",
+    "chinese_name": "沙漠女妖"
+  },
+  "202530": {
+    "english_name": "Noonwraith",
+    "chinese_name": "日间妖灵"
+  },
+  "202531": {
+    "english_name": "Nightwraith",
+    "chinese_name": "夜之妖灵"
+  },
+  "202532": {
+    "english_name": "Aen Seidhe Saber",
+    "chinese_name": "艾恩·希德战刀"
+  },
+  "202533": {
+    "english_name": "Etriel",
+    "chinese_name": "爱特丽尔"
+  },
+  "202534": {
+    "english_name": "Muirlega",
+    "chinese_name": "摩尔雷加"
+  },
+  "202535": {
+    "english_name": "Vernossiel",
+    "chinese_name": "弗妮希尔"
+  },
+  "202536": {
+    "english_name": "Feign Death",
+    "chinese_name": "假死"
+  },
+  "202537": {
+    "english_name": "Vernossiel's Commando",
+    "chinese_name": "弗妮希尔的突击队"
+  },
+  "202538": {
+    "english_name": "Vrihedd Saboteur",
+    "chinese_name": "维里赫德旅破坏者"
+  },
+  "202539": {
+    "english_name": "Nature's Rebuke",
+    "chinese_name": "大自然的报复"
+  },
+  "202540": {
+    "english_name": "Trained Hawk",
+    "chinese_name": "驾鹰"
+  },
+  "202542": {
+    "english_name": "Collar",
+    "chinese_name": "奴隶"
+  },
+  "202543": {
+    "english_name": "Vincent van Moorlehem",
+    "chinese_name": "文森特·凡·莫拉汉姆"
+  },
+  "202544": {
+    "english_name": "Masquerade Ball",
+    "chinese_name": "假面舞会"
+  },
+  "202545": {
+    "english_name": "Philippe van Moorlehem",
+    "chinese_name": "菲利普·凡·莫拉汉姆"
+  },
+  "202546": {
+    "english_name": "Van Moorlehem's Cupbearer",
+    "chinese_name": "莫拉汉姆家斟酒侍者"
+  },
+  "202547": {
+    "english_name": "Van Moorlehem Hunter",
+    "chinese_name": "莫拉汉姆家猎手"
+  },
+  "202549": {
+    "english_name": "Hunting Pack",
+    "chinese_name": "狩猎恶犬"
+  },
+  "202550": {
+    "english_name": "Van Moorlehem Servant",
+    "chinese_name": "莫拉汉姆家仆从"
+  },
+  "202551": {
+    "english_name": "Thirsty Dame",
+    "chinese_name": "口渴的夫人"
+  },
+  "202552": {
+    "english_name": "Tiger's Eye",
+    "chinese_name": "虎眼石"
+  },
+  "202553": {
+    "english_name": "Collusion",
+    "chinese_name": "串通"
+  },
+  "202554": {
+    "english_name": "One Night at the Passiflora",
+    "chinese_name": "帕西佛罗拉一夜"
+  },
+  "202555": {
+    "english_name": "Saul de Navarette",
+    "chinese_name": "萨乌尔·德·那瓦雷特"
+  },
+  "202556": {
+    "english_name": "Ludovicus Brunenbaum",
+    "chinese_name": "鲁多维西斯·布伦纳鲍尔"
+  },
+  "202557": {
+    "english_name": "Bloody Good Friends",
+    "chinese_name": "一对好友"
+  },
+  "202559": {
+    "english_name": "Street Urchins",
+    "chinese_name": "街头顽童"
+  },
+  "202560": {
+    "english_name": "Payroll Specialist",
+    "chinese_name": "“薪酬专员”"
+  },
+  "202561": {
+    "english_name": "Passiflora Peaches",
+    "chinese_name": "帕西佛罗拉佳丽"
+  },
+  "202562": {
+    "english_name": "Scarab",
+    "chinese_name": "圣甲虫"
+  },
+  "202563": {
+    "english_name": "Savolla's Frightener",
+    "chinese_name": "萨沃拉的畏惧者"
+  },
+  "202564": {
+    "english_name": "Greater Brothers",
+    "chinese_name": "变异兄弟"
+  },
+  "202566": {
+    "english_name": "Lamp Djinn",
+    "chinese_name": "瓶中迪精"
+  },
+  "202567": {
+    "english_name": "Rat",
+    "chinese_name": "老鼠"
+  },
+  "202568": {
+    "english_name": "Crow",
+    "chinese_name": "乌鸦"
+  },
+  "202569": {
+    "english_name": "Desert Treasure",
+    "chinese_name": "沙漠宝藏"
+  },
+  "202572": {
+    "english_name": "Overwhelming Hunger",
+    "chinese_name": "无尽渴望"
+  },
+  "202573": {
+    "english_name": "Imposter",
+    "chinese_name": "偷梁换柱"
+  },
+  "202574": {
+    "english_name": "Uprising",
+    "chinese_name": "揭竿而起"
+  },
+  "202575": {
+    "english_name": "Mahakam Forge",
+    "chinese_name": "百炼精刚"
+  },
+  "202576": {
+    "english_name": "Blaze of Glory",
+    "chinese_name": "荣耀圣焰"
+  },
+  "202577": {
+    "english_name": "Hidden Cache",
+    "chinese_name": "军备宝箱"
+  },
+  "202592": {
+    "english_name": "Master Mirror",
+    "chinese_name": "镜子大师"
+  },
+  "202593": {
+    "english_name": "Ethereal",
+    "chinese_name": "虚无"
+  },
+  "202594": {
+    "english_name": "Oneiromancy",
+    "chinese_name": "解梦术"
+  },
+  "202595": {
+    "english_name": "Siegfried of Denesle",
+    "chinese_name": "德内斯勒的齐格弗里德"
+  },
+  "202596": {
+    "english_name": "Allgod",
+    "chinese_name": "全能天神"
+  },
+  "202597": {
+    "english_name": "Marlene de Trastamara",
+    "chinese_name": "玛琳·卓斯塔玛拉"
+  },
+  "202598": {
+    "english_name": "Pact",
+    "chinese_name": "契约"
+  },
+  "202599": {
+    "english_name": "Will o' the wisp",
+    "chinese_name": "精灵与莹火"
+  },
+  "202600": {
+    "english_name": "Squirrel",
+    "chinese_name": "松鼠"
+  },
+  "202601": {
+    "english_name": "Offering",
+    "chinese_name": "贡品"
+  },
+  "202602": {
+    "english_name": "Fortune Teller",
+    "chinese_name": "预言家"
+  },
+  "202603": {
+    "english_name": "Auberon: King",
+    "chinese_name": "奥贝伦王"
+  },
+  "202604": {
+    "english_name": "Auberon: Invader",
+    "chinese_name": "入侵者奥贝伦"
+  },
+  "202605": {
+    "english_name": "Auberon: Conqueror",
+    "chinese_name": "征服者奥贝伦"
+  },
+  "202606": {
+    "english_name": "Eredin Bréacc Glas",
+    "chinese_name": "艾瑞汀‧布里克‧葛拉斯"
+  },
+  "202607": {
+    "english_name": "Ard Gaeth",
+    "chinese_name": "诸界之门"
+  },
+  "202608": {
+    "english_name": "Winter Queen",
+    "chinese_name": "冬之女王"
+  },
+  "202609": {
+    "english_name": "The Apiarian Phantom",
+    "chinese_name": "蜜蜂幽灵"
+  },
+  "202610": {
+    "english_name": "Red Riders",
+    "chinese_name": "红骑士"
+  },
+  "202611": {
+    "english_name": "Wild Hunt Bruiser",
+    "chinese_name": "狂猎碾压者"
+  },
+  "202612": {
+    "english_name": "Naglfar Crew",
+    "chinese_name": "纳吉尔法船员"
+  },
+  "202613": {
+    "english_name": "Naglfar Taskmaster",
+    "chinese_name": "纳吉尔法工头"
+  },
+  "202614": {
+    "english_name": "Aen Elle Conqueror",
+    "chinese_name": "艾恩·艾尔征服者"
+  },
+  "202615": {
+    "english_name": "Harald an Craite",
+    "chinese_name": "哈罗德·奎特"
+  },
+  "202616": {
+    "english_name": "Harald: Warmonger",
+    "chinese_name": "好战者哈罗德"
+  },
+  "202617": {
+    "english_name": "Harald the Cripple",
+    "chinese_name": "“瘸子”哈罗德"
+  },
+  "202618": {
+    "english_name": "Tyrggvi Tuirseach",
+    "chinese_name": "泰格威·图尔赛克"
+  },
+  "202619": {
+    "english_name": "Blood Eagle",
+    "chinese_name": "血鹰"
+  },
+  "202620": {
+    "english_name": "Skjordal Drummond",
+    "chinese_name": "史裘达尔·德拉蒙"
+  },
+  "202621": {
+    "english_name": "Herkja Drummond",
+    "chinese_name": "海科亚·德拉蒙"
+  },
+  "202622": {
+    "english_name": "War of Clans",
+    "chinese_name": "群岛战争"
+  },
+  "202623": {
+    "english_name": "Tuirseach Invader",
+    "chinese_name": "图尔赛克家族入侵者"
+  },
+  "202624": {
+    "english_name": "An Craite Raiders",
+    "chinese_name": "奎特家族突袭者"
+  },
+  "202625": {
+    "english_name": "Drummond Villager",
+    "chinese_name": "德拉蒙家族村民"
+  },
+  "202626": {
+    "english_name": "Drummond Berserker",
+    "chinese_name": "德拉蒙家族狂战士"
+  },
+  "202629": {
+    "english_name": "Jacques: Miracle Child",
+    "chinese_name": "神童贾奎斯"
+  },
+  "202630": {
+    "english_name": "Jacques de Aldersberg",
+    "chinese_name": "艾德斯伯格的贾奎斯"
+  },
+  "202631": {
+    "english_name": "Jacques: Grand Master",
+    "chinese_name": "大团长贾奎斯"
+  },
+  "202632": {
+    "english_name": "Ulrich",
+    "chinese_name": "乌瑞克"
+  },
+  "202633": {
+    "english_name": "Dies Irae",
+    "chinese_name": "神谴之日"
+  },
+  "202634": {
+    "english_name": "Roderick de Wett",
+    "chinese_name": "罗德烈克·德·维特"
+  },
+  "202635": {
+    "english_name": "Lieutenant von Herst",
+    "chinese_name": "赫斯特中尉"
+  },
+  "202636": {
+    "english_name": "Smuggle",
+    "chinese_name": "私运"
+  },
+  "202637": {
+    "english_name": "Cleric of the Flaming Rose",
+    "chinese_name": "烈焰蔷薇骑士团牧师"
+  },
+  "202638": {
+    "english_name": "Fallen Knight",
+    "chinese_name": "堕落的骑士"
+  },
+  "202639": {
+    "english_name": "Lonely Champion",
+    "chinese_name": "孤独的勇士"
+  },
+  "202640": {
+    "english_name": "Mutants Maker",
+    "chinese_name": "突变研究者"
+  },
+  "202641": {
+    "english_name": "Flaming Rose Footman",
+    "chinese_name": "烈焰蔷薇骑士团步兵"
+  },
+  "202642": {
+    "english_name": "Viraxas: Prince",
+    "chinese_name": "维拉克萨斯王子"
+  },
+  "202643": {
+    "english_name": "Viraxas: Outcast",
+    "chinese_name": "流放者维拉克萨斯"
+  },
+  "202644": {
+    "english_name": "Viraxas: King",
+    "chinese_name": "维拉克萨斯国王"
+  },
+  "202645": {
+    "english_name": "Ildiko",
+    "chinese_name": "伊尔迪珂"
+  },
+  "202646": {
+    "english_name": "Amphibious Assault",
+    "chinese_name": "水路突袭"
+  },
+  "202647": {
+    "english_name": "King Belohun",
+    "chinese_name": "贝罗恒王"
+  },
+  "202648": {
+    "english_name": "Egmund",
+    "chinese_name": "埃格蒙德"
+  },
+  "202649": {
+    "english_name": "Smoke Them Out!",
+    "chinese_name": "烟熏火烤"
+  },
+  "202650": {
+    "english_name": "Kerack Frigate",
+    "chinese_name": "凯拉克护卫舰"
+  },
+  "202651": {
+    "english_name": "Kerack City Guard",
+    "chinese_name": "凯拉克城防守卫"
+  },
+  "202652": {
+    "english_name": "Kerack Marine",
+    "chinese_name": "凯拉克海军"
+  },
+  "202653": {
+    "english_name": "Kerack Cutthroat",
+    "chinese_name": "凯拉克快刀手"
+  },
+  "202654": {
+    "english_name": "Volunteer",
+    "chinese_name": "志愿军"
+  },
+  "202655": {
+    "english_name": "Usurper: Officer",
+    "chinese_name": "篡位者 - 军官"
+  },
+  "202656": {
+    "english_name": "Usurper: General",
+    "chinese_name": "篡位者 - 将军"
+  },
+  "202657": {
+    "english_name": "Usurper: Emperor",
+    "chinese_name": "篡位者 - 皇帝"
+  },
+  "202658": {
+    "english_name": "Braathens",
+    "chinese_name": "布拉森斯"
+  },
+  "202659": {
+    "english_name": "Coup de Grâce",
+    "chinese_name": "致命一击"
+  },
+  "202660": {
+    "english_name": "Fergus var Emreis",
+    "chinese_name": "佛古斯·瓦·恩瑞斯"
+  },
+  "202661": {
+    "english_name": "Urcheon of Erlenwald",
+    "chinese_name": "伊伦瓦尔德的乌奇翁"
+  },
+  "202662": {
+    "english_name": "Duny",
+    "chinese_name": "多尼"
+  },
+  "202663": {
+    "english_name": "Amnesty",
+    "chinese_name": "大赦"
+  },
+  "202664": {
+    "english_name": "Mage Torturer",
+    "chinese_name": "法师折磨者"
+  },
+  "202665": {
+    "english_name": "Seditious Aristocrats",
+    "chinese_name": "煽动的贵族"
+  },
+  "202666": {
+    "english_name": "Mage Infiltrator",
+    "chinese_name": "法师渗透者"
+  },
+  "202667": {
+    "english_name": "Angry Mob",
+    "chinese_name": "愤怒的暴民"
+  },
+  "202669": {
+    "english_name": "Operative",
+    "chinese_name": "特工"
+  },
+  "202670": {
+    "english_name": "Eithné: Young Queen",
+    "chinese_name": "新王艾思娜"
+  },
+  "202671": {
+    "english_name": "Eithné: Mother",
+    "chinese_name": "慈母艾思娜"
+  },
+  "202672": {
+    "english_name": "Eithné: Wrath of Brokilon",
+    "chinese_name": "艾思娜：布洛克莱昂之怒"
+  },
+  "202673": {
+    "english_name": "Forest Protector",
+    "chinese_name": "森林保护者"
+  },
+  "202674": {
+    "english_name": "Shaping Nature",
+    "chinese_name": "自然法则"
+  },
+  "202675": {
+    "english_name": "Freixenet",
+    "chinese_name": "菲斯奈特"
+  },
+  "202676": {
+    "english_name": "Dunca",
+    "chinese_name": "邓卡"
+  },
+  "202677": {
+    "english_name": "Circle of Life",
+    "chinese_name": "生命循环"
+  },
+  "202678": {
+    "english_name": "Hamadryad",
+    "chinese_name": "林中之女"
+  },
+  "202679": {
+    "english_name": "Duén Canell Guardian",
+    "chinese_name": "橡树之地护卫"
+  },
+  "202680": {
+    "english_name": "Oakcritters",
+    "chinese_name": "橡树之灵"
+  },
+  "202681": {
+    "english_name": "Abandoned Girl",
+    "chinese_name": "弃女"
+  },
+  "202682": {
+    "english_name": "Young Dryad",
+    "chinese_name": "年轻的树精"
+  },
+  "202683": {
+    "english_name": "Wandering Treant",
+    "chinese_name": "游荡的树人"
+  },
+  "202700": {
+    "english_name": "Shaping Nature: Veil",
+    "chinese_name": "自然法则：遮蔽"
+  },
+  "202701": {
+    "english_name": "Shaping Nature: Boost",
+    "chinese_name": "自然法则：增益"
+  },
+  "202702": {
+    "english_name": "Shaping Nature: Vitality",
+    "chinese_name": "自然法则：活力"
+  },
+  "202703": {
+    "english_name": "Red Riders: Precision",
+    "chinese_name": "红骑士：精准"
+  },
+  "202704": {
+    "english_name": "Red Riders: Spread",
+    "chinese_name": "红骑士：扩散"
+  },
+  "202705": {
+    "english_name": "Dana Méadbh",
+    "chinese_name": "达娜梅碧"
+  },
+  "202706": {
+    "english_name": "Woodland Spirit",
+    "chinese_name": "林妖"
+  },
+  "202707": {
+    "english_name": "Morvran Voorhis",
+    "chinese_name": "莫尔凡·符里斯"
+  },
+  "202776": {
+    "english_name": "Alzur",
+    "chinese_name": "阿尔祖"
+  },
+  "202778": {
+    "english_name": "Snowdrop",
+    "chinese_name": "落雪"
+  },
+  "202779": {
+    "english_name": "Cosimo Malaspina",
+    "chinese_name": "柯西莫·马拉斯宾那"
+  },
+  "202780": {
+    "english_name": "Idarran of Ulivo",
+    "chinese_name": "乌里沃的伊达兰"
+  },
+  "202781": {
+    "english_name": "Geralt: Quen",
+    "chinese_name": "杰洛特：昆恩法印"
+  },
+  "202782": {
+    "english_name": "Selective Mutation",
+    "chinese_name": "选择性突变"
+  },
+  "202783": {
+    "english_name": "Triangle Within a Triangle",
+    "chinese_name": "三角法阵"
+  },
+  "202784": {
+    "english_name": "Berengar",
+    "chinese_name": "贝连迦尔"
+  },
+  "202785": {
+    "english_name": "Leo",
+    "chinese_name": "雷欧"
+  },
+  "202786": {
+    "english_name": "Maxii van Dekkar",
+    "chinese_name": "马克西·范·德卡尔"
+  },
+  "202787": {
+    "english_name": "Witcher Student",
+    "chinese_name": "猎魔人学徒"
+  },
+  "202788": {
+    "english_name": "Red Mutagen",
+    "chinese_name": "红色突变诱发物"
+  },
+  "202789": {
+    "english_name": "Blue Mutagen",
+    "chinese_name": "蓝色突变诱发物"
+  },
+  "202790": {
+    "english_name": "Green Mutagen",
+    "chinese_name": "绿色突变诱发物"
+  },
+  "202791": {
+    "english_name": "Ivar Evil-Eye",
+    "chinese_name": "伊瓦‧邪眼"
+  },
+  "202792": {
+    "english_name": "Vypper",
+    "chinese_name": "沼蛇"
+  },
+  "202793": {
+    "english_name": "Gorthur Gvaed",
+    "chinese_name": "格斯维德"
+  },
+  "202794": {
+    "english_name": "Kolgrim",
+    "chinese_name": "寇格林姆"
+  },
+  "202795": {
+    "english_name": "Warritt the All-Seeing",
+    "chinese_name": "全知者沃里特"
+  },
+  "202796": {
+    "english_name": "Viper Witcher",
+    "chinese_name": "毒蛇学派猎魔人"
+  },
+  "202797": {
+    "english_name": "Viper Witcher Mentor",
+    "chinese_name": "毒蛇学派猎魔人导师"
+  },
+  "202798": {
+    "english_name": "Viper Witcher Alchemist",
+    "chinese_name": "毒蛇学派猎魔人炼金师"
+  },
+  "202799": {
+    "english_name": "Viper Witcher Adept",
+    "chinese_name": "毒蛇学派猎魔人学徒"
+  },
+  "202800": {
+    "english_name": "Coated Weapons",
+    "chinese_name": "涂毒武器"
+  },
+  "202801": {
+    "english_name": "Gezras of Leyda",
+    "chinese_name": "雷达的吉兹拉斯"
+  },
+  "202802": {
+    "english_name": "Saber-Tooth Tiger",
+    "chinese_name": "刃齿虎"
+  },
+  "202803": {
+    "english_name": "Stygga Castle",
+    "chinese_name": "斯提嘉城堡"
+  },
+  "202804": {
+    "english_name": "Brehen",
+    "chinese_name": "布雷恩"
+  },
+  "202805": {
+    "english_name": "Gaetan",
+    "chinese_name": "盖坦"
+  },
+  "202806": {
+    "english_name": "Cat Witcher",
+    "chinese_name": "猫学派猎魔人"
+  },
+  "202807": {
+    "english_name": "Cat Witcher Mentor",
+    "chinese_name": "猫学派猎魔人导师"
+  },
+  "202808": {
+    "english_name": "Cat Witcher Saboteur",
+    "chinese_name": "猫学派猎魔人恶徒"
+  },
+  "202809": {
+    "english_name": "Cat Witcher Adept",
+    "chinese_name": "猫学派猎魔人学徒"
+  },
+  "202810": {
+    "english_name": "Making a Bomb",
+    "chinese_name": "做炸弹"
+  },
+  "202811": {
+    "english_name": "Arnaghad",
+    "chinese_name": "阿纳哈德"
+  },
+  "202812": {
+    "english_name": "Dire Bear",
+    "chinese_name": "巨熊"
+  },
+  "202813": {
+    "english_name": "Haern Caduch",
+    "chinese_name": "海恩卡维赫"
+  },
+  "202814": {
+    "english_name": "Gerd",
+    "chinese_name": "格德"
+  },
+  "202815": {
+    "english_name": "Junod of Belhaven",
+    "chinese_name": "贝哈文的朱诺德"
+  },
+  "202816": {
+    "english_name": "Bear Witcher",
+    "chinese_name": "熊学派猎魔人"
+  },
+  "202817": {
+    "english_name": "Bear Witcher Mentor",
+    "chinese_name": "熊学派猎魔人导师"
+  },
+  "202818": {
+    "english_name": "Bear Witcher Quartermaster",
+    "chinese_name": "熊学派猎魔人军需官"
+  },
+  "202819": {
+    "english_name": "Bear Witcher Adept",
+    "chinese_name": "熊学派猎魔人学徒"
+  },
+  "202820": {
+    "english_name": "Armor Up",
+    "chinese_name": "披盔贯甲"
+  },
+  "202821": {
+    "english_name": "Erland of Larvik",
+    "chinese_name": "拉尔维克的埃兰"
+  },
+  "202822": {
+    "english_name": "Archgriffin",
+    "chinese_name": "大狮鹫"
+  },
+  "202823": {
+    "english_name": "Kaer Seren",
+    "chinese_name": "凯尔塞壬"
+  },
+  "202824": {
+    "english_name": "Coën",
+    "chinese_name": "柯恩"
+  },
+  "202825": {
+    "english_name": "Keldar",
+    "chinese_name": "凯尔达"
+  },
+  "202826": {
+    "english_name": "Griffin Witcher",
+    "chinese_name": "狮鹫学派猎魔人"
+  },
+  "202827": {
+    "english_name": "Griffin Witcher Mentor",
+    "chinese_name": "狮鹫学派猎魔人导师"
+  },
+  "202828": {
+    "english_name": "Griffin Witcher Ranger",
+    "chinese_name": "狮鹫学派猎魔人游侠"
+  },
+  "202829": {
+    "english_name": "Griffin Witcher Adept",
+    "chinese_name": "狮鹫学派猎魔人学徒"
+  },
+  "202830": {
+    "english_name": "Target Practice",
+    "chinese_name": "标靶练习"
+  },
+  "202831": {
+    "english_name": "Viy",
+    "chinese_name": "涎魔"
+  },
+  "202832": {
+    "english_name": "Koshchey",
+    "chinese_name": "科斯切伊"
+  },
+  "202833": {
+    "english_name": "Dol Dhu Lokke",
+    "chinese_name": "万魔窟"
+  },
+  "202834": {
+    "english_name": "Idr",
+    "chinese_name": "伊迪尔"
+  },
+  "202835": {
+    "english_name": "Wererat",
+    "chinese_name": "鼠人"
+  },
+  "202836": {
+    "english_name": "Succubus",
+    "chinese_name": "女夜魔"
+  },
+  "202837": {
+    "english_name": "Phooca",
+    "chinese_name": "孽狐"
+  },
+  "202838": {
+    "english_name": "Chimera",
+    "chinese_name": "奇美拉"
+  },
+  "202839": {
+    "english_name": "Spontaneous Evolution",
+    "chinese_name": "自然进化"
+  },
+  "202841": {
+    "english_name": "Fallen Rayla",
+    "chinese_name": "死侍蕾拉"
+  },
+  "202842": {
+    "english_name": "Salamander",
+    "chinese_name": "火蜥蜴"
+  },
+  "202843": {
+    "english_name": "Salamandra Hideout",
+    "chinese_name": "火蜥蜴帮藏身处"
+  },
+  "202844": {
+    "english_name": "Roland Bleinheim",
+    "chinese_name": "罗兰德·布莱尼姆"
+  },
+  "202845": {
+    "english_name": "Gellert Bleinheim",
+    "chinese_name": "盖勒特·布莱尼姆"
+  },
+  "202846": {
+    "english_name": "Salamandra Lackey",
+    "chinese_name": "火蜥蜴帮侍从"
+  },
+  "202847": {
+    "english_name": "Salamandra Abomination",
+    "chinese_name": "火蜥蜴帮异变体"
+  },
+  "202848": {
+    "english_name": "Salamandra Mage",
+    "chinese_name": "火蜥蜴帮法师"
+  },
+  "202849": {
+    "english_name": "Failed Experiment",
+    "chinese_name": "失败的实验"
+  },
+  "202850": {
+    "english_name": "Stolen Mutagens",
+    "chinese_name": "被偷走的突变诱发物"
+  },
+  "202856": {
+    "english_name": "Hybrid",
+    "chinese_name": "杂交兽"
+  },
+  "202872": {
+    "english_name": "Saber-Tooth Tiger: Stealth",
+    "chinese_name": "刃齿虎：潜行"
+  },
+  "202879": {
+    "english_name": "Madoc",
+    "chinese_name": "玛多克"
+  },
+  "202880": {
+    "english_name": "Anna Henrietta",
+    "chinese_name": "安娜·亨利叶塔"
+  },
+  "202881": {
+    "english_name": "Emhyr var Emreis",
+    "chinese_name": "恩希尔·恩瑞斯"
+  },
+  "202882": {
+    "english_name": "Crach an Craite",
+    "chinese_name": "克拉茨·奎特"
+  },
+  "202883": {
+    "english_name": "Eist Tuirseach",
+    "chinese_name": "埃斯特·图尔赛克"
+  },
+  "202884": {
+    "english_name": "Brouver Hoog",
+    "chinese_name": "布罗瓦尔·霍格"
+  },
+  "202885": {
+    "english_name": "Eldain",
+    "chinese_name": "艾尔丹恩"
+  },
+  "202886": {
+    "english_name": "King Foltest",
+    "chinese_name": "弗尔泰斯特国王"
+  },
+  "202887": {
+    "english_name": "Queen Meve",
+    "chinese_name": "米薇女王"
+  },
+  "202888": {
+    "english_name": "Dettlaff van der Eretein",
+    "chinese_name": "狄拉夫·艾瑞廷"
+  },
+  "202889": {
+    "english_name": "Unseen Elder",
+    "chinese_name": "暗影长者"
+  },
+  "202890": {
+    "english_name": "Cleaver",
+    "chinese_name": "“砍刀”"
+  },
+  "202891": {
+    "english_name": "Whoreson Junior",
+    "chinese_name": "霍桑二世"
+  },
+  "202905": {
+    "english_name": "Rience",
+    "chinese_name": "里恩斯"
+  },
+  "202906": {
+    "english_name": "Dead Man's Tongue",
+    "chinese_name": "亡者之舌"
+  },
+  "202907": {
+    "english_name": "Blightmaker",
+    "chinese_name": "瘟疫制造者"
+  },
+  "202908": {
+    "english_name": "Mage Assassin",
+    "chinese_name": "法师刺客"
+  },
+  "202909": {
+    "english_name": "Fulmar",
+    "chinese_name": "富马尔"
+  },
+  "202910": {
+    "english_name": "Bride of the Sea",
+    "chinese_name": "海之新娘"
+  },
+  "202911": {
+    "english_name": "Melusine Cultist",
+    "chinese_name": "梅路辛教徒"
+  },
+  "202912": {
+    "english_name": "Tears of Siren",
+    "chinese_name": "女海妖之泪"
+  },
+  "202913": {
+    "english_name": "Francesca Findabair",
+    "chinese_name": "法兰茜丝卡·芬达贝"
+  },
+  "202914": {
+    "english_name": "Vanadáin",
+    "chinese_name": "万纳丁"
+  },
+  "202915": {
+    "english_name": "Sorceress of Dol Blathanna",
+    "chinese_name": "多尔·布雷坦纳女术士"
+  },
+  "202916": {
+    "english_name": "Whisperer of Dol Blathanna",
+    "chinese_name": "多尔·布雷坦纳低语者"
+  },
+  "202917": {
+    "english_name": "Gerhart of Aelle",
+    "chinese_name": "艾雷的戈尔哈特"
+  },
+  "202918": {
+    "english_name": "Istredd",
+    "chinese_name": "伊斯崔德"
+  },
+  "202919": {
+    "english_name": "Casting Contest",
+    "chinese_name": "施法竞赛"
+  },
+  "202920": {
+    "english_name": "Ban Ard Student",
+    "chinese_name": "班阿德的学生"
+  },
+  "202921": {
+    "english_name": "She Who Knows",
+    "chinese_name": "全知的她"
+  },
+  "202922": {
+    "english_name": "Rat Catcheress",
+    "chinese_name": "女捕鼠人"
+  },
+  "202923": {
+    "english_name": "Gan Ceann",
+    "chinese_name": "甘·赛恩"
+  },
+  "202924": {
+    "english_name": "Witch Apprentice",
+    "chinese_name": "女巫学徒"
+  },
+  "202925": {
+    "english_name": "The Witchfinder",
+    "chinese_name": "女巫追猎者"
+  },
+  "202926": {
+    "english_name": "Syndicate Crown",
+    "chinese_name": "辛迪加克朗"
+  },
+  "202927": {
+    "english_name": "Fabian Hale",
+    "chinese_name": "费边·黑尔"
+  },
+  "202928": {
+    "english_name": "Hysteria",
+    "chinese_name": "歇斯底里"
+  },
+  "202929": {
+    "english_name": "Vigilantes",
+    "chinese_name": "“义警”"
+  },
+  "202930": {
+    "english_name": "Teleportation",
+    "chinese_name": "传送术"
+  },
+  "202931": {
+    "english_name": "Megascope",
+    "chinese_name": "千里镜"
+  },
+  "202941": {
+    "english_name": "Left Fucking Flank",
+    "chinese_name": "左侧翼杂兵"
+  },
+  "202942": {
+    "english_name": "Right Fucking Flank",
+    "chinese_name": "右侧翼杂兵"
+  },
+  "202943": {
+    "english_name": "Artaud Terranova",
+    "chinese_name": "阿尔托·特拉诺瓦"
+  },
+  "202953": {
+    "english_name": "Sunset Wanderers",
+    "chinese_name": "夕阳下的流浪者"
+  },
+  "202978": {
+    "english_name": "Fercart",
+    "chinese_name": "费卡特"
+  },
+  "202979": {
+    "english_name": "Master of Puppets",
+    "chinese_name": "傀儡大师"
+  },
+  "202980": {
+    "english_name": "Thanedd Turncoat",
+    "chinese_name": "仙尼德变节者"
+  },
+  "202981": {
+    "english_name": "Melusine",
+    "chinese_name": "梅路辛"
+  },
+  "202982": {
+    "english_name": "Offering to the Sea",
+    "chinese_name": "海之祭礼"
+  },
+  "202983": {
+    "english_name": "Havfrue Singer",
+    "chinese_name": "海之歌者"
+  },
+  "202984": {
+    "english_name": "Hermit",
+    "chinese_name": "隐士"
+  },
+  "202985": {
+    "english_name": "Simlas Finn aep Dabairr",
+    "chinese_name": "希姆莱斯·芬达贝"
+  },
+  "202986": {
+    "english_name": "Saov Ainmhi'dh",
+    "chinese_name": "鹿灵"
+  },
+  "202987": {
+    "english_name": "Orb of Insight ",
+    "chinese_name": "洞察宝珠"
+  },
+  "202988": {
+    "english_name": "Elven Seer",
+    "chinese_name": "精灵先知"
+  },
+  "202989": {
+    "english_name": "Tissaia de Vries",
+    "chinese_name": "蒂莎娅·德·维瑞斯"
+  },
+  "202990": {
+    "english_name": "Leticia Charbonneau",
+    "chinese_name": "莱蒂西亚·沙博诺"
+  },
+  "202991": {
+    "english_name": "Practice Makes Perfect",
+    "chinese_name": "熟能生巧"
+  },
+  "202992": {
+    "english_name": "Aretuza Student",
+    "chinese_name": "艾瑞图萨学徒"
+  },
+  "202993": {
+    "english_name": "Bloody Mistress",
+    "chinese_name": "猩红夫人"
+  },
+  "202994": {
+    "english_name": "Gernichora",
+    "chinese_name": "格尼阔拉"
+  },
+  "202995": {
+    "english_name": "Mammuna",
+    "chinese_name": "玛姆纳"
+  },
+  "202996": {
+    "english_name": "Selfeater",
+    "chinese_name": "食己徒"
+  },
+  "202997": {
+    "english_name": "Bleeding Effigy",
+    "chinese_name": "殷红的塑像"
+  },
+  "202998": {
+    "english_name": "The Scoundrel",
+    "chinese_name": "无赖"
+  },
+  "202999": {
+    "english_name": "Ignatius Hale",
+    "chinese_name": "伊格内修斯·黑尔"
+  },
+  "203000": {
+    "english_name": "Confession Extractor",
+    "chinese_name": "坦白机"
+  },
+  "203001": {
+    "english_name": "Scapegoat",
+    "chinese_name": "替罪羊"
+  },
+  "203002": {
+    "english_name": "Bearification",
+    "chinese_name": "熊化反应"
+  },
+  "203003": {
+    "english_name": "Dwimveandra",
+    "chinese_name": "游历之女"
+  },
+  "203021": {
+    "english_name": "Saov Ainmhi'dh: Unity",
+    "chinese_name": "鹿灵：团结"
+  },
+  "203037": {
+    "english_name": "Vilgefortz: Renegade",
+    "chinese_name": "威戈佛特兹：变节法师"
+  },
+  "203038": {
+    "english_name": "Lydia van Bredevoort",
+    "chinese_name": "莉迪亚·凡·布雷德沃特"
+  },
+  "203039": {
+    "english_name": "Imperial Practitioner",
+    "chinese_name": "帝国医师"
+  },
+  "203040": {
+    "english_name": "Illusionist",
+    "chinese_name": "幻术师"
+  },
+  "203041": {
+    "english_name": "Fucusya",
+    "chinese_name": "佛卡夏"
+  },
+  "203042": {
+    "english_name": "Rioghan the Undying",
+    "chinese_name": "永生的里奥根"
+  },
+  "203043": {
+    "english_name": "Messenger of the Sea",
+    "chinese_name": "海之信使"
+  },
+  "203044": {
+    "english_name": "Little Havfrue",
+    "chinese_name": "小女海妖"
+  },
+  "203045": {
+    "english_name": "Filavandrel aén Fidháil",
+    "chinese_name": "菲拉凡德芮·艾恩·菲达尔"
+  },
+  "203046": {
+    "english_name": "Torque",
+    "chinese_name": "托克"
+  },
+  "203047": {
+    "english_name": "Bountiful Harvest",
+    "chinese_name": "丰收"
+  },
+  "203048": {
+    "english_name": "Watcher of the Valley",
+    "chinese_name": "山谷看守者"
+  },
+  "203049": {
+    "english_name": "Chapter of Wizards",
+    "chinese_name": "法师分会"
+  },
+  "203050": {
+    "english_name": "Raffard’s Vengeance",
+    "chinese_name": "拉法达的复仇"
+  },
+  "203051": {
+    "english_name": "Alumni",
+    "chinese_name": "校友会"
+  },
+  "203052": {
+    "english_name": "Meditating Mage",
+    "chinese_name": "冥想的法师"
+  },
+  "203053": {
+    "english_name": "Yaga",
+    "chinese_name": "雅加婆婆"
+  },
+  "203054": {
+    "english_name": "Witches' Sabbath",
+    "chinese_name": "女巫夜宴"
+  },
+  "203055": {
+    "english_name": "Incubus",
+    "chinese_name": "梦魔"
+  },
+  "203056": {
+    "english_name": "Lesser Witch",
+    "chinese_name": "低阶女巫"
+  },
+  "203057": {
+    "english_name": "The Brute",
+    "chinese_name": "暴徒"
+  },
+  "203058": {
+    "english_name": "Octavia Hale",
+    "chinese_name": "奥克塔维亚·黑尔"
+  },
+  "203059": {
+    "english_name": "Purge",
+    "chinese_name": "清洗"
+  },
+  "203060": {
+    "english_name": "Savvy Huckster",
+    "chinese_name": "精明的商贩"
+  },
+  "203061": {
+    "english_name": "The Mushy Truffle",
+    "chinese_name": "伤感松露酒馆"
+  },
+  "203062": {
+    "english_name": "Alissa Henson",
+    "chinese_name": "艾丽莎·亨森"
+  },
+  "203063": {
+    "english_name": "The Eternal Eclipse",
+    "chinese_name": "永夜之蚀"
+  },
+  "203064": {
+    "english_name": "Master of Ceremonies",
+    "chinese_name": "仪式祭司"
+  },
+  "203065": {
+    "english_name": "Eternal Eclipse Deacon",
+    "chinese_name": "永夜之蚀助祭"
+  },
+  "203066": {
+    "english_name": "Eternal Eclipse Initiate",
+    "chinese_name": "永夜之蚀教徒"
+  },
+  "203067": {
+    "english_name": "Endless Voyage",
+    "chinese_name": "无尽航行"
+  },
+  "203068": {
+    "english_name": "Bjorn Stormursson",
+    "chinese_name": "“风暴之子”比约恩"
+  },
+  "203069": {
+    "english_name": "Deranged Corsair",
+    "chinese_name": "疯癫水手"
+  },
+  "203070": {
+    "english_name": "Seagull",
+    "chinese_name": "海鸥"
+  },
+  "203071": {
+    "english_name": "Mysteries of Loc Feainn",
+    "chinese_name": "圣日湖之秘"
+  },
+  "203072": {
+    "english_name": "Lake Guardian: Dusk Aspect",
+    "chinese_name": "湖之守卫：暮色"
+  },
+  "203073": {
+    "english_name": "Antherion",
+    "chinese_name": "幻形兽"
+  },
+  "203074": {
+    "english_name": "Chameleon",
+    "chinese_name": "变色龙"
+  },
+  "203075": {
+    "english_name": "Damsel in Distress",
+    "chinese_name": "落难的少女"
+  },
+  "203076": {
+    "english_name": "The Maiden's Shield",
+    "chinese_name": "少女的盾牌"
+  },
+  "203077": {
+    "english_name": "Bronwen the Bold",
+    "chinese_name": "“无畏者”布朗温"
+  },
+  "203078": {
+    "english_name": "Knight-Errant",
+    "chinese_name": "游侠骑士"
+  },
+  "203079": {
+    "english_name": "Squire",
+    "chinese_name": "骑士随从"
+  },
+  "203080": {
+    "english_name": "The Manor’s Dark Secret",
+    "chinese_name": "庄园的隐秘事"
+  },
+  "203081": {
+    "english_name": "Sir Scratch-a-Lot",
+    "chinese_name": "挠挠先生"
+  },
+  "203082": {
+    "english_name": "Cursed Damsel",
+    "chinese_name": "受诅咒的少女"
+  },
+  "203083": {
+    "english_name": "Orchard Mantrap",
+    "chinese_name": "果园陷阱"
+  },
+  "203084": {
+    "english_name": "In Search of Forgotten Treasures",
+    "chinese_name": "寻宝之旅"
+  },
+  "203085": {
+    "english_name": "Flyndr's Crew",
+    "chinese_name": "弗伦德号的船员"
+  },
+  "203086": {
+    "english_name": "Treasure Huntress",
+    "chinese_name": "宝藏女猎手"
+  },
+  "203087": {
+    "english_name": "Pearl Diver",
+    "chinese_name": "采珠人"
+  },
+  "203088": {
+    "english_name": "Renfri",
+    "chinese_name": "伦芙芮"
+  },
+  "203089": {
+    "english_name": "Renfri's Gang",
+    "chinese_name": "伦芙芮的手下"
+  },
+  "203090": {
+    "english_name": "Saskia: Commander",
+    "chinese_name": "萨琪亚：指挥官"
+  },
+  "203091": {
+    "english_name": "King Radovid V",
+    "chinese_name": "拉多维德五世"
+  },
+  "203092": {
+    "english_name": "Jan Calveit",
+    "chinese_name": "约翰·卡尔维特"
+  },
+  "203093": {
+    "english_name": "Arachas Queen",
+    "chinese_name": "蟹蜘蛛女王"
+  },
+  "203094": {
+    "english_name": "Ardal aep Dahy",
+    "chinese_name": "阿达尔·爱普·达西"
+  },
+  "203095": {
+    "english_name": "King Bran",
+    "chinese_name": "布兰王"
+  },
+  "203096": {
+    "english_name": "Cerys: Fearless",
+    "chinese_name": "凯瑞丝：无所畏惧"
+  },
+  "203097": {
+    "english_name": "Milva: Sharpshooter",
+    "chinese_name": "米尔瓦：神射手"
+  },
+  "203098": {
+    "english_name": "King Henselt",
+    "chinese_name": "亨赛特国王"
+  },
+  "203099": {
+    "english_name": "Regis: Reborn",
+    "chinese_name": "雷吉斯：重生"
+  },
+  "203100": {
+    "english_name": "King of Beggars",
+    "chinese_name": "乞丐王"
+  },
+  "203101": {
+    "english_name": "Cyrus Engelkind Hemmelfart",
+    "chinese_name": "赛勒斯·赫姆法特"
+  },
+  "203102": {
+    "english_name": "Aerondight",
+    "chinese_name": "湖女之剑"
+  },
+  "203103": {
+    "english_name": "Arcane Tome",
+    "chinese_name": "奥术法典"
+  },
+  "203104": {
+    "english_name": "Mysterious Puzzle Box",
+    "chinese_name": "神秘的谜盒"
+  },
+  "203105": {
+    "english_name": "Vial of Forbidden Knowledge",
+    "chinese_name": "禁识之瓶"
+  },
+  "203106": {
+    "english_name": "Ring of Favor",
+    "chinese_name": "恩荫之戒"
+  },
+  "203107": {
+    "english_name": "Ornate Censer",
+    "chinese_name": "华丽香炉"
+  },
+  "203108": {
+    "english_name": "Troll Porter",
+    "chinese_name": "巨魔脚夫"
+  },
+  "203109": {
+    "english_name": "Runemage",
+    "chinese_name": "符文法师"
+  },
+  "203110": {
+    "english_name": "Obsidian Mirror",
+    "chinese_name": "黑曜石镜"
+  },
+  "203111": {
+    "english_name": "Prophet",
+    "chinese_name": "先知"
+  },
+  "203112": {
+    "english_name": "Magic Compass",
+    "chinese_name": "魔法罗盘"
+  },
+  "203113": {
+    "english_name": "Highland Warlord",
+    "chinese_name": "高地领主"
+  },
+  "203114": {
+    "english_name": "Prism Pendant",
+    "chinese_name": "棱镜吊坠"
+  },
+  "203115": {
+    "english_name": "Giantslayer",
+    "chinese_name": "巨人杀手"
+  },
+  "203116": {
+    "english_name": "Mutagenerator",
+    "chinese_name": "突变装置"
+  },
+  "203117": {
+    "english_name": "Traveling Priestess",
+    "chinese_name": "旅行女祭司"
+  },
+  "203118": {
+    "english_name": "Necromancer's Tome",
+    "chinese_name": "邪灵法典"
+  },
+  "203119": {
+    "english_name": "Giant Toad",
+    "chinese_name": "巨型蟾蜍"
+  },
+  "203120": {
+    "english_name": "Conjurer's Candle",
+    "chinese_name": "咒法者的蜡烛"
+  },
+  "203121": {
+    "english_name": "Shady Vendor",
+    "chinese_name": "暗巷商人"
+  },
+  "203122": {
+    "english_name": "Vial of Forbidden Knowledge: Unsealed",
+    "chinese_name": "禁识之瓶：启封"
+  },
+  "203123": {
+    "english_name": "Golden Nekker",
+    "chinese_name": "黄金孽鬼像"
+  },
+  "203124": {
+    "english_name": "Thing from the Box",
+    "chinese_name": "盒中灵"
+  },
+  "203125": {
+    "english_name": "Red Riders: Charge",
+    "chinese_name": "红骑士：冲锋"
+  },
+  "203126": {
+    "english_name": "Bjorn's Drakkar",
+    "chinese_name": "比约恩的战船"
+  },
+  "203127": {
+    "english_name": "Lake Guardian: Dawn Aspect",
+    "chinese_name": "湖之守卫：黎明"
+  },
+  "203141": {
+    "english_name": "Beauclair",
+    "chinese_name": "鲍克兰"
+  },
+  "203142": {
+    "english_name": "Guillaume de Launfal",
+    "chinese_name": "劳恩法尔的吉劳米"
+  },
+  "203143": {
+    "english_name": "Buhurt",
+    "chinese_name": "比武大赛"
+  },
+  "203144": {
+    "english_name": "Knight Challenger",
+    "chinese_name": "骑士挑战者"
+  },
+  "203145": {
+    "english_name": "Sove",
+    "chinese_name": "索佛"
+  },
+  "203146": {
+    "english_name": "Ulula",
+    "chinese_name": "乌鲁拉"
+  },
+  "203147": {
+    "english_name": "Feral Bond",
+    "chinese_name": "狂野搭档"
+  },
+  "203148": {
+    "english_name": "Brokvar Warrior",
+    "chinese_name": "布洛克瓦尔家族战士"
+  },
+  "203149": {
+    "english_name": "Aucwenn",
+    "chinese_name": "奥克温"
+  },
+  "203150": {
+    "english_name": "Frog Mating Season",
+    "chinese_name": "蛙群繁殖季"
+  },
+  "203151": {
+    "english_name": "Naiad Pondkeeper",
+    "chinese_name": "水精守池者"
+  },
+  "203152": {
+    "english_name": "Naiad Fledgling",
+    "chinese_name": "新生水精"
+  },
+  "203153": {
+    "english_name": "Frog",
+    "chinese_name": "青蛙"
+  },
+  "203154": {
+    "english_name": "Boholt",
+    "chinese_name": "布荷特"
+  },
+  "203155": {
+    "english_name": "Kennet and Gar",
+    "chinese_name": "肯尼特和伽尔"
+  },
+  "203156": {
+    "english_name": "Reaver Hunters",
+    "chinese_name": "袭击者猎人"
+  },
+  "203157": {
+    "english_name": "Reaver Scout",
+    "chinese_name": "袭击者斥候"
+  },
+  "203158": {
+    "english_name": "Tir ná Lia",
+    "chinese_name": "提尔纳丽雅"
+  },
+  "203159": {
+    "english_name": "Caranthir: Golden Child",
+    "chinese_name": "卡兰希尔：金童"
+  },
+  "203160": {
+    "english_name": "Aen Elle Aristocrat",
+    "chinese_name": "艾恩·艾尔贵族"
+  },
+  "203161": {
+    "english_name": "Aen Elle Slave Trader",
+    "chinese_name": "艾恩·艾尔奴隶商"
+  },
+  "203162": {
+    "english_name": "Sigi Reuven: Mastermind",
+    "chinese_name": "西吉·卢文：幕后主谋"
+  },
+  "203163": {
+    "english_name": "Bart",
+    "chinese_name": "巴特"
+  },
+  "203164": {
+    "english_name": "Little Bird",
+    "chinese_name": "小小鸟"
+  },
+  "203165": {
+    "english_name": "Pulling the Strings",
+    "chinese_name": "幕后操纵"
+  },
+  "203166": {
+    "english_name": "Yennefer: Illusionist",
+    "chinese_name": "叶奈法：幻术师"
+  },
+  "203167": {
+    "english_name": "Yennefer's Illusion",
+    "chinese_name": "叶奈法的幻象"
+  },
+  "203168": {
+    "english_name": "Triss: Meteor Shower",
+    "chinese_name": "特莉丝：流星雨"
+  },
+  "203169": {
+    "english_name": "Loc Feainn: Convergence",
+    "chinese_name": "圣日湖：融合"
+  },
+  "203170": {
+    "english_name": "Gudrun Bjornsdottir",
+    "chinese_name": "古德伦·约斯多蒂尔"
+  },
+  "203171": {
+    "english_name": "Eltibald",
+    "chinese_name": "埃提巴德"
+  },
+  "203172": {
+    "english_name": "Curse of Lust",
+    "chinese_name": "色欲之诅咒"
+  },
+  "203173": {
+    "english_name": "Curse of Gluttony",
+    "chinese_name": "暴食之诅咒"
+  },
+  "203174": {
+    "english_name": "Curse of Greed",
+    "chinese_name": "贪婪之诅咒"
+  },
+  "203175": {
+    "english_name": "Curse of Sloth",
+    "chinese_name": "怠惰之诅咒"
+  },
+  "203176": {
+    "english_name": "Curse of Envy",
+    "chinese_name": "嫉妒之诅咒"
+  },
+  "203177": {
+    "english_name": "Curse of Wrath",
+    "chinese_name": "愤怒之诅咒"
+  },
+  "203178": {
+    "english_name": "Curse of Pride",
+    "chinese_name": "傲慢之诅咒"
+  },
+  "203179": {
+    "english_name": "Blessing of Chastity",
+    "chinese_name": "贞洁之祝福"
+  },
+  "203180": {
+    "english_name": "Blessing of Temperance",
+    "chinese_name": "节制之祝福"
+  },
+  "203181": {
+    "english_name": "Blessing of Charity",
+    "chinese_name": "慷慨之祝福"
+  },
+  "203182": {
+    "english_name": "Blessing of Diligence",
+    "chinese_name": "勤勉之祝福"
+  },
+  "203183": {
+    "english_name": "Blessing of Kindness",
+    "chinese_name": "仁慈之祝福"
+  },
+  "203184": {
+    "english_name": "Blessing of Patience",
+    "chinese_name": "忍耐之祝福"
+  },
+  "203185": {
+    "english_name": "Blessing of Humility",
+    "chinese_name": "谦卑之祝福"
+  },
+  "203187": {
+    "english_name": "Skellige Wolves",
+    "chinese_name": "史凯利格野狼"
+  },
+  "203188": {
+    "english_name": "Ace up the Sleeve",
+    "chinese_name": "袖中王牌"
+  },
+  "203191": {
+    "english_name": "Ard Feainn",
+    "chinese_name": "日轮之师"
+  },
+  "203192": {
+    "english_name": "Torres var Emreis: Founder",
+    "chinese_name": "托雷斯·恩瑞斯：奠基者"
+  },
+  "203193": {
+    "english_name": "Svalblod",
+    "chinese_name": "斯瓦勃洛"
+  },
+  "203194": {
+    "english_name": "Tyr: Slayer of Yngvar",
+    "chinese_name": "提尔：英格瓦屠戮者"
+  },
+  "203195": {
+    "english_name": "Dana Méadbh: Provider",
+    "chinese_name": "达娜梅碧：馈赠者"
+  },
+  "203196": {
+    "english_name": "Quarixis",
+    "chinese_name": "夸里西斯"
+  },
+  "203197": {
+    "english_name": "Melitele",
+    "chinese_name": "梅里泰莉"
+  },
+  "203198": {
+    "english_name": "Temple of Melitele: Congregation",
+    "chinese_name": "梅里泰莉神庙：众祷"
+  },
+  "203199": {
+    "english_name": "Dagon: Promised",
+    "chinese_name": "达冈：应许者"
+  },
+  "203200": {
+    "english_name": "Lilit's Omen",
+    "chinese_name": "莉莉丝的预兆"
+  },
+  "203201": {
+    "english_name": "Saint Gregory: Justicar",
+    "chinese_name": "圣格列高里：审判官"
+  },
+  "203202": {
+    "english_name": "Count Reuven's Treasure",
+    "chinese_name": "卢文伯爵的宝藏"
+  },
+  "203203": {
+    "english_name": "Masterful Sihil",
+    "chinese_name": "大师级矮人符文剑"
+  },
+  "203204": {
+    "english_name": "Torres var Emreis: Highest Priest",
+    "chinese_name": "托雷斯·恩瑞斯：大祭司"
+  },
+  "203205": {
+    "english_name": "Tyr: Master of An Skellig",
+    "chinese_name": "提尔：小史凯利格岛之主"
+  },
+  "203206": {
+    "english_name": "Dana Méadbh: Caretaker",
+    "chinese_name": "达娜梅碧：抚育者"
+  },
+  "203207": {
+    "english_name": "Temple of Melitele: Pilgrimage",
+    "chinese_name": "梅里泰莉神庙：朝圣"
+  },
+  "203208": {
+    "english_name": "Dagon: Risen",
+    "chinese_name": "达冈：崛起者"
+  },
+  "203209": {
+    "english_name": "Saint Gregory: Martyr",
+    "chinese_name": "圣格列高里：殉教者"
+  },
+  "203210": {
+    "english_name": "Abduction",
+    "chinese_name": "绑架"
+  },
+  "203211": {
+    "english_name": "Sandor de Baccalà",
+    "chinese_name": "巴卡拉的桑铎"
+  },
+  "203212": {
+    "english_name": "Contaminator",
+    "chinese_name": "投污者"
+  },
+  "203213": {
+    "english_name": "Toxicologist",
+    "chinese_name": "毒理学家"
+  },
+  "203214": {
+    "english_name": "Kraken",
+    "chinese_name": "克拉肯"
+  },
+  "203215": {
+    "english_name": "Kelpie",
+    "chinese_name": "凯尔派"
+  },
+  "203216": {
+    "english_name": "Sea Serpent",
+    "chinese_name": "海巨蟒"
+  },
+  "203217": {
+    "english_name": "Anglerfish",
+    "chinese_name": "鮟鱇鱼"
+  },
+  "203218": {
+    "english_name": "Telianyn aep Collen",
+    "chinese_name": "特利安尼·科伦"
+  },
+  "203219": {
+    "english_name": "The Heist",
+    "chinese_name": "窃夺"
+  },
+  "203220": {
+    "english_name": "Backup Plan",
+    "chinese_name": "备用计划"
+  },
+  "203221": {
+    "english_name": "Trickster",
+    "chinese_name": "诈骗师"
+  },
+  "203222": {
+    "english_name": "Sigismund Dijkstra",
+    "chinese_name": "迪杰斯特拉"
+  },
+  "203223": {
+    "english_name": "Drakenborg",
+    "chinese_name": "卓肯波"
+  },
+  "203224": {
+    "english_name": "Redanian Secret Service",
+    "chinese_name": "瑞达尼亚情报处"
+  },
+  "203225": {
+    "english_name": "Redanian Agent",
+    "chinese_name": "瑞达尼亚密探"
+  },
+  "203226": {
+    "english_name": "Hive Mind",
+    "chinese_name": "虫群思维"
+  },
+  "203227": {
+    "english_name": "Acid Spit",
+    "chinese_name": "酸液喷射"
+  },
+  "203228": {
+    "english_name": "Kikimore Stalker",
+    "chinese_name": "齐齐摩追猎者"
+  },
+  "203229": {
+    "english_name": "Kikimore Hatchling",
+    "chinese_name": "齐齐摩幼虫"
+  },
+  "203230": {
+    "english_name": "Casimir Bassi",
+    "chinese_name": "卡西米尔·巴席"
+  },
+  "203231": {
+    "english_name": "Eveline Gallo",
+    "chinese_name": "爱佛琳·加罗"
+  },
+  "203232": {
+    "english_name": "Open, Sesame!",
+    "chinese_name": "芝麻开门"
+  },
+  "203233": {
+    "english_name": "Oxenfurt Guard",
+    "chinese_name": "牛堡守卫"
+  },
+  "203234": {
+    "english_name": "Call of the Depths",
+    "chinese_name": "深渊的呼唤"
+  },
+  "203237": {
+    "english_name": "Cargo",
+    "chinese_name": "货物"
+  },
+  "203238": {
+    "english_name": "Explosives",
+    "chinese_name": "爆炸物"
+  },
+  "203239": {
+    "english_name": "Baccalà",
+    "chinese_name": "巴卡拉"
+  },
+  "203240": {
+    "english_name": "Admiral Rompally",
+    "chinese_name": "海军上将隆帕力"
+  },
+  "203241": {
+    "english_name": "The Catriona",
+    "chinese_name": "卡特利欧纳号"
+  },
+  "203242": {
+    "english_name": "Battle Stations!",
+    "chinese_name": "集结站！"
+  },
+  "203243": {
+    "english_name": "Imperial Fleet",
+    "chinese_name": "帝国舰队"
+  },
+  "203244": {
+    "english_name": "Imperial Marine",
+    "chinese_name": "帝国海军士兵"
+  },
+  "203245": {
+    "english_name": "Hjalmar: Seawolf",
+    "chinese_name": "哈尔玛：海上恶狼"
+  },
+  "203246": {
+    "english_name": "Kaer Trolde",
+    "chinese_name": "凯尔卓"
+  },
+  "203247": {
+    "english_name": "Yustianna an Craite",
+    "chinese_name": "尤斯提雅那·奎特"
+  },
+  "203248": {
+    "english_name": "Naval Supremacy",
+    "chinese_name": "海军霸权"
+  },
+  "203249": {
+    "english_name": "Abordage",
+    "chinese_name": "登舰作战"
+  },
+  "203250": {
+    "english_name": "Funeral Boat",
+    "chinese_name": "船葬"
+  },
+  "203251": {
+    "english_name": "Angus Bri Cri",
+    "chinese_name": "安格斯·布里·克里"
+  },
+  "203252": {
+    "english_name": "Riordain",
+    "chinese_name": "李欧丹恩"
+  },
+  "203253": {
+    "english_name": "Deception",
+    "chinese_name": "欺骗"
+  },
+  "203254": {
+    "english_name": "Sticky Situation",
+    "chinese_name": "棘手困境"
+  },
+  "203255": {
+    "english_name": "Hostage Taker",
+    "chinese_name": "人质劫持者"
+  },
+  "203256": {
+    "english_name": "Trapmaker",
+    "chinese_name": "陷阱制造者"
+  },
+  "203257": {
+    "english_name": "Ravanen Kimbolt",
+    "chinese_name": "拉维南·金柏特"
+  },
+  "203258": {
+    "english_name": "King Demavend III",
+    "chinese_name": "德马维国王三世"
+  },
+  "203259": {
+    "english_name": "Bernard Loredo",
+    "chinese_name": "班纳德·罗列"
+  },
+  "203260": {
+    "english_name": "Flotsam",
+    "chinese_name": "浮港"
+  },
+  "203261": {
+    "english_name": "Ship Ballista",
+    "chinese_name": "舰载弩炮"
+  },
+  "203262": {
+    "english_name": "Onager",
+    "chinese_name": "投石车"
+  },
+  "203263": {
+    "english_name": "King Chrum",
+    "chinese_name": "克鲁姆国王"
+  },
+  "203264": {
+    "english_name": "Tugo the Elder",
+    "chinese_name": "长者图戈"
+  },
+  "203265": {
+    "english_name": "Lord Riptide",
+    "chinese_name": "裂流之主"
+  },
+  "203266": {
+    "english_name": "Girdle of Giant Strength",
+    "chinese_name": "巨人力量腰带"
+  },
+  "203267": {
+    "english_name": "Ogre Warrior",
+    "chinese_name": "食人魔战士"
+  },
+  "203268": {
+    "english_name": "Enraged Cyclops",
+    "chinese_name": "愤怒的独眼巨人"
+  },
+  "203269": {
+    "english_name": "The Acherontia",
+    "chinese_name": "鬼面天蛾号"
+  },
+  "203270": {
+    "english_name": "Captain Yago",
+    "chinese_name": "亚戈船长"
+  },
+  "203271": {
+    "english_name": "Ixora",
+    "chinese_name": "伊克索拉"
+  },
+  "203272": {
+    "english_name": "Mercenary Contract",
+    "chinese_name": "佣兵合约"
+  },
+  "203273": {
+    "english_name": "Magpie",
+    "chinese_name": "喜鹊"
+  },
+  "203274": {
+    "english_name": "Acherontia Deckhand",
+    "chinese_name": "鬼面天蛾号船工"
+  },
+  "203275": {
+    "english_name": "Henry var Attre",
+    "chinese_name": "亨利·凡·亚特里"
+  },
+  "203276": {
+    "english_name": "Rosa and Edna var Attre",
+    "chinese_name": "罗莎·亚特里和埃德娜·亚特里"
+  },
+  "203277": {
+    "english_name": "Otkell",
+    "chinese_name": "欧特克尔"
+  },
+  "203278": {
+    "english_name": "Heulyn",
+    "chinese_name": "海琳"
+  },
+  "203279": {
+    "english_name": "Mahakam Pass",
+    "chinese_name": "玛哈坎山口"
+  },
+  "203280": {
+    "english_name": "Eudora Breckenriggs",
+    "chinese_name": "尤多拉·布雷肯里奇斯"
+  },
+  "203281": {
+    "english_name": "Princess Adda",
+    "chinese_name": "雅妲公主"
+  },
+  "203282": {
+    "english_name": "Radovid: Judgment",
+    "chinese_name": "拉多维德：审判"
+  },
+  "203283": {
+    "english_name": "Lara Dorren",
+    "chinese_name": "劳拉·朵兰"
+  },
+  "203284": {
+    "english_name": "Vereena",
+    "chinese_name": "薇瑞娜"
+  },
+  "203285": {
+    "english_name": "Novigrad",
+    "chinese_name": "诺维格瑞"
+  },
+  "203286": {
+    "english_name": "Madam Marquise Serenity",
+    "chinese_name": "尊宁夫人"
+  }
+}

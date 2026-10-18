@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\GwentVision.ico</ApplicationIcon>
+    <AssemblyName>GwentVision</AssemblyName>
+    <InformationalVersion>0.4.0-zhCN</InformationalVersion>
+    <RootNamespace>GwentCompanion.App</RootNamespace>
+    <!-- Release packages pay a little more disk space to avoid first-use JIT work
+         while the WPF shell and card-library models are being created. -->
+    <PublishReadyToRun Condition="'$(Configuration)' == 'Release' and '$(RuntimeIdentifier)' != ''">true</PublishReadyToRun>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\zh-CN-*.json" />
+    <EmbeddedResource Include="Localization\community-archetypes.json" />
+    <Resource Include="Assets\GwentVision.ico" />
+    <Content Include="..\..\cache\data-service.json" Link="defaults\cache\data-service.json"
+             CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.4129.50" />
+    <ProjectReference Include="..\GwentCompanion.Core\GwentCompanion.Core.csproj" />
+    <ProjectReference Include="..\GwentCompanion.Platform.Windows\GwentCompanion.Platform.Windows.csproj" />
+  </ItemGroup>
+
+</Project>

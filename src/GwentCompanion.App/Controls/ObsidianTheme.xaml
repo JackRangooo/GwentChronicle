@@ -1,0 +1,68 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="CanvasBrush" Color="#0B1018"/>
+    <SolidColorBrush x:Key="ContentBrush" Color="#121A26"/>
+    <SolidColorBrush x:Key="RaisedBrush" Color="#192333"/>
+    <SolidColorBrush x:Key="SoftEdgeBrush" Color="#303D4D"/>
+    <SolidColorBrush x:Key="GoldBrush" Color="#D9BC7B"/>
+    <LinearGradientBrush x:Key="ShellMaterialBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#30333B" Offset="0"/><GradientStop Color="#1E2836" Offset=".28"/>
+        <GradientStop Color="#131C2A" Offset=".72"/><GradientStop Color="#202A37" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="ShellEdgeBrush" StartPoint="0,0" EndPoint=".5,1">
+        <GradientStop Color="#87D8CCAF" Offset="0"/><GradientStop Color="#363E4D5E" Offset=".25"/><GradientStop Color="#18374659" Offset=".8"/><GradientStop Color="#60434E5E" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="CanvasMaterialBrush" StartPoint="0,0" EndPoint="1,1">
+        <GradientStop Color="#27272C" Offset="0"/><GradientStop Color="#101722" Offset=".28"/><GradientStop Color="#0B1018" Offset="1"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="PrimaryFillBrush" StartPoint="0,0" EndPoint=".4,1">
+        <GradientStop Color="#EDDAAD" Offset="0"/><GradientStop Color="#D9BC7B" Offset=".5"/><GradientStop Color="#BFA169" Offset="1"/>
+    </LinearGradientBrush>
+    <Style x:Key="GlassSurface" TargetType="Border">
+        <Setter Property="Background" Value="{DynamicResource ShellMaterialBrush}"/><Setter Property="BorderBrush" Value="{DynamicResource ShellEdgeBrush}"/>
+        <Setter Property="BorderThickness" Value="1"/><Setter Property="CornerRadius" Value="14"/><Setter Property="Padding" Value="12"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+    <Style x:Key="ContentSurface" TargetType="Border">
+        <Setter Property="Background" Value="{DynamicResource ContentBrush}"/><Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="Padding" Value="14"/><Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+    <Style x:Key="ObsidianButton" TargetType="Button">
+        <Setter Property="Foreground" Value="#F2EFE6"/><Setter Property="Background" Value="{DynamicResource RaisedBrush}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource SoftEdgeBrush}"/><Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Padding" Value="12,7"/><Setter Property="Margin" Value="0,0,6,6"/><Setter Property="FontSize" Value="13"/>
+        <Setter Property="MinHeight" Value="32"/><Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="Button">
+            <Border x:Name="Surface" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="8" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="True">
+                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Surface" Property="BorderBrush" Value="#D9BC7B"/></Trigger>
+                <Trigger Property="IsPressed" Value="True"><Setter TargetName="Surface" Property="Opacity" Value=".72"/></Trigger>
+                <Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="Surface" Property="BorderBrush" Value="#F6DCA3"/><Setter TargetName="Surface" Property="BorderThickness" Value="2"/></Trigger>
+                <Trigger Property="IsEnabled" Value="False"><Setter TargetName="Surface" Property="Opacity" Value=".42"/></Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate></Setter.Value></Setter>
+    </Style>
+    <Style x:Key="PrimaryAction" TargetType="Button" BasedOn="{StaticResource ObsidianButton}">
+        <Setter Property="Background" Value="{DynamicResource PrimaryFillBrush}"/><Setter Property="Foreground" Value="#211B11"/>
+        <Setter Property="BorderBrush" Value="#E5C988"/><Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="MinHeight" Value="36"/>
+    </Style>
+    <Style x:Key="QuietAction" TargetType="Button" BasedOn="{StaticResource ObsidianButton}">
+        <Setter Property="Background" Value="Transparent"/><Setter Property="BorderBrush" Value="Transparent"/>
+    </Style>
+    <Style x:Key="DestinationChoice" TargetType="RadioButton">
+        <Setter Property="Foreground" Value="#B9BEC5"/><Setter Property="Padding" Value="12,10"/>
+        <Setter Property="Cursor" Value="Hand"/><Setter Property="MinHeight" Value="38"/>
+        <Setter Property="Template"><Setter.Value><ControlTemplate TargetType="RadioButton">
+            <Border x:Name="Surface" Background="Transparent" CornerRadius="8" Padding="{TemplateBinding Padding}" BorderBrush="Transparent" BorderThickness="1">
+                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsChecked" Value="True"><Setter TargetName="Surface" Property="Background" Value="#34332E"/><Setter TargetName="Surface" Property="BorderBrush" Value="#665B42"/><Setter Property="Foreground" Value="#EDD6A2"/></Trigger>
+                <Trigger Property="IsMouseOver" Value="True"><Setter TargetName="Surface" Property="Background" Value="#263244"/></Trigger>
+                <Trigger Property="IsKeyboardFocused" Value="True"><Setter TargetName="Surface" Property="BorderBrush" Value="#D9BC7B"/></Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate></Setter.Value></Setter>
+    </Style>
+</ResourceDictionary>

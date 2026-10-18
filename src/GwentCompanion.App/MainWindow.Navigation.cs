@@ -1,0 +1,85 @@
+using System.Windows;
+using System.Windows.Automation;
+using System.Windows.Controls;
+using System.Windows.Media;
+using GwentCompanion.Core.Domain;
+
+namespace GwentCompanion.App;
+
+public partial class MainWindow
+{
+    private enum UiPage { Plays, Deck, Candidates, Library, Pinned, Settings, Memory }
+    private UiPage _page = UiPage.Deck;
+    private UiPage _lastGameplayPage = UiPage.Deck;
+    private bool _changingNavigation;
+    private string? _selectedRule;
+    private void ShowPage(UiPage page)
+    {
+        if (page != UiPage.Library) CancelLibraryPreview();
+        _page = page;
+
+        if (page == UiPage.Library) RefreshLibraryPreview();
+        var isLive = page is UiPage.Plays or UiPage.Deck or UiPage.Candidates or UiPage.Pinned;
+        if (isLive) _lastGameplayPage = page;
+        foreach (var child in Pages.Children.OfType<FrameworkElement>()) child.Visibility = child.Name == page + "Page" ? Visibility.Visible : Visibility.Collapsed;
+        _changingNavigation = true;
+        LibraryNavigation.IsChecked = page == UiPage.Library;
+        LiveMainNavigation.IsChecked=isLive;
+        SideLiveNavigation.IsChecked=isLive;SideLibraryNavigation.IsChecked=page==UiPage.Library;
+        foreach (var button in LiveModeBar.Children.OfType<RadioButton>()) button.IsChecked = (string)button.Tag == page.ToString();
+        _changingNavigation = false;
+        PageBackBar.Visibility = isLive ? Visibility.Collapsed : Visibility.Visible;
+        PlayerDeckBanner.Visibility = isLive ? Visibility.Visible : Visibility.Collapsed;
+        AuxiliaryPageTitle.Text = page.ToString();
+        if (page == UiPage.Pinned) RefreshPinnedCaptures();
+        UpdateSelectedUserDeckDisplay();
+        RefreshHoverBanner();
+        UpdateWorkspaceLayout();
+        if (page != UiPage.Library && _libraryReady && IsLoaded) BeginVisionWarmup();
+    }
+    private void Navigate_OnClick(object sender, RoutedEventArgs e)
+    {
+        if (_changingNavigation) return;
+        if (sender is FrameworkElement { Tag: string name } && Enum.TryParse<UiPage>(name, out var page)) ShowPage(page);
+    }
+    private void BackToGame_OnClick(object sender, RoutedEventArgs e) => ShowPage(_lastGameplayPage);
+    private void SetAnalysisButtonState(bool running)
+    {
+        AnalysisIcon.Data = Geometry.Parse(running ? "M 1,1 L 15,1 L 15,15 L 1,15 Z" : "M 2,1 L 14,8 L 2,15 Z");
+        AnalysisIcon.Fill = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#211B11"));
+        if(AnalysisButtonLabel is not null)AnalysisButtonLabel.Text=running?"停止识别":"开始识别";
+        var label = running ? "Stop tracking" : "Start tracking";
+        AutomationProperties.SetName(DiagnosticButton, label);
+        DiagnosticButton.ToolTip = label + " (records diagnostics)";
+    }
+    private void RenderDeckRuleBadges()
+    {
+        if (DeckConstraintBadges is null) return;
+        var rules = _opponentKnowledge.Assess(EffectiveOpponentDeckEvidence());
+        var entries = new[] { ("Devotion", rules.Devotion), ("Musicians", rules.Musicians!),
+            ("Nekker", rules.GoldenNekker), ("Renfri", _lastProjection?.Renfri ?? rules.Renfri), ("Shupe", rules.Shupe) };
+        DeckConstraintBadges.Children.Clear();
+        foreach (var (name, rule) in entries)
+        {
+            var (color, state) = rule.State switch
+            {
+                ConstraintState.Confirmed => ("#85D7B1", "confirmed"),
+                ConstraintState.RuledOut => ("#FF9990", "ruled out"),
+                ConstraintState.Likely => ("#85D7B1", "likely, not confirmed"),
+                ConstraintState.Possible => ("#C2CBC5", "still possible"),
+                _ => ("#C2CBC5", "unknown / review evidence")
+            };
+            var pairHint = name == "Shupe" && rule.State == ConstraintState.Possible ? _lastProjection?.SingletonPairHypothesis : null;
+            if (pairHint is not null) { color = "#FF9990"; state = "unlikely, inferred pair"; }
+            if (name == "Renfri" && rule.State == ConstraintState.RuledOut && rules.Renfri.State != ConstraintState.RuledOut)
+                state = "excluded from current working projection";
+            var detail = pairHint ?? name + ": " + state + ". " + rule.Reason;
+            var button = new Button { Content = new TextBlock { Text = name, Foreground = new SolidColorBrush((Color)ColorConverter.ConvertFromString(color)), FontSize = 10 },
+                Padding = new Thickness(5, 3, 5, 3), Margin = new Thickness(0, 0, 4, 4) };
+            AutomationProperties.SetName(button, name + ": " + state); AutomationProperties.SetHelpText(button, detail);
+            button.Click += (_, _) => { _selectedRule = _selectedRule == name ? null : name; DeckRuleDetailText.Text = detail; DeckRuleDetailText.Visibility = _selectedRule is null ? Visibility.Collapsed : Visibility.Visible; };
+            DeckConstraintBadges.Children.Add(button);
+            if (_selectedRule == name) DeckRuleDetailText.Text = detail;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+name: Release Gwent Chronicle
+on:
+  push:
+    tags: ['v*.*.*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: windows-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Verify tag, build and test clean Windows package
+        shell: pwsh
+        run: ./tools/Build-WindowsRelease.ps1
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: Gwent Chronicle ${{ github.ref_name }}
+          body_path: CHANGELOG.md
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: |
+            dist/GwentChronicle-Windows-x64.zip
+            dist/GwentChronicle-Windows-x64.zip.sha256

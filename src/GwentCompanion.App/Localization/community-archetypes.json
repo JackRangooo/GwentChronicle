@@ -1,0 +1,2390 @@
+{
+  "schemaVersion": 1,
+  "researchAsOf": "2026-10-14",
+  "purpose": "中文社区卡组命名候选及可核对的匹配提示，不提供当前版本强度判断",
+  "factionValues": [
+    "Monsters",
+    "Nilfgaard",
+    "Northern Realms",
+    "Scoia'tael",
+    "Skellige",
+    "Syndicate"
+  ],
+  "provenanceNotes": [
+    "中文流派名称有直接中文社区标题或正文检索证据。神庙围攻是用户给定且卡牌组合验证的例外，未找到精确词的独立社区用例。",
+    "B站直接抓取412、营地部分打开超时，来源证据主要来自网络搜索索引；未声称看过视频。",
+    "date=null表示未核对精确发布日期。合集当前视频的日期不能当作各分集日期。",
+    "卡牌ID、英文名和中文名逐项与本地缓存及本地中文映射核对。匹配领袖/卡牌是工程建议，部分为惯常玩法推断，不能当作完整竞技牌表。",
+    "发现3DM一篇标2025的霜怪攻略其实包含回归初心前金银铜和艾瑞汀领袖机制，已排除。未使用研究日期后的资料。"
+  ],
+  "catalogPaths": [
+    "source/cache/gwent-one-cards.json",
+    "source/src/GwentCompanion.Core/Localization/zh-CN-card-names.json"
+  ],
+  "archetypes": [
+    {
+      "id": "community-v5-1",
+      "name": "围攻北",
+      "faction": "Northern Realms",
+      "aliases": [
+        "围攻"
+      ],
+      "leaderIds": [
+        "202148"
+      ],
+      "leaderNames": [
+        "Stockpile",
+        "军需储备"
+      ],
+      "keyCardIds": [
+        "202504",
+        "203098"
+      ],
+      "keyCardNames": [
+        "Siege",
+        "围攻",
+        "King Henselt",
+        "亨赛特国王"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1EmcBzZEgn/",
+          "title": "【昆特牌】指导CN天梯第一：牛屎全胜珍贵录像流出",
+          "date": "2026-03-12",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集分集可检索：围攻北、跳松、矮人、鸟帝、存五、帮派、船长大奖、呓语。当前视频日期不等于所有合集分集日期。"
+        }
+      ],
+      "description": "以围攻剧情与攻城机械为主要组件。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202504",
+          "englishName": "Siege",
+          "chineseName": "围攻"
+        },
+        {
+          "id": "203098",
+          "englishName": "King Henselt",
+          "chineseName": "亨赛特国王"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-2",
+      "name": "神庙围攻",
+      "faction": "Northern Realms",
+      "aliases": [],
+      "leaderIds": [
+        "202148"
+      ],
+      "leaderNames": [
+        "Stockpile",
+        "军需储备"
+      ],
+      "keyCardIds": [
+        "203198",
+        "202504"
+      ],
+      "keyCardNames": [
+        "Temple of Melitele: Congregation",
+        "梅里泰莉神庙：众祷",
+        "Siege",
+        "围攻"
+      ],
+      "sources": [
+        {
+          "url": "https://www.playgwent.com/zh-cn/decks/4751f40c4be25656744012bb25fe79c6",
+          "title": "公开牌表：军需储备、梅里泰莉神庙：众祷、围攻",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "验证神庙和围攻共存及军需储备领袖，不证明“神庙围攻”精确词的社区普及程度。"
+        }
+      ],
+      "description": "神庙与围攻并用的北方牌组；用户给定复合名。",
+      "nameEvidence": "user_provided_composite",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203198",
+          "englishName": "Temple of Melitele: Congregation",
+          "chineseName": "梅里泰莉神庙：众祷"
+        },
+        {
+          "id": "202504",
+          "englishName": "Siege",
+          "chineseName": "围攻"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203198",
+          "202504"
+        ],
+        "minimumTacticCount": null,
+        "requiresNoNeutral": false,
+        "note": "必须同时出现神庙众祷与围攻。神庙朝圣为生成牌，不能替代起始牌组中的众祷。"
+      }
+    },
+    {
+      "id": "community-v5-3",
+      "name": "女神北",
+      "faction": "Northern Realms",
+      "aliases": [],
+      "leaderIds": [
+        "202187"
+      ],
+      "leaderNames": [
+        "Pincer Maneuver",
+        "四面夹击"
+      ],
+      "keyCardIds": [
+        "203197",
+        "203117",
+        "202918"
+      ],
+      "keyCardNames": [
+        "Melitele",
+        "梅里泰莉",
+        "Traveling Priestess",
+        "旅行女祭司",
+        "Istredd",
+        "伊斯崔德"
+      ],
+      "sources": [
+        {
+          "url": "https://www.playgwent.com/zh-cn/decks/guides/382774",
+          "title": "11.7 女神北 小强还有趣 — 道士Daoshi",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "中文玩家攻略明示四面夹击，核心伊斯崔德、梅里泰莉、女祭司、猎魔人导师。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        }
+      ],
+      "description": "围绕梅里泰莉、旅行女祭司与反复调度的北方牌组。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203197",
+          "englishName": "Melitele",
+          "chineseName": "梅里泰莉"
+        },
+        {
+          "id": "203117",
+          "englishName": "Traveling Priestess",
+          "chineseName": "旅行女祭司"
+        },
+        {
+          "id": "202918",
+          "englishName": "Istredd",
+          "chineseName": "伊斯崔德"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203197"
+        ],
+        "note": "至少含梅里泰莉；只有旅行女祭司的传统调度北不要直接称女神北。"
+      }
+    },
+    {
+      "id": "community-v5-4",
+      "name": "骑士北",
+      "faction": "Northern Realms",
+      "aliases": [],
+      "leaderIds": [
+        "202116"
+      ],
+      "leaderNames": [
+        "Royal Inspiration",
+        "皇家激励"
+      ],
+      "keyCardIds": [
+        "203075",
+        "203078"
+      ],
+      "keyCardNames": [
+        "Damsel in Distress",
+        "落难的少女",
+        "Knight-Errant",
+        "游侠骑士"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        }
+      ],
+      "description": "以骑士、神赐和落难的少女剧情为主要组件。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203075",
+          "englishName": "Damsel in Distress",
+          "chineseName": "落难的少女"
+        },
+        {
+          "id": "203078",
+          "englishName": "Knight-Errant",
+          "chineseName": "游侠骑士"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-5",
+      "name": "猎龙北",
+      "faction": "Northern Realms",
+      "aliases": [],
+      "leaderIds": [
+        "200170"
+      ],
+      "leaderNames": [
+        "Mobilization",
+        "战场动员"
+      ],
+      "keyCardIds": [
+        "203156",
+        "203157"
+      ],
+      "keyCardNames": [
+        "Reaver Hunters",
+        "袭击者猎人",
+        "Reaver Scout",
+        "袭击者斥候"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5246809",
+          "title": "【昆特攻略】速上职天猎龙北",
+          "date": "2023-01-29",
+          "evidenceAccess": "search_index",
+          "note": "正文直接说明袭击者猎人展开与复制。"
+        }
+      ],
+      "description": "围绕袭击者猎人复制和展开的北方牌组。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203156",
+          "englishName": "Reaver Hunters",
+          "chineseName": "袭击者猎人"
+        },
+        {
+          "id": "203157",
+          "englishName": "Reaver Scout",
+          "chineseName": "袭击者斥候"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-6",
+      "name": "抽象北",
+      "faction": "Northern Realms",
+      "aliases": [
+        "神庙存点店北"
+      ],
+      "leaderIds": [
+        "202187"
+      ],
+      "leaderNames": [
+        "Pincer Maneuver",
+        "四面夹击"
+      ],
+      "keyCardIds": [
+        "203198",
+        "202821",
+        "203116"
+      ],
+      "keyCardNames": [
+        "Temple of Melitele: Congregation",
+        "梅里泰莉神庙：众祷",
+        "Erland of Larvik",
+        "拉尔维克的埃兰",
+        "Mutagenerator",
+        "突变装置"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5246100",
+          "title": "【昆特攻略】塞爆气大师：职天2520神庙存点店北",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "正文明确神庙存点店北被戏称为抽象北，埃兰/突变装置是存点组合。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1yi4y1v79v",
+          "title": "【昆特牌】世界大师赛：八进四精彩对局集锦",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "分集直接写“猫汉堡：蟹蜘蛛VS自残熊神”“Bukouski：炼金岛VS抽象北”。"
+        }
+      ],
+      "description": "神庙存点店店北的社区戏称；埃兰和突变装置是重要提示。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203198",
+          "englishName": "Temple of Melitele: Congregation",
+          "chineseName": "梅里泰莉神庙：众祷"
+        },
+        {
+          "id": "202821",
+          "englishName": "Erland of Larvik",
+          "chineseName": "拉尔维克的埃兰"
+        },
+        {
+          "id": "203116",
+          "englishName": "Mutagenerator",
+          "chineseName": "突变装置"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-7",
+      "name": "存五",
+      "faction": "Northern Realms",
+      "aliases": [
+        "蓝梦存五"
+      ],
+      "leaderIds": [
+        "200168"
+      ],
+      "leaderNames": [
+        "Inspired Zeal",
+        "灼心狂热"
+      ],
+      "keyCardIds": [
+        "203091",
+        "203116"
+      ],
+      "keyCardNames": [
+        "King Radovid V",
+        "拉多维德五世",
+        "Mutagenerator",
+        "突变装置"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5290826",
+          "title": "【昆特攻略】北方版本答案：出分2534蓝梦存五详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "来源只支持名称与存点体系，不沿用文中版本答案或分数强度。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1EmcBzZEgn/",
+          "title": "【昆特牌】指导CN天梯第一：牛屎全胜珍贵录像流出",
+          "date": "2026-03-12",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集分集可检索：围攻北、跳松、矮人、鸟帝、存五、帮派、船长大奖、呓语。当前视频日期不等于所有合集分集日期。"
+        }
+      ],
+      "description": "含拉多维德五世和突变装置的存点北方体系；蓝梦是特定构筑前缀。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203091",
+          "englishName": "King Radovid V",
+          "chineseName": "拉多维德五世"
+        },
+        {
+          "id": "203116",
+          "englishName": "Mutagenerator",
+          "chineseName": "突变装置"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-8",
+      "name": "呓语",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "呓语帝国"
+      ],
+      "leaderIds": [
+        "202573",
+        "202186"
+      ],
+      "leaderNames": [
+        "Imposter",
+        "偷梁换柱",
+        "Double Cross",
+        "怀柔兼济"
+      ],
+      "keyCardIds": [
+        "203063",
+        "203065",
+        "203066"
+      ],
+      "keyCardNames": [
+        "The Eternal Eclipse",
+        "永夜之蚀",
+        "Eternal Eclipse Deacon",
+        "永夜之蚀助祭",
+        "Eternal Eclipse Initiate",
+        "永夜之蚀教徒"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nzptehECg/",
+          "title": "【巫师之昆特牌】新呓语 点数之王 卡组分析和实战攻略",
+          "date": "2024-09-08",
+          "evidenceAccess": "search_index",
+          "note": "标题明示偷梁换柱、永夜之蚀、教徒、助祭；正文有2025-06-30牌表更新，发布日期保留2024-09-08。"
+        }
+      ],
+      "description": "以永夜之蚀剧情与呓语灌注为核心；同系存在多种领袖。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203063",
+          "englishName": "The Eternal Eclipse",
+          "chineseName": "永夜之蚀"
+        },
+        {
+          "id": "203065",
+          "englishName": "Eternal Eclipse Deacon",
+          "chineseName": "永夜之蚀助祭"
+        },
+        {
+          "id": "203066",
+          "englishName": "Eternal Eclipse Initiate",
+          "chineseName": "永夜之蚀教徒"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-9",
+      "name": "抓六",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "抓6"
+      ],
+      "leaderIds": [
+        "202118"
+      ],
+      "leaderNames": [
+        "Enslave",
+        "奴役蛮夷"
+      ],
+      "keyCardIds": [
+        "162106",
+        "203092"
+      ],
+      "keyCardNames": [
+        "Stefan Skellen",
+        "史提芬·史凯伦",
+        "Jan Calveit",
+        "约翰·卡尔维特"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5246937",
+          "title": "【昆特攻略】孽鬼保护协会：抓六完全详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "专门的中文抓六攻略；当前卡牌触发数另以本地catalog核对。"
+        },
+        {
+          "url": "https://www.iyingdi.com/tz/post/5252949",
+          "title": "【昆特牌】十强高手上分推荐：锐评环境&改动展望",
+          "date": "2023-03-04",
+          "evidenceAccess": "search_index",
+          "note": "正文明确孽鬼岛、自残岛、女神北、骑士北、鸟帝、呓语、抓6。"
+        }
+      ],
+      "description": "奴役蛮夷领袖达到六点的战术帝国；建议同时检查牌组战术数量。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "162106",
+          "englishName": "Stefan Skellen",
+          "chineseName": "史提芬·史凯伦"
+        },
+        {
+          "id": "203092",
+          "englishName": "Jan Calveit",
+          "chineseName": "约翰·卡尔维特"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredLeaderIds": [
+          "202118"
+        ],
+        "minimumTacticCount": 12,
+        "note": "本地缓存领袖为抓3，每4张战术加1；达到抓6需至少12张战术。"
+      }
+    },
+    {
+      "id": "community-v5-10",
+      "name": "同化",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "同化帝国"
+      ],
+      "leaderIds": [
+        "202186",
+        "200162",
+        "202118"
+      ],
+      "leaderNames": [
+        "Double Cross",
+        "怀柔兼济",
+        "Imprisonment",
+        "牢狱之灾",
+        "Enslave",
+        "奴役蛮夷"
+      ],
+      "keyCardIds": [
+        "202943",
+        "202248"
+      ],
+      "keyCardNames": [
+        "Artaud Terranova",
+        "阿尔托·特拉诺瓦",
+        "Duchess' Informant",
+        "女爵的告密者"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fx421y7HY/",
+          "title": "【巫师之昆特牌】暖春循环part1 21套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题明确列出阿尔祖相关法术体系、共生、小叶子、下雨岛、征战岛、潜伏帝国、超级呓语、同化、状态、残物、霜怪、坚韧北、法师北；搜索相对日期约2024年，不换算精确发布日期。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1dh411w7za/",
+          "title": "【巫师昆特牌】盛夏循环v1 13套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题及中文说明直接使用毒奶帝、同化、自残岛、孽鬼盾北、吸血红龙等名称。"
+        }
+      ],
+      "description": "围绕同化引擎及生成、复制对手牌组单位。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202943",
+          "englishName": "Artaud Terranova",
+          "chineseName": "阿尔托·特拉诺瓦"
+        },
+        {
+          "id": "202248",
+          "englishName": "Duchess' Informant",
+          "chineseName": "女爵的告密者"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-11",
+      "name": "状态帝国",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "状态"
+      ],
+      "leaderIds": [
+        "200162"
+      ],
+      "leaderNames": [
+        "Imprisonment",
+        "牢狱之灾"
+      ],
+      "keyCardIds": [
+        "202551",
+        "202545"
+      ],
+      "keyCardNames": [
+        "Thirsty Dame",
+        "口渴的夫人",
+        "Philippe van Moorlehem",
+        "菲利普·凡·莫拉汉姆"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mRvdBdECi/",
+          "title": "血拼2607，冲破环境枷锁！善良无毒状态/赤诚潜伏帝国百场对局精选【25年12月赛季/巫师之昆特牌】",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题支持状态帝国；正文说明口渴夫人/菲利普及双剧情铺场精灵、赤诚共生。赛季标注2025-12，精确上传日期未知。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "以口渴的夫人、菲利普及状态互动为主要提示。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202551",
+          "englishName": "Thirsty Dame",
+          "chineseName": "口渴的夫人"
+        },
+        {
+          "id": "202545",
+          "englishName": "Philippe van Moorlehem",
+          "chineseName": "菲利普·凡·莫拉汉姆"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-12",
+      "name": "毒奶帝",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "毒奶"
+      ],
+      "leaderIds": [
+        "201580"
+      ],
+      "leaderNames": [
+        "Toussaintois Hospitality",
+        "陶森特式好客"
+      ],
+      "keyCardIds": [
+        "202202",
+        "162318"
+      ],
+      "keyCardNames": [
+        "Sangreal",
+        "桑格烈",
+        "Nilfgaardian Knight",
+        "尼弗迦德骑士"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1dh411w7za/",
+          "title": "【巫师昆特牌】盛夏循环v1 13套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题及中文说明直接使用毒奶帝、同化、自残岛、孽鬼盾北、吸血红龙等名称。"
+        }
+      ],
+      "description": "陶森特式好客与给敌方增益后去除的体系；不是泛指中毒帝国。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202202",
+          "englishName": "Sangreal",
+          "chineseName": "桑格烈"
+        },
+        {
+          "id": "162318",
+          "englishName": "Nilfgaardian Knight",
+          "chineseName": "尼弗迦德骑士"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-13",
+      "name": "士兵帝国",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "士兵"
+      ],
+      "leaderIds": [
+        "200163"
+      ],
+      "leaderNames": [
+        "Imperial Formation",
+        "帝国列阵"
+      ],
+      "keyCardIds": [
+        "202446",
+        "203244"
+      ],
+      "keyCardNames": [
+        "Ramon Tyrconnel",
+        "拉蒙·蒂尔康奈尔",
+        "Imperial Marine",
+        "帝国海军士兵"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nw411M7BF/",
+          "title": "【巫师昆特牌】金秋循环part2 12套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题直接列小叶子、超级呓语、囤积、成长怪、士兵帝国、骑士北、炼金岛、水手岛、巨龙围攻。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "以士兵单位和复制、列阵联动为主；士兵构筑差异较大。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202446",
+          "englishName": "Ramon Tyrconnel",
+          "chineseName": "拉蒙·蒂尔康奈尔"
+        },
+        {
+          "id": "203244",
+          "englishName": "Imperial Marine",
+          "chineseName": "帝国海军士兵"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-14",
+      "name": "鸟帝",
+      "faction": "Nilfgaard",
+      "aliases": [
+        "列阵鸟",
+        "列阵鸟帝"
+      ],
+      "leaderIds": [
+        "200163"
+      ],
+      "leaderNames": [
+        "Imperial Formation",
+        "帝国列阵"
+      ],
+      "keyCardIds": [
+        "203088",
+        "202446"
+      ],
+      "keyCardNames": [
+        "Renfri",
+        "伦芙芮",
+        "Ramon Tyrconnel",
+        "拉蒙·蒂尔康奈尔"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5243328",
+          "title": "【昆特牌】D神：夺冠列阵鸟完全讲解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "正文直接称列阵鸟帝，中文玩家独立攻略。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1EmcBzZEgn/",
+          "title": "【昆特牌】指导CN天梯第一：牛屎全胜珍贵录像流出",
+          "date": "2026-03-12",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集分集可检索：围攻北、跳松、矮人、鸟帝、存五、帮派、船长大奖、呓语。当前视频日期不等于所有合集分集日期。"
+        }
+      ],
+      "description": "带伦芙芮的帝国单位构筑；列阵鸟是其中具体形态。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203088",
+          "englishName": "Renfri",
+          "chineseName": "伦芙芮"
+        },
+        {
+          "id": "202446",
+          "englishName": "Ramon Tyrconnel",
+          "chineseName": "拉蒙·蒂尔康奈尔"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203088"
+        ],
+        "note": "鸟是伦芙芮；领袖列阵仅是列阵鸟形态提示。"
+      }
+    },
+    {
+      "id": "community-v5-15",
+      "name": "赤诚共生",
+      "faction": "Scoia'tael",
+      "aliases": [],
+      "leaderIds": [
+        "200165"
+      ],
+      "leaderNames": [
+        "Nature's Gift",
+        "自然馈赠"
+      ],
+      "keyCardIds": [
+        "202670",
+        "202678",
+        "202673"
+      ],
+      "keyCardNames": [
+        "Eithné: Young Queen",
+        "新王艾思娜",
+        "Hamadryad",
+        "林中之女",
+        "Forest Protector",
+        "森林保护者"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        }
+      ],
+      "description": "自然馈赠、共生引擎及艾思娜体系；需无中立牌才适用赤诚前缀。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202670",
+          "englishName": "Eithné: Young Queen",
+          "chineseName": "新王艾思娜"
+        },
+        {
+          "id": "202678",
+          "englishName": "Hamadryad",
+          "chineseName": "林中之女"
+        },
+        {
+          "id": "202673",
+          "englishName": "Forest Protector",
+          "chineseName": "森林保护者"
+        }
+      ],
+      "eligibilityHints": {
+        "requiresNoNeutral": true,
+        "note": "需要无中立牌，再依据自然馈赠和共生引擎提示。"
+      }
+    },
+    {
+      "id": "community-v5-16",
+      "name": "小叶子",
+      "faction": "Scoia'tael",
+      "aliases": [
+        "共生",
+        "叶子"
+      ],
+      "leaderIds": [
+        "200165"
+      ],
+      "leaderNames": [
+        "Nature's Gift",
+        "自然馈赠"
+      ],
+      "keyCardIds": [
+        "202678",
+        "202673"
+      ],
+      "keyCardNames": [
+        "Hamadryad",
+        "林中之女",
+        "Forest Protector",
+        "森林保护者"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nw411M7BF/",
+          "title": "【巫师昆特牌】金秋循环part2 12套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题直接列小叶子、超级呓语、囤积、成长怪、士兵帝国、骑士北、炼金岛、水手岛、巨龙围攻。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1fx421y7HY/",
+          "title": "【巫师之昆特牌】暖春循环part1 21套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题明确列出阿尔祖相关法术体系、共生、小叶子、下雨岛、征战岛、潜伏帝国、超级呓语、同化、状态、残物、霜怪、坚韧北、法师北；搜索相对日期约2024年，不换算精确发布日期。"
+        }
+      ],
+      "description": "自然馈赠领袖共生体系的社区简称；未限定赤诚。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202678",
+          "englishName": "Hamadryad",
+          "chineseName": "林中之女"
+        },
+        {
+          "id": "202673",
+          "englishName": "Forest Protector",
+          "chineseName": "森林保护者"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-17",
+      "name": "阿尔祖法松",
+      "faction": "Scoia'tael",
+      "aliases": [
+        "法松"
+      ],
+      "leaderIds": [
+        "200166"
+      ],
+      "leaderNames": [
+        "Precision Strike",
+        "精准之击"
+      ],
+      "keyCardIds": [
+        "202776",
+        "202987",
+        "202383"
+      ],
+      "keyCardNames": [
+        "Alzur",
+        "阿尔祖",
+        "Orb of Insight ",
+        "洞察宝珠",
+        "Harald Gord",
+        "哈罗德·戈多"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5175058",
+          "title": "【昆特牌环境报】10.2中国高玩梯位攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "正文明确阿尔祖法松；不沿用旧版卡组强度。"
+        }
+      ],
+      "description": "阿尔祖、洞察宝珠等法术组件的松鼠构筑；法松也有其他形态。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202776",
+          "englishName": "Alzur",
+          "chineseName": "阿尔祖"
+        },
+        {
+          "id": "202987",
+          "englishName": "Orb of Insight ",
+          "chineseName": "洞察宝珠"
+        },
+        {
+          "id": "202383",
+          "englishName": "Harald Gord",
+          "chineseName": "哈罗德·戈多"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-18",
+      "name": "跳松",
+      "faction": "Scoia'tael",
+      "aliases": [],
+      "leaderIds": [
+        "200167"
+      ],
+      "leaderNames": [
+        "Guerilla Tactics",
+        "游击战术"
+      ],
+      "keyCardIds": [
+        "202801",
+        "203090"
+      ],
+      "keyCardNames": [
+        "Gezras of Leyda",
+        "雷达的吉兹拉斯",
+        "Saskia: Commander",
+        "萨琪亚：指挥官"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1EmcBzZEgn/",
+          "title": "【昆特牌】指导CN天梯第一：牛屎全胜珍贵录像流出",
+          "date": "2026-03-12",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集分集可检索：围攻北、跳松、矮人、鸟帝、存五、帮派、船长大奖、呓语。当前视频日期不等于所有合集分集日期。"
+        }
+      ],
+      "description": "以位移和每回合跳排引擎为重点的松鼠体系。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202801",
+          "englishName": "Gezras of Leyda",
+          "chineseName": "雷达的吉兹拉斯"
+        },
+        {
+          "id": "203090",
+          "englishName": "Saskia: Commander",
+          "chineseName": "萨琪亚：指挥官"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-19",
+      "name": "和谐",
+      "faction": "Scoia'tael",
+      "aliases": [
+        "和谐松"
+      ],
+      "leaderIds": [
+        "202188"
+      ],
+      "leaderNames": [
+        "Call of Harmony",
+        "和谐之唤"
+      ],
+      "keyCardIds": [
+        "202266",
+        "203195"
+      ],
+      "keyCardNames": [
+        "Water of Brokilon",
+        "布洛克莱昂之水",
+        "Dana Méadbh: Provider",
+        "达娜梅碧：馈赠者"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        }
+      ],
+      "description": "多类别单位配合和谐引擎；布洛克莱昂之水、达娜是提示。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202266",
+          "englishName": "Water of Brokilon",
+          "chineseName": "布洛克莱昂之水"
+        },
+        {
+          "id": "203195",
+          "englishName": "Dana Méadbh: Provider",
+          "chineseName": "达娜梅碧：馈赠者"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-20",
+      "name": "矮人",
+      "faction": "Scoia'tael",
+      "aliases": [
+        "矮人松"
+      ],
+      "leaderIds": [
+        "202575",
+        "200166"
+      ],
+      "leaderNames": [
+        "Mahakam Forge",
+        "百炼精刚",
+        "Precision Strike",
+        "精准之击"
+      ],
+      "keyCardIds": [
+        "202884",
+        "202467"
+      ],
+      "keyCardNames": [
+        "Brouver Hoog",
+        "布罗瓦尔·霍格",
+        "Zoltan: Warrior",
+        "卓尔坦：矮人战士"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1EmcBzZEgn/",
+          "title": "【昆特牌】指导CN天梯第一：牛屎全胜珍贵录像流出",
+          "date": "2026-03-12",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集分集可检索：围攻北、跳松、矮人、鸟帝、存五、帮派、船长大奖、呓语。当前视频日期不等于所有合集分集日期。"
+        }
+      ],
+      "description": "以矮人单位联动为主；铺场和精准控制构筑都存在。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202884",
+          "englishName": "Brouver Hoog",
+          "chineseName": "布罗瓦尔·霍格"
+        },
+        {
+          "id": "202467",
+          "englishName": "Zoltan: Warrior",
+          "chineseName": "卓尔坦：矮人战士"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-21",
+      "name": "铺场精灵",
+      "faction": "Scoia'tael",
+      "aliases": [],
+      "leaderIds": [
+        "202115"
+      ],
+      "leaderNames": [
+        "Deadeye Ambush",
+        "十面埋伏"
+      ],
+      "keyCardIds": [
+        "202536",
+        "203251"
+      ],
+      "keyCardNames": [
+        "Feign Death",
+        "假死",
+        "Angus Bri Cri",
+        "安格斯·布里·克里"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mRvdBdECi/",
+          "title": "血拼2607，冲破环境枷锁！善良无毒状态/赤诚潜伏帝国百场对局精选【25年12月赛季/巫师之昆特牌】",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题支持状态帝国；正文说明口渴夫人/菲利普及双剧情铺场精灵、赤诚共生。赛季标注2025-12，精确上传日期未知。"
+        }
+      ],
+      "description": "精灵及亡眼铺场体系；双剧情是特定变体。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202536",
+          "englishName": "Feign Death",
+          "chineseName": "假死"
+        },
+        {
+          "id": "203251",
+          "englishName": "Angus Bri Cri",
+          "chineseName": "安格斯·布里·克里"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-22",
+      "name": "自残熊神",
+      "faction": "Skellige",
+      "aliases": [],
+      "leaderIds": [
+        "202189"
+      ],
+      "leaderNames": [
+        "Ursine Ritual",
+        "巨熊仪式"
+      ],
+      "keyCardIds": [
+        "203193",
+        "202282"
+      ],
+      "keyCardNames": [
+        "Svalblod",
+        "斯瓦勃洛",
+        "Sigvald",
+        "西格瓦尔德"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1yi4y1v79v",
+          "title": "【昆特牌】世界大师赛：八进四精彩对局集锦",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "分集直接写“猫汉堡：蟹蜘蛛VS自残熊神”“Bukouski：炼金岛VS抽象北”。"
+        }
+      ],
+      "description": "以斯瓦勃洛为核心的自残群岛；不把所有自残牌组都命名熊神。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203193",
+          "englishName": "Svalblod",
+          "chineseName": "斯瓦勃洛"
+        },
+        {
+          "id": "202282",
+          "englishName": "Sigvald",
+          "chineseName": "西格瓦尔德"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203193"
+        ],
+        "note": "必须含斯瓦勃洛，不因巨熊仪式领袖 alone 将全部自残牌组归为熊神。"
+      }
+    },
+    {
+      "id": "community-v5-23",
+      "name": "炼金岛",
+      "faction": "Skellige",
+      "aliases": [
+        "炼金"
+      ],
+      "leaderIds": [
+        "200159"
+      ],
+      "leaderNames": [
+        "Battle Trance",
+        "战斗狂热"
+      ],
+      "keyCardIds": [
+        "202513",
+        "202521"
+      ],
+      "keyCardNames": [
+        "In Gedyneith's Shadow",
+        "盖迪尼斯的阴影下",
+        "Crow Messenger",
+        "信鸦"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5126373",
+          "title": "【昆特牌组日报】0919：炼金岛崛起！",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题及正文支持炼金岛；是历史日报。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1nw411M7BF/",
+          "title": "【巫师昆特牌】金秋循环part2 12套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题直接列小叶子、超级呓语、囤积、成长怪、士兵帝国、骑士北、炼金岛、水手岛、巨龙围攻。"
+        }
+      ],
+      "description": "以炼金牌、德鲁伊与盖迪尼斯剧情联动为主。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202513",
+          "englishName": "In Gedyneith's Shadow",
+          "chineseName": "盖迪尼斯的阴影下"
+        },
+        {
+          "id": "202521",
+          "englishName": "Crow Messenger",
+          "chineseName": "信鸦"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-24",
+      "name": "征战岛",
+      "faction": "Skellige",
+      "aliases": [
+        "征战",
+        "老兵岛"
+      ],
+      "leaderIds": [
+        "202119",
+        "202576"
+      ],
+      "leaderNames": [
+        "Patricidal Fury",
+        "鸣镝动怒",
+        "Blaze of Glory",
+        "荣耀圣焰"
+      ],
+      "keyCardIds": [
+        "203194",
+        "202615"
+      ],
+      "keyCardNames": [
+        "Tyr: Slayer of Yngvar",
+        "提尔：英格瓦屠戮者",
+        "Harald an Craite",
+        "哈罗德·奎特"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5239463",
+          "title": "【昆特牌】白露：征战岛入坑心得",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "中文专门征战攻略。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1fx421y7HY/",
+          "title": "【巫师之昆特牌】暖春循环part1 21套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题明确列出阿尔祖相关法术体系、共生、小叶子、下雨岛、征战岛、潜伏帝国、超级呓语、同化、状态、残物、霜怪、坚韧北、法师北；搜索相对日期约2024年，不换算精确发布日期。"
+        }
+      ],
+      "description": "以战士、老兵、战争特殊牌的去除及复活为主要组件。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203194",
+          "englishName": "Tyr: Slayer of Yngvar",
+          "chineseName": "提尔：英格瓦屠戮者"
+        },
+        {
+          "id": "202615",
+          "englishName": "Harald an Craite",
+          "chineseName": "哈罗德·奎特"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-25",
+      "name": "下雨岛",
+      "faction": "Skellige",
+      "aliases": [
+        "罗盘下雨岛"
+      ],
+      "leaderIds": [
+        "201597"
+      ],
+      "leaderNames": [
+        "Rage of the Sea",
+        "怒海汹涛"
+      ],
+      "keyCardIds": [
+        "202981",
+        "203042",
+        "203043"
+      ],
+      "keyCardNames": [
+        "Melusine",
+        "梅路辛",
+        "Rioghan the Undying",
+        "永生的里奥根",
+        "Messenger of the Sea",
+        "海之信使"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1fx421y7HY/",
+          "title": "【巫师之昆特牌】暖春循环part1 21套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题明确列出阿尔祖相关法术体系、共生、小叶子、下雨岛、征战岛、潜伏帝国、超级呓语、同化、状态、残物、霜怪、坚韧北、法师北；搜索相对日期约2024年，不换算精确发布日期。"
+        }
+      ],
+      "description": "以雨、梅路辛、里奥根和海之信使等天气联动为主；罗盘是变体。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202981",
+          "englishName": "Melusine",
+          "chineseName": "梅路辛"
+        },
+        {
+          "id": "203042",
+          "englishName": "Rioghan the Undying",
+          "chineseName": "永生的里奥根"
+        },
+        {
+          "id": "203043",
+          "englishName": "Messenger of the Sea",
+          "chineseName": "海之信使"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-26",
+      "name": "水手岛",
+      "faction": "Skellige",
+      "aliases": [
+        "水手"
+      ],
+      "leaderIds": [
+        "200160"
+      ],
+      "leaderNames": [
+        "Onslaught",
+        "野猪冲锋"
+      ],
+      "keyCardIds": [
+        "203068",
+        "203126",
+        "202882"
+      ],
+      "keyCardNames": [
+        "Bjorn Stormursson",
+        "“风暴之子”比约恩",
+        "Bjorn's Drakkar",
+        "比约恩的战船",
+        "Crach an Craite",
+        "克拉茨·奎特"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nw411M7BF/",
+          "title": "【巫师昆特牌】金秋循环part2 12套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题直接列小叶子、超级呓语、囤积、成长怪、士兵帝国、骑士北、炼金岛、水手岛、巨龙围攻。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        }
+      ],
+      "description": "水手与船只的互相联动构筑。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203068",
+          "englishName": "Bjorn Stormursson",
+          "chineseName": "“风暴之子”比约恩"
+        },
+        {
+          "id": "203126",
+          "englishName": "Bjorn's Drakkar",
+          "chineseName": "比约恩的战船"
+        },
+        {
+          "id": "202882",
+          "englishName": "Crach an Craite",
+          "chineseName": "克拉茨·奎特"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-27",
+      "name": "破烂岛",
+      "faction": "Skellige",
+      "aliases": [
+        "破烂"
+      ],
+      "leaderIds": [
+        "200161"
+      ],
+      "leaderNames": [
+        "Reckless Flurry",
+        "鲁莽乱舞"
+      ],
+      "keyCardIds": [
+        "152107",
+        "202458"
+      ],
+      "keyCardNames": [
+        "Coral",
+        "珊瑚",
+        "Morkvarg: Heart of Terror",
+        "莫克瓦格：恐惧之心"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5154553",
+          "title": "昆特牌组日报 | 1125：四阵营2600分！",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "正文明确破烂岛与炼金岛的区别及破烂领袖。"
+        }
+      ],
+      "description": "鲁莽乱舞控制型群岛的社区简称；弃牌与去除是常见组件。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "152107",
+          "englishName": "Coral",
+          "chineseName": "珊瑚"
+        },
+        {
+          "id": "202458",
+          "englishName": "Morkvarg: Heart of Terror",
+          "chineseName": "莫克瓦格：恐惧之心"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-28",
+      "name": "孽鬼岛",
+      "faction": "Skellige",
+      "aliases": [],
+      "leaderIds": [
+        "200161",
+        "200160"
+      ],
+      "leaderNames": [
+        "Reckless Flurry",
+        "鲁莽乱舞",
+        "Onslaught",
+        "野猪冲锋"
+      ],
+      "keyCardIds": [
+        "203123",
+        "203112"
+      ],
+      "keyCardNames": [
+        "Golden Nekker",
+        "黄金孽鬼像",
+        "Magic Compass",
+        "魔法罗盘"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5252949",
+          "title": "【昆特牌】十强高手上分推荐：锐评环境&改动展望",
+          "date": "2023-03-04",
+          "evidenceAccess": "search_index",
+          "note": "正文明确孽鬼岛、自残岛、女神北、骑士北、鸟帝、呓语、抓6。"
+        }
+      ],
+      "description": "黄金孽鬼像的群岛构筑；魔法罗盘是典型提示，不是所有版本必备。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203123",
+          "englishName": "Golden Nekker",
+          "chineseName": "黄金孽鬼像"
+        },
+        {
+          "id": "203112",
+          "englishName": "Magic Compass",
+          "chineseName": "魔法罗盘"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203123"
+        ],
+        "note": "罗盘为典型提示，不硬性要求所有孽鬼群岛都含罗盘。"
+      }
+    },
+    {
+      "id": "community-v5-29",
+      "name": "控制罪行",
+      "faction": "Syndicate",
+      "aliases": [],
+      "leaderIds": [
+        "122105"
+      ],
+      "leaderNames": [
+        "Lined Pockets",
+        "盆满钵满"
+      ],
+      "keyCardIds": [
+        "202386",
+        "202891"
+      ],
+      "keyCardNames": [
+        "Tunnel Drill",
+        "坑道钻机",
+        "Whoreson Junior",
+        "霍桑二世"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "盆满钵满、罪行特殊牌与去除/花钱单位组成的控制辛迪加。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202386",
+          "englishName": "Tunnel Drill",
+          "chineseName": "坑道钻机"
+        },
+        {
+          "id": "202891",
+          "englishName": "Whoreson Junior",
+          "chineseName": "霍桑二世"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-30",
+      "name": "罪行砍刀",
+      "faction": "Syndicate",
+      "aliases": [],
+      "leaderIds": [
+        "122105"
+      ],
+      "leaderNames": [
+        "Lined Pockets",
+        "盆满钵满"
+      ],
+      "keyCardIds": [
+        "202890",
+        "202386"
+      ],
+      "keyCardNames": [
+        "Cleaver",
+        "“砍刀”",
+        "Tunnel Drill",
+        "坑道钻机"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "罪行体系中包含砍刀组件的形态。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202890",
+          "englishName": "Cleaver",
+          "chineseName": "“砍刀”"
+        },
+        {
+          "id": "202386",
+          "englishName": "Tunnel Drill",
+          "chineseName": "坑道钻机"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-31",
+      "name": "宝箱囤积",
+      "faction": "Syndicate",
+      "aliases": [
+        "囤积",
+        "囤积宝箱"
+      ],
+      "leaderIds": [
+        "202577"
+      ],
+      "leaderNames": [
+        "Hidden Cache",
+        "军备宝箱"
+      ],
+      "keyCardIds": [
+        "202367",
+        "203086",
+        "202554"
+      ],
+      "keyCardNames": [
+        "The Flying Redanian",
+        "飞翔的瑞达尼亚人",
+        "Treasure Huntress",
+        "宝藏女猎手",
+        "One Night at the Passiflora",
+        "帕西佛罗拉一夜"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1nw411M7BF/",
+          "title": "【巫师昆特牌】金秋循环part2 12套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题直接列小叶子、超级呓语、囤积、成长怪、士兵帝国、骑士北、炼金岛、水手岛、巨龙围攻。"
+        }
+      ],
+      "description": "军备宝箱领袖配合囤积引擎、飞翔的瑞达尼亚人及剧情。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202367",
+          "englishName": "The Flying Redanian",
+          "chineseName": "飞翔的瑞达尼亚人"
+        },
+        {
+          "id": "203086",
+          "englishName": "Treasure Huntress",
+          "chineseName": "宝藏女猎手"
+        },
+        {
+          "id": "202554",
+          "englishName": "One Night at the Passiflora",
+          "chineseName": "帕西佛罗拉一夜"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-32",
+      "name": "船长大奖",
+      "faction": "Syndicate",
+      "aliases": [],
+      "leaderIds": [
+        "202373"
+      ],
+      "leaderNames": [
+        "Jackpot",
+        "头号大奖"
+      ],
+      "keyCardIds": [
+        "203270",
+        "203100"
+      ],
+      "keyCardNames": [
+        "Captain Yago",
+        "亚戈船长",
+        "King of Beggars",
+        "乞丐王"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1EmcBzZEgn/",
+          "title": "【昆特牌】指导CN天梯第一：牛屎全胜珍贵录像流出",
+          "date": "2026-03-12",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集分集可检索：围攻北、跳松、矮人、鸟帝、存五、帮派、船长大奖、呓语。当前视频日期不等于所有合集分集日期。"
+        }
+      ],
+      "description": "头号大奖领袖和亚戈船长组件的辛迪加。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203270",
+          "englishName": "Captain Yago",
+          "chineseName": "亚戈船长"
+        },
+        {
+          "id": "203100",
+          "englishName": "King of Beggars",
+          "chineseName": "乞丐王"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-33",
+      "name": "纯火誓者",
+      "faction": "Syndicate",
+      "aliases": [
+        "火誓者"
+      ],
+      "leaderIds": [
+        "202347"
+      ],
+      "leaderNames": [
+        "Congregate",
+        "集会布道"
+      ],
+      "keyCardIds": [
+        "202638",
+        "202349",
+        "203201"
+      ],
+      "keyCardNames": [
+        "Fallen Knight",
+        "堕落的骑士",
+        "Sacred Flame",
+        "神圣之火",
+        "Saint Gregory: Justicar",
+        "圣格列高里：审判官"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "集会布道、火誓者铺场与衍生物增益为主。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202638",
+          "englishName": "Fallen Knight",
+          "chineseName": "堕落的骑士"
+        },
+        {
+          "id": "202349",
+          "englishName": "Sacred Flame",
+          "chineseName": "神圣之火"
+        },
+        {
+          "id": "203201",
+          "englishName": "Saint Gregory: Justicar",
+          "chineseName": "圣格列高里：审判官"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-34",
+      "name": "孽鬼赏金",
+      "faction": "Syndicate",
+      "aliases": [
+        "孽鬼赏"
+      ],
+      "leaderIds": [
+        "202303",
+        "202328"
+      ],
+      "leaderNames": [
+        "Blood Money",
+        "街头赏金",
+        "Off the Books",
+        "黑市买卖"
+      ],
+      "keyCardIds": [
+        "203123",
+        "202925",
+        "202318"
+      ],
+      "keyCardNames": [
+        "Golden Nekker",
+        "黄金孽鬼像",
+        "The Witchfinder",
+        "女巫追猎者",
+        "Witch Hunter Executioner",
+        "女巫猎人行刑官"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "黄金孽鬼像与赏金标记/花钱去除的组合；领袖有多种选择。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203123",
+          "englishName": "Golden Nekker",
+          "chineseName": "黄金孽鬼像"
+        },
+        {
+          "id": "202925",
+          "englishName": "The Witchfinder",
+          "chineseName": "女巫追猎者"
+        },
+        {
+          "id": "202318",
+          "englishName": "Witch Hunter Executioner",
+          "chineseName": "女巫猎人行刑官"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203123"
+        ],
+        "note": "同时需要赏金标记或赏金收益组件。"
+      }
+    },
+    {
+      "id": "community-v5-35",
+      "name": "赤诚帮派",
+      "faction": "Syndicate",
+      "aliases": [],
+      "leaderIds": [
+        "202390"
+      ],
+      "leaderNames": [
+        "Pirate's Cove",
+        "水手海湾"
+      ],
+      "keyCardIds": [
+        "202553",
+        "203162"
+      ],
+      "keyCardNames": [
+        "Collusion",
+        "串通",
+        "Sigi Reuven: Mastermind",
+        "西吉·卢文：幕后主谋"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/read/cv21294056/",
+          "title": "【昆特攻略】塞爆气大师：职天2520神庙存点店北",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "正文攻略计划直接写迪迦赤诚帮派（已发布）。"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV12v3fzXEiU/",
+          "title": "【昆特牌新手教学】辛迪加入门攻略+卡组玩法详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "检索正文包含控制罪行、罪行砍刀、孽鬼赏金、宝箱囤积、船长大奖、纯火誓者等分P标题；直接抓取412，未看视频。"
+        }
+      ],
+      "description": "水手海湾、帮派类别与串通的辛迪加；赤诚需无中立牌。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202553",
+          "englishName": "Collusion",
+          "chineseName": "串通"
+        },
+        {
+          "id": "203162",
+          "englishName": "Sigi Reuven: Mastermind",
+          "chineseName": "西吉·卢文：幕后主谋"
+        }
+      ],
+      "eligibilityHints": {
+        "requiresNoNeutral": true,
+        "note": "需要无中立牌；否则建议泛称帮派。"
+      }
+    },
+    {
+      "id": "community-v5-36",
+      "name": "霜怪",
+      "faction": "Monsters",
+      "aliases": [
+        "赤诚霜"
+      ],
+      "leaderIds": [
+        "200055"
+      ],
+      "leaderNames": [
+        "White Frost",
+        "白霜降临"
+      ],
+      "keyCardIds": [
+        "202603",
+        "202606"
+      ],
+      "keyCardNames": [
+        "Auberon: King",
+        "奥贝伦王",
+        "Eredin Bréacc Glas",
+        "艾瑞汀‧布里克‧葛拉斯"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        },
+        {
+          "url": "https://www.iyingdi.com/tz/post/5231428",
+          "title": "【昆特环境月报】Ep.30 白狼觉醒",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "怪兽章节作者表明确列遗愿吞、赤诚霜、吸血鸟、成长怪、孽鬼残物；是历史月报。"
+        }
+      ],
+      "description": "白霜降临领袖、狂猎和冰霜联动；赤诚霜需额外检查无中立牌。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202603",
+          "englishName": "Auberon: King",
+          "chineseName": "奥贝伦王"
+        },
+        {
+          "id": "202606",
+          "englishName": "Eredin Bréacc Glas",
+          "chineseName": "艾瑞汀‧布里克‧葛拉斯"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-37",
+      "name": "成长怪",
+      "faction": "Monsters",
+      "aliases": [
+        "成长"
+      ],
+      "leaderIds": [
+        "202117",
+        "202572"
+      ],
+      "leaderNames": [
+        "Fruits of Ysgith",
+        "沼泽果实",
+        "Overwhelming Hunger",
+        "无尽渴望"
+      ],
+      "keyCardIds": [
+        "202832",
+        "202833"
+      ],
+      "keyCardNames": [
+        "Koshchey",
+        "科斯切伊",
+        "Dol Dhu Lokke",
+        "万魔窟"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1nw411M7BF/",
+          "title": "【巫师昆特牌】金秋循环part2 12套卡组分析和实战攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题直接列小叶子、超级呓语、囤积、成长怪、士兵帝国、骑士北、炼金岛、水手岛、巨龙围攻。"
+        },
+        {
+          "url": "https://www.iyingdi.com/tz/post/5231428",
+          "title": "【昆特环境月报】Ep.30 白狼觉醒",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "怪兽章节作者表明确列遗愿吞、赤诚霜、吸血鸟、成长怪、孽鬼残物；是历史月报。"
+        }
+      ],
+      "description": "成长引擎与科斯切伊等重复触发组件。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202832",
+          "englishName": "Koshchey",
+          "chineseName": "科斯切伊"
+        },
+        {
+          "id": "202833",
+          "englishName": "Dol Dhu Lokke",
+          "chineseName": "万魔窟"
+        }
+      ]
+    },
+    {
+      "id": "community-v5-38",
+      "name": "夜宴蟹蜘蛛",
+      "faction": "Monsters",
+      "aliases": [],
+      "leaderIds": [
+        "201743"
+      ],
+      "leaderNames": [
+        "Arachas Swarm",
+        "不息虫群"
+      ],
+      "keyCardIds": [
+        "203054",
+        "203093",
+        "202780"
+      ],
+      "keyCardNames": [
+        "Witches' Sabbath",
+        "女巫夜宴",
+        "Arachas Queen",
+        "蟹蜘蛛女王",
+        "Idarran of Ulivo",
+        "乌里沃的伊达兰"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5283089",
+          "title": "【昆特攻略】杨戬男性：夜宴蟹蜘蛛完全攻略",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "标题和正文明确支持夜宴蟹蜘蛛及伊达兰/女王展开；直接打开超时。"
+        }
+      ],
+      "description": "女巫夜宴复活女王和伊达兰等展开组件；应同时存在夜宴才使用这个前缀。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203054",
+          "englishName": "Witches' Sabbath",
+          "chineseName": "女巫夜宴"
+        },
+        {
+          "id": "203093",
+          "englishName": "Arachas Queen",
+          "chineseName": "蟹蜘蛛女王"
+        },
+        {
+          "id": "202780",
+          "englishName": "Idarran of Ulivo",
+          "chineseName": "乌里沃的伊达兰"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203054",
+          "203093"
+        ],
+        "note": "夜宴与女王同时出现；伊达兰仅是变体提示。"
+      }
+    },
+    {
+      "id": "community-v5-39",
+      "name": "孽鬼残物",
+      "faction": "Monsters",
+      "aliases": [],
+      "leaderIds": [
+        "202117"
+      ],
+      "leaderNames": [
+        "Fruits of Ysgith",
+        "沼泽果实"
+      ],
+      "keyCardIds": [
+        "203123",
+        "202922",
+        "203053"
+      ],
+      "keyCardNames": [
+        "Golden Nekker",
+        "黄金孽鬼像",
+        "Rat Catcheress",
+        "女捕鼠人",
+        "Yaga",
+        "雅加婆婆"
+      ],
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1CSWEzNEFh/",
+          "title": "【昆特牌】基础卡组教学 和谐",
+          "date": "2025-10-17",
+          "evidenceAccess": "search_index",
+          "note": "正文教学合集列出霜怪、女神北、罗盘下雨岛、赤诚共生、骑士北、和谐、孽鬼残物、水手。日期是当前视频日期，合集各分集日期未知。"
+        },
+        {
+          "url": "https://www.iyingdi.com/tz/post/5231428",
+          "title": "【昆特环境月报】Ep.30 白狼觉醒",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "怪兽章节作者表明确列遗愿吞、赤诚霜、吸血鸟、成长怪、孽鬼残物；是历史月报。"
+        }
+      ],
+      "description": "黄金孽鬼像与残物单位的组合。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203123",
+          "englishName": "Golden Nekker",
+          "chineseName": "黄金孽鬼像"
+        },
+        {
+          "id": "202922",
+          "englishName": "Rat Catcheress",
+          "chineseName": "女捕鼠人"
+        },
+        {
+          "id": "203053",
+          "englishName": "Yaga",
+          "chineseName": "雅加婆婆"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203123"
+        ],
+        "note": "同时需要残物单位占比证据；黄金孽鬼像单卡不能确定残物。"
+      }
+    },
+    {
+      "id": "community-v5-40",
+      "name": "吸血鸟",
+      "faction": "Monsters",
+      "aliases": [],
+      "leaderIds": [
+        "202185"
+      ],
+      "leaderNames": [
+        "Blood Scent",
+        "腥膻之味"
+      ],
+      "keyCardIds": [
+        "203088",
+        "203099",
+        "202229"
+      ],
+      "keyCardNames": [
+        "Renfri",
+        "伦芙芮",
+        "Regis: Reborn",
+        "雷吉斯：重生",
+        "Fleder",
+        "蝠翼魔"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5231428",
+          "title": "【昆特环境月报】Ep.30 白狼觉醒",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "怪兽章节作者表明确列遗愿吞、赤诚霜、吸血鸟、成长怪、孽鬼残物；是历史月报。"
+        },
+        {
+          "url": "https://www.iyingdi.com/tz/post/5246937",
+          "title": "【昆特攻略】孽鬼保护协会：抓六完全详解",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "专门的中文抓六攻略；当前卡牌触发数另以本地catalog核对。"
+        }
+      ],
+      "description": "伦芙芮与吸血鬼、雷吉斯重生的单位体系。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "203088",
+          "englishName": "Renfri",
+          "chineseName": "伦芙芮"
+        },
+        {
+          "id": "203099",
+          "englishName": "Regis: Reborn",
+          "chineseName": "雷吉斯：重生"
+        },
+        {
+          "id": "202229",
+          "englishName": "Fleder",
+          "chineseName": "蝠翼魔"
+        }
+      ],
+      "eligibilityHints": {
+        "requiredCardIds": [
+          "203088"
+        ],
+        "note": "还需吸血鬼组件；伦芙芮不能单独确定吸血鸟。"
+      }
+    },
+    {
+      "id": "community-v5-41",
+      "name": "遗愿吞",
+      "faction": "Monsters",
+      "aliases": [
+        "吞怪",
+        "遗愿吞怪"
+      ],
+      "leaderIds": [
+        "202572"
+      ],
+      "leaderNames": [
+        "Overwhelming Hunger",
+        "无尽渴望"
+      ],
+      "keyCardIds": [
+        "202291",
+        "203093"
+      ],
+      "keyCardNames": [
+        "Dettlaff: Higher Vampire",
+        "狄拉夫：高阶吸血鬼",
+        "Arachas Queen",
+        "蟹蜘蛛女王"
+      ],
+      "sources": [
+        {
+          "url": "https://www.iyingdi.com/tz/post/5231428",
+          "title": "【昆特环境月报】Ep.30 白狼觉醒",
+          "date": null,
+          "evidenceAccess": "search_index",
+          "note": "怪兽章节作者表明确列遗愿吞、赤诚霜、吸血鸟、成长怪、孽鬼残物；是历史月报。"
+        }
+      ],
+      "description": "吞噬触发遗愿与蟹蜘蛛女王复制的怪兽体系。",
+      "nameEvidence": "community_attested",
+      "matchingConfidence": "heuristic",
+      "matchingNote": "领袖和关键卡用于建议排序；不是从所有来源穷举的必备卡表，不能据此自动判定卡组类型。",
+      "keyCards": [
+        {
+          "id": "202291",
+          "englishName": "Dettlaff: Higher Vampire",
+          "chineseName": "狄拉夫：高阶吸血鬼"
+        },
+        {
+          "id": "203093",
+          "englishName": "Arachas Queen",
+          "chineseName": "蟹蜘蛛女王"
+        }
+      ]
+    }
+  ]
+}

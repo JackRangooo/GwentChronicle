@@ -1,0 +1,23 @@
+{
+  "Monsters": "怪兽", "Monster": "怪兽", "Nilfgaard": "尼弗迦德", "Northern Realms": "北方领域",
+  "Scoia'tael": "松鼠党", "Skellige": "史凯利格", "Syndicate": "辛迪加", "Neutral": "中立",
+  "Unit": "单位", "Special": "特殊", "Artifact": "神器", "Leader": "领袖", "Ability": "技能", "Stratagem": "战术",
+  "Human": "人类", "Elf": "精灵", "Dwarf": "矮人", "Beast": "野兽", "Witcher": "猎魔人", "Mage": "法师",
+  "Warrior": "战士", "Soldier": "士兵", "Knight": "骑士", "Wild Hunt": "狂猎", "Vampire": "吸血鬼",
+  "Organic": "有机", "Nature": "自然", "Tactic": "谋略", "Alchemy": "炼金", "Spell": "法术", "Location": "地点",
+  "Gold": "金卡", "Bronze": "铜卡", "All factions": "全部阵营", "All leaders": "全部领袖", "All patches": "全部版本",
+  "Windowed": "窗口模式", "Minimized": "已最小化", "Fullscreen / borderless": "全屏 / 无边框",
+  "Connected · GWENT · {mode}": "已连接 · GWENT · {mode}",
+  "Analyzing · GWENT · {mode}": "识别中 · GWENT · {mode}",
+  "PID {pid} · client {width}×{height} · ({x}, {y})": "进程 {pid} · 游戏画面 {width}×{height} · ({x}, {y})",
+  "Gwent Vision · Share match data": "Gwent Vision · 分享对局数据",
+  "SEEN": "已观测", "SEEN +": "新增观测", "LISTED": "卡组内", "PICK ?": "手动假设", "PIN ?": "已固定", "PKG ?": "组合参考",
+  "FIXED": "已固定", "AUTO": "自动建议", "observed identity": "已观测卡牌", "your assumption · click to remove": "手动假设 · 点击移除",
+  "copy {copy} · {detail}": "第 {copy} 张 · {detail}",
+  "No player deck selected.": "尚未选择自己的卡组。", "No game capture": "未采集游戏画面",
+  "DEMONSTRATION · sample data · no game capture": "离线演示 · 示例数据 · 未采集游戏画面",
+  "Read-only sample library · {count} public decks": "只读示例卡组库 · {count} 个公开卡组",
+  "Known deck: {name}": "已选卡组：{name}", "Remove {count}": "移除 {count}",
+  "{count} cards": "{count} 张卡牌", "{count} copies": "{count} 张", "{count} matches": "{count} 场对局",
+  "Card data": "卡牌资料", "Deck builder": "卡组编辑器", "Deck details": "卡组详情", "Check deck": "检查卡组", "New draft": "新草稿"
+}
